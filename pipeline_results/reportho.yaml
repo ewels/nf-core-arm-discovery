@@ -1,0 +1,9 @@
+arm_compatible:
+- fastme
+- iqtree
+noarch:
+- multiqc
+unsupported:
+- csvtk
+- pigz
+- t-coffee

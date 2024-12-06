@@ -1,0 +1,18 @@
+arm_compatible:
+- gffread
+- htslib
+- samtools
+- star
+noarch:
+- fastqc
+- gffread
+- kb-python
+- multiqc
+- star
+unsupported:
+- gawk
+- grep
+- p7zip
+- requests>
+- sed
+- tar

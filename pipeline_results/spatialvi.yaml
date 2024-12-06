@@ -1,0 +1,12 @@
+arm_compatible: []
+noarch:
+- fastqc
+- multiqc
+unsupported:
+- grep
+- jupyter
+- matplotlib
+- papermill
+- r-rmarkdown
+- sed
+- tar

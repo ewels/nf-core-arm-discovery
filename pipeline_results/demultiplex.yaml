@@ -1,0 +1,16 @@
+arm_compatible:
+- falco
+- fastp
+- fqtk
+- kraken2
+- seqtk
+- sgdemux
+noarch:
+- fastqc
+- multiqc
+- samshee
+unsupported:
+- coreutils
+- grep
+- sed
+- tar

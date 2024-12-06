@@ -1,0 +1,6 @@
+arm_compatible: []
+noarch:
+- fastqc
+- trimmomatic
+unsupported:
+- fastqwiper

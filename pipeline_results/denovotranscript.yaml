@@ -1,0 +1,16 @@
+arm_compatible:
+- fastp
+- salmon
+- spades
+noarch:
+- busco
+- evigene
+- fastqc
+- multiqc
+- spades
+unsupported:
+- coreutils
+- gawk
+- pigz
+- sortmerna
+- trinity

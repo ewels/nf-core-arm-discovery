@@ -1,0 +1,20 @@
+arm_compatible:
+- clustalo
+- famsa
+- foldmason
+- kalign3
+- muscle
+noarch:
+- learnmsa
+- magus-msa
+- multiqc
+- sepp
+unsupported:
+- csvtk
+- grep
+- mafft
+- mtm-align
+- pigz
+- sed
+- t-coffee
+- tar

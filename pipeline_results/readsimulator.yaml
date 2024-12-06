@@ -1,0 +1,16 @@
+arm_compatible:
+- bedtools
+- bowtie2
+- samtools
+noarch:
+- crabs
+- fastqc
+- insilicoseq
+- multiqc
+- ncbi-genome-download
+unsupported:
+- gzip
+- pigz
+- sed
+- unzip
+- wgsim

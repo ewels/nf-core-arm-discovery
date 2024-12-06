@@ -1,0 +1,9 @@
+arm_compatible: []
+noarch:
+- aspera-cli
+unsupported:
+- grep
+- pigz
+- sed
+- sra-tools
+- tar

@@ -1,0 +1,8 @@
+arm_compatible:
+- htslib
+- samtools
+noarch:
+- fastqc
+- multiqc
+unsupported:
+- sed

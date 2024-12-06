@@ -1,0 +1,19 @@
+arm_compatible:
+- bcftools
+- bwa-mem2
+- delly
+- htslib
+- iqtree
+- lofreq
+- samtools
+- snp-dists
+- snp-sites
+noarch:
+- fastqc
+- gatk4
+- ismapper
+- multiqc
+- snpeff
+- tabix
+- tb-profiler
+unsupported: []

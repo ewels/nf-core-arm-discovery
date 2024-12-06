@@ -1,0 +1,14 @@
+arm_compatible:
+- bioconductor-msstats
+noarch:
+- sdrf-pipelines
+unsupported:
+- fonts-conda-ecosystem
+- markdown
+- openms
+- openms-thirdparty
+- pygments
+- pymdown-extensions
+- python
+- r-ptxqc
+- xorg-libxt

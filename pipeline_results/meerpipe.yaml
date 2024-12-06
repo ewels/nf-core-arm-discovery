@@ -1,0 +1,5 @@
+arm_compatible: []
+noarch:
+- fastqc
+- multiqc
+unsupported: []

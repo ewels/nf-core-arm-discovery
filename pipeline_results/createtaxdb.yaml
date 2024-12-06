@@ -1,0 +1,17 @@
+arm_compatible:
+- bracken
+- centrifuge
+- diamond
+- kaiju
+- kraken2
+noarch:
+- malt
+- multiqc
+unsupported:
+- ganon
+- grep
+- krakenuniq
+- p7zip
+- pigz
+- sed
+- tar

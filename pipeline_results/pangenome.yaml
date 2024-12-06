@@ -1,0 +1,11 @@
+arm_compatible:
+- htslib
+- samtools
+- seqwish
+noarch:
+- multiqc
+- tabix
+unsupported:
+- gfaffix
+- odgi
+- smoothxg

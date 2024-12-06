@@ -1,0 +1,7 @@
+arm_compatible: []
+noarch: []
+unsupported:
+- markdown
+- pygments
+- pymdown-extensions
+- python

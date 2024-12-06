@@ -1,0 +1,24 @@
+arm_compatible:
+- centrifuge
+- concoct
+- filtlong
+- megahit
+- porechop
+- prodigal
+- spades
+noarch:
+- fastqc
+- gtdbtk
+- krakentools
+- krona
+- multiqc
+- nanolyse
+- nanoplot
+- spades
+unsupported:
+- grep
+- maxbin2
+- pigz
+- porechop_abi
+- sed
+- tar

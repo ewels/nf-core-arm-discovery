@@ -1,0 +1,18 @@
+arm_compatible:
+- bamtools
+- htslib
+- minimap2
+- samtools
+noarch:
+- fastqc
+- gs-tama
+- isoseq
+- lima
+- multiqc
+- pbccs
+- ultra_bioinformatics
+unsupported:
+- coreutils
+- grep
+- sed
+- tar

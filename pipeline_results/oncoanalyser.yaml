@@ -1,0 +1,29 @@
+arm_compatible:
+- bwa
+- bwa-mem2
+- fastp
+- sambamba
+- samtools
+- star
+noarch:
+- hmftools-amber
+- hmftools-bam-tools
+- hmftools-cobalt
+- hmftools-cuppa
+- hmftools-gripss
+- hmftools-isofox
+- hmftools-lilac
+- hmftools-linx
+- hmftools-mark-dups
+- hmftools-orange
+- hmftools-pave
+- hmftools-purple
+- hmftools-sage
+- hmftools-sigs
+- hmftools-sv-prep
+- hmftools-virus-interpreter
+- r-chord
+- r-linxreport
+- star
+unsupported:
+- gridss

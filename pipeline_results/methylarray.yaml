@@ -1,0 +1,7 @@
+arm_compatible: []
+noarch:
+- bioconductor-illuminahumanmethylationepicmanifest
+- bioconductor-minfi
+- fastqc
+- multiqc
+unsupported: []

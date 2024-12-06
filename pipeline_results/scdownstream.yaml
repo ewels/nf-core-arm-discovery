@@ -1,0 +1,26 @@
+arm_compatible:
+- bbknn
+noarch:
+- anndata2ri
+- bioconductor-scds
+- bioconductor-singlecellexperiment
+- cellbender
+- celltypist
+- harmonypy
+- liana
+- multiqc
+- mygene
+- scvi-tools
+unsupported:
+- anndata
+- bioconductor-celda
+- jaxlib
+- leidenalg
+- pandas
+- python-igraph
+- r-seurat
+- r-soupx
+- scanpy
+- scikit-image
+- upsetplot
+- webcolors

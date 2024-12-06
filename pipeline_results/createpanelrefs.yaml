@@ -1,0 +1,8 @@
+arm_compatible:
+- htslib
+- samtools
+noarch:
+- cnvkit
+- gatk4
+- multiqc
+unsupported: []

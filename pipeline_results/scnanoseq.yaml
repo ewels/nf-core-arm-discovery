@@ -1,0 +1,16 @@
+arm_compatible:
+- bamtools
+- htslib
+- minimap2
+- samtools
+- umi_tools
+noarch:
+- fastqc
+- multiqc
+- nanoplot
+- rseqc
+- toulligqc
+unsupported:
+- coreutils
+- pigz
+- r-base>

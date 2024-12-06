@@ -1,0 +1,22 @@
+arm_compatible:
+- bcftools
+- bedtools
+- htslib
+- manta
+- pysam
+- samtools
+- survivor
+noarch:
+- multiqc
+- picard
+- pysam
+- rtg-tools
+- svanalyzer
+- svync
+- tabix
+- truvari
+- ucsc-liftover
+unsupported:
+- datavzrd
+- hap.py
+- pandas

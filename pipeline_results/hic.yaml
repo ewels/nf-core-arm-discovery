@@ -1,0 +1,24 @@
+arm_compatible:
+- bowtie2
+- bx-python
+- pysam
+- samtools
+- ucsc-bedgraphtobigwig
+noarch:
+- bioconductor-hitc
+- cooler
+- fastqc
+- hicexplorer
+- multiqc
+- pysam
+- ucsc-bedgraphtobigwig
+unsupported:
+- cooltools
+- cython
+- iced
+- numpy
+- pymdown-extensions
+- python
+- r-optparse
+- scipy
+- tbb

@@ -1,0 +1,10 @@
+arm_compatible: []
+noarch:
+- multiqc
+- thermorawfileparser
+unsupported:
+- grep
+- openms
+- p7zip
+- sed
+- tar

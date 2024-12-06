@@ -1,0 +1,9 @@
+arm_compatible:
+- mmseqs2
+noarch:
+- multiqc
+unsupported:
+- aria2
+- grep
+- sed
+- tar

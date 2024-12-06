@@ -1,0 +1,39 @@
+arm_compatible:
+- adapterremoval
+- bbmap
+- bowtie2
+- bracken
+- centrifuge
+- diamond
+- falco
+- fastp
+- filtlong
+- htslib
+- kaiju
+- kraken2
+- minimap2
+- nonpareil
+- porechop
+- samtools
+noarch:
+- fastqc
+- kmcp
+- krakentools
+- krona
+- malt
+- megan
+- metaphlan
+- motus
+- multiqc
+- taxpasta
+unsupported:
+- coreutils
+- ganon
+- grep
+- krakenuniq
+- nanoq
+- pigz
+- porechop_abi
+- prinseq-plus-plus
+- sed
+- tar

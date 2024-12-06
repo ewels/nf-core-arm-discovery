@@ -1,0 +1,8 @@
+arm_compatible:
+- gfastats
+- last
+- seqtk
+noarch:
+- assembly-scan
+- multiqc
+unsupported: []

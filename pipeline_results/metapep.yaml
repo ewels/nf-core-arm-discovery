@@ -1,0 +1,6 @@
+arm_compatible:
+- prodigal
+noarch:
+- multiqc
+unsupported:
+- pigz

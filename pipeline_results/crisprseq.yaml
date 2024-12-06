@@ -1,0 +1,20 @@
+arm_compatible:
+- bowtie2
+- bwa
+- cutadapt
+- htslib
+- mageck
+- minimap2
+- racon
+- samtools
+- seqtk
+- vsearch
+noarch:
+- fastqc
+- multiqc
+- r-crisprcleanr
+unsupported:
+- coreutils
+- medaka
+- pear
+- pigz

@@ -1,0 +1,9 @@
+arm_compatible:
+- bbmap
+- blast
+- fastp
+- kraken2
+noarch:
+- fastqc
+- multiqc
+unsupported: []

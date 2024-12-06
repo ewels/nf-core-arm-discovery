@@ -1,0 +1,33 @@
+arm_compatible:
+- bbmap
+- cutadapt
+- fastp
+- fq
+- gffread
+- htslib
+- kallisto
+- rsem
+- salmon
+- samtools
+- star
+- umi_tools
+noarch:
+- bioconductor-anota2seq
+- bioconductor-summarizedexperiment
+- bioconductor-tximeta
+- fastqc
+- fq
+- gffread
+- multiqc
+- ribotish
+- ribotricer
+- star
+- trim-galore
+unsupported:
+- coreutils
+- gawk
+- grep
+- python
+- sed
+- sortmerna
+- tar

@@ -1,0 +1,15 @@
+arm_compatible:
+- cutadapt
+- gappa
+- hmmer
+- kraken2
+- samtools
+- vsearch
+noarch:
+- fastqc
+- multiqc
+unsupported:
+- epa-ng
+- grep
+- sed
+- tar

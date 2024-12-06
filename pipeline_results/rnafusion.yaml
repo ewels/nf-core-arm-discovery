@@ -1,0 +1,17 @@
+arm_compatible:
+- fastp
+- samtools
+- star
+- stringtie
+noarch:
+- agat
+- fastqc
+- gatk4
+- multiqc
+- picard
+- star
+unsupported:
+- gawk
+- pigz
+- r-base
+- sed

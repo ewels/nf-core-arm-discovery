@@ -1,0 +1,19 @@
+arm_compatible:
+- bbmap
+- hmmer
+- htslib
+- prodigal
+- samtools
+- seqtk
+- spades
+- subread
+noarch:
+- fastqc
+- multiqc
+- prokka
+- spades
+- transdecoder
+- trim-galore
+unsupported:
+- pigz
+- sed

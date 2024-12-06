@@ -1,0 +1,19 @@
+arm_compatible:
+- cutadapt
+- htslib
+- methyldackel
+- preseq
+- samtools
+noarch:
+- bismark
+- bwameth
+- fastqc
+- multiqc
+- picard
+- qualimap
+- trim-galore
+unsupported:
+- coreutils
+- grep
+- sed
+- tar

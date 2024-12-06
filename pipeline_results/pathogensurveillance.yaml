@@ -1,0 +1,32 @@
+arm_compatible:
+- bwa
+- fastp
+- flye
+- graphtyper
+- iqtree
+- samtools
+- seqkit
+- seqtk
+- spades
+- tabixpp
+- vcflib
+noarch:
+- bakta
+- busco
+- fastqc
+- gatk4
+- multiqc
+- nanoplot
+- perl-bioperl
+- picard
+- pirate
+- seqkit
+- sourmash
+- spades
+- tabix
+unsupported:
+- grep
+- mafft
+- quast
+- sed
+- tar

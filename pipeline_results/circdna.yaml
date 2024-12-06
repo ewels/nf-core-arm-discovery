@@ -1,0 +1,13 @@
+arm_compatible:
+- bwa
+- minimap2
+- samtools
+noarch:
+- ampliconsuite
+- fastqc
+- multiqc
+- picard
+- trim-galore
+unsupported:
+- mosek
+- sed

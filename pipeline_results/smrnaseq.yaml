@@ -1,0 +1,33 @@
+arm_compatible:
+- bioawk
+- bowtie
+- bowtie2
+- fastp
+- htslib
+- pybedtools
+- pysam
+- samtools
+- seqkit
+- umi_tools
+noarch:
+- fastqc
+- mirdeep2
+- mirtop
+- mirtrace
+- multiqc
+- pysam
+- seqcluster
+- seqkit
+- umicollapse
+unsupported:
+- biopython
+- blat
+- coreutils
+- csvtk
+- gawk
+- grep
+- pandas
+- pigz
+- python
+- sed
+- tar

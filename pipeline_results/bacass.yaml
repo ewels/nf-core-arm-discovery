@@ -1,0 +1,29 @@
+arm_compatible:
+- fastp
+- htslib
+- kraken2
+- miniasm
+- minimap2
+- porechop
+- racon
+- samtools
+noarch:
+- bakta
+- dfast
+- dragonflye
+- fastqc
+- kmerfinder
+- multiqc
+- nanoplot
+- prokka
+- pycoqc
+unsupported:
+- canu
+- coreutils
+- grep
+- nanopolish
+- pigz
+- quast
+- sed
+- tar
+- unicycler

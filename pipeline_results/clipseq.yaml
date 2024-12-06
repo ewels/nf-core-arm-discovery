@@ -1,0 +1,26 @@
+arm_compatible:
+- bedtools
+- bowtie2
+- cutadapt
+- preseq
+- samtools
+- star
+- subread
+- umi_tools
+noarch:
+- fastqc
+- icount
+- multiqc
+- pureclip
+- rseqc
+- star
+unsupported:
+- markdown
+- meme
+- paraclu
+- perl
+- pigz
+- piranha
+- pygments
+- pymdown-extensions
+- python
