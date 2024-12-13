@@ -1,6 +1,0 @@
-arm_compatible:
-- seqtk
-noarch:
-- fastqc
-- multiqc
-unsupported: []

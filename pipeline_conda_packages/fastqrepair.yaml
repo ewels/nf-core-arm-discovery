@@ -1,0 +1,4 @@
+- trimmomatic=0.39
+- bfxcss::fastqwiper=2024.2.104
+- gzrt=0.8
+- fastqc=0.12.1

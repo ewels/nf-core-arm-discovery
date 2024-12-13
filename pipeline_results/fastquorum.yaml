@@ -1,9 +1,0 @@
-arm_compatible:
-- bwa
-- htslib
-- samtools
-noarch:
-- fastqc
-- fgbio
-- multiqc
-unsupported: []

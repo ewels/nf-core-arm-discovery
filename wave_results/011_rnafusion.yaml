@@ -1,0 +1,29 @@
+passed:
+- arriba: community.wave.seqera.io/library/arriba:4d8b5ec02d407a61
+- bedops: community.wave.seqera.io/library/bedops:8e18b615eb1e51c6
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- dfam: community.wave.seqera.io/library/dfam:ae21fd38f0b7045c
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- hmmer: community.wave.seqera.io/library/hmmer:c7d2def92c2b2a78
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
+- salmon: community.wave.seqera.io/library/salmon:131ae69f43233bb1
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+- stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
+- ucsc-gtftogenepred: community.wave.seqera.io/library/ucsc-gtftogenepred:add2d7c15558e449
+failed:
+- agat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-34244e873b2f3170_3
+- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_2
+- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_2
+- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-78b3ce84b9eabae6_2
+- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_2
+- trinity: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70326209fa04ac52_2

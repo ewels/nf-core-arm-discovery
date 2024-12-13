@@ -1,0 +1,6 @@
+- conda-forge::sed=4.7
+- yara=1.0.2
+- fastqc=0.12.1
+- samtools=1.16.1
+- samtools=1.15.1
+- multiqc=1.21

@@ -1,0 +1,9 @@
+- conda-forge::coreutils=8.31
+- conda-forge::pymdown-extensions=8.1.1
+- pypgatk=0.0.19
+- conda-forge::git=2.30.2
+- conda-forge::git-lfs=2.13.3
+- conda-forge::markdown=3.3.4
+- gffread=0.12.1
+- conda-forge::pygments=2.8.1
+- conda-forge::python=3.9.2

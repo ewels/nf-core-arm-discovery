@@ -1,0 +1,22 @@
+passed:
+- atlas-gene-annotation-manipulation: community.wave.seqera.io/library/atlas-gene-annotation-manipulation:737a3c0c89507f88
+- bioconductor-affy: community.wave.seqera.io/library/bioconductor-affy:01e2d0494c9a6d76
+- bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
+- bioconductor-edger: community.wave.seqera.io/library/bioconductor-edger:c395c674c6ecdf92
+- bioconductor-geoquery: community.wave.seqera.io/library/bioconductor-geoquery:a7290212b7838f24
+- bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
+- conda-forge::r-gprofiler2: community.wave.seqera.io/library/r-gprofiler2:b4c8ee59867aa5cd
+- conda-forge::r-plotly: community.wave.seqera.io/library/r-plotly:f84dfb02354099cd
+- conda-forge::r-rmarkdown: community.wave.seqera.io/library/r-rmarkdown:3ab299d7742c2a11
+- conda-forge::r-yaml: community.wave.seqera.io/library/r-yaml:970ecdd99f6eb014
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- gsea: community.wave.seqera.io/library/gsea:45ce7d2b3ed1a95f
+- r-proteus-bartongroup: community.wave.seqera.io/library/r-proteus-bartongroup:7cefa5381ea65916
+- r-shinyngs: community.wave.seqera.io/library/r-shinyngs:901bd634242c729b
+failed: []

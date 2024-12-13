@@ -1,0 +1,28 @@
+passed:
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9
+- dask: community.wave.seqera.io/library/dask:1f99995113edf886
+- deeptools: community.wave.seqera.io/library/deeptools:fc742a6abc6ac7fe
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- numpy: community.wave.seqera.io/library/numpy:9af4b40bc6a18af2
+- pandas: community.wave.seqera.io/library/pandas:94d4903cb2d0ed3d
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
+- pyranges: community.wave.seqera.io/library/pyranges:793a1641c5350dce
+- pysam: community.wave.seqera.io/library/pysam:2e341b754bc6f4f2
+- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seaborn: community.wave.seqera.io/library/seaborn:760f405ca698c5ed
+- seacr: community.wave.seqera.io/library/seacr:a0231311d4c0fe2c
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
+- ucsc-bedclip: community.wave.seqera.io/library/ucsc-bedclip:1cf1f8ac8f0be3db
+- ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
+failed:
+- macs2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9c7a04c55ee77ea0_2

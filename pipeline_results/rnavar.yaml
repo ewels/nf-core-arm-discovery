@@ -1,5 +1,0 @@
-arm_compatible: []
-noarch:
-- ensembl-vep
-- snpeff
-unsupported: []

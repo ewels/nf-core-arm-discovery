@@ -1,0 +1,16 @@
+- samtools=1.18
+- conda-forge::gzip=1.11
+- insilicoseq=1.6.0
+- conda-forge::pigz=2.6
+- crabs=0.1.1-0
+- conda-forge::sed=4.7
+- fastqc=0.12.1
+- conda-forge::unzip=6.0
+- samtools=1.16.1
+- bedtools=2.31.1
+- ncbi-genome-download=0.3.3
+- bowtie2=2.4.4
+- multiqc=1.21
+- bowtie2=2.4.5
+- art=2016.06.05
+- wgsim=1.0

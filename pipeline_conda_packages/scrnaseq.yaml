@@ -1,0 +1,14 @@
+- conda-forge::tar=1.34
+- samtools=1.18
+- htslib=1.18
+- conda-forge::sed=4.8
+- multiqc=1.25.1
+- conda-forge::grep=3.11
+- fastqc=0.12.1
+- conda-forge::gawk=5.1.0
+- cellbender=0.3.0
+- gffread=0.12.1
+- kb-python=0.28.2
+- conda-forge::requests>=2.23.0
+- star=2.7.10a
+- conda-forge::p7zip=16.02

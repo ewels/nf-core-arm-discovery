@@ -1,0 +1,13 @@
+- samtools=1.18
+- conda-forge::sed=4.7
+- minimap2=2.24
+- fastqc=0.12.1
+- unicycler=0.5.0=py39h2add14b_1
+- trim-galore=0.6.7
+- mosek::mosek=10.1.21
+- samtools=1.16.1
+- multiqc=1.19
+- cnvkit=0.9.9
+- bwa=0.7.17
+- ampliconsuite=1.2.1
+- picard=3.1.1

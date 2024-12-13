@@ -1,0 +1,7 @@
+passed:
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- trust4: community.wave.seqera.io/library/trust4:6a63834823c8f98c
+failed: []

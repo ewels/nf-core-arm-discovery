@@ -1,0 +1,6 @@
+- hmmer=3.3.2
+- mafft=7.520
+- conda-forge::pigz=2.8
+- multiqc=1.23
+- gappa=0.8.0
+- epa-ng=0.3.8

@@ -1,0 +1,9 @@
+- fastme=2.1.6.1
+- multiqc=1.25.1
+- conda-forge::gawk=5.3.0
+- csvtk=0.30.0
+- t-coffee=13.46.0.919e8c6b
+- diamond=2.1.9
+- conda-forge::pigz=2.8
+- conda-forge::pigz=2.3.4
+- iqtree=2.3.0

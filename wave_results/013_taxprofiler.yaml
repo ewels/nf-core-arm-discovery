@@ -1,0 +1,40 @@
+passed:
+- adapterremoval: community.wave.seqera.io/library/adapterremoval:e7666474ca08c4d4
+- bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- bracken: community.wave.seqera.io/library/bracken:e63f2540225bc7b9
+- centrifuge: community.wave.seqera.io/library/centrifuge:caf3a3affb3f69dd
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
+- diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
+- falco: community.wave.seqera.io/library/falco:e0692b7aeeea6c74
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- filtlong: community.wave.seqera.io/library/filtlong:64e4ef20a4c183b6
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- kaiju: community.wave.seqera.io/library/kaiju:3ebed1da27a63506
+- kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
+- krakentools: community.wave.seqera.io/library/krakentools:26d2dde9cdacfdb8
+- krona: community.wave.seqera.io/library/krona:5dae60b07eb19a3f
+- malt: community.wave.seqera.io/library/malt:7b2d7a7eb90d93e2
+- metaphlan: community.wave.seqera.io/library/metaphlan:11fb6cbd365980e5
+- minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
+- motus: community.wave.seqera.io/library/motus:46aae7c991edf18a
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- nonpareil: community.wave.seqera.io/library/nonpareil:9d3f72be8d903e13
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
+- porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
+failed:
+- ganon: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2e2424344aa27be_2
+- kmcp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7145a5521647e957_2
+- krakenuniq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-94297a9e9c1800f2_4
+- megan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3ad6d4a780ea07f_4
+- nanoq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-559bac19595474f0_4
+- porechop_abi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6076f2e9fe9de999_11
+- prinseq-plus-plus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5edf99b525e2fc22_4

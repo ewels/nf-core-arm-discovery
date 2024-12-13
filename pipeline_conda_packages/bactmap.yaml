@@ -1,0 +1,15 @@
+- rapidnj=2.3.2
+- snp-sites=2.5.1
+- mash=2.3
+- fastqc=0.11.9
+- raxml-ng=1.0.2
+- iqtree=2.1.2
+- rasusa=0.3.0
+- multiqc=1.10.1
+- fasttree=2.1.10
+- fastp=0.20.1
+- bcftools=1.11
+- bwa=0.7.17
+- conda-forge::biopython=1.78
+- samtools=1.10
+- gubbins=2.4.1

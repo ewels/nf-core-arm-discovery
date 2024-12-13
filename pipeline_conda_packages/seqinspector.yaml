@@ -1,0 +1,6 @@
+- multiqc=1.25.1
+- fastqc=0.12.1
+- seqfu=1.20.3
+- perl-gdgraph=1.54
+- seqtk=1.4
+- fastq-screen=0.16.0

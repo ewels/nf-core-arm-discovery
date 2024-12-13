@@ -1,0 +1,16 @@
+passed:
+- cellbender: community.wave.seqera.io/library/cellbender:4c07a80328ade50f
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::requests: community.wave.seqera.io/library/requests:0175636991d5fa6e
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- kb-python: community.wave.seqera.io/library/kb-python:b655ffac3c0d3289
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+failed: []

@@ -1,4 +1,0 @@
-arm_compatible: []
-noarch: []
-unsupported:
-- coreutils

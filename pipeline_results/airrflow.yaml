@@ -1,7 +1,0 @@
-arm_compatible:
-- fastp
-noarch:
-- fastqc
-- multiqc
-unsupported:
-- sed

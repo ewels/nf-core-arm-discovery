@@ -1,0 +1,14 @@
+passed:
+- conda-forge::aria2: community.wave.seqera.io/library/aria2:251c6f24d22f5b7b
+- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::matplotlib: community.wave.seqera.io/library/matplotlib:e2530b570683cac9
+- conda-forge::pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- conda-forge::plotly: community.wave.seqera.io/library/plotly:9cd3250eae3bcf95
+- conda-forge::rsync: community.wave.seqera.io/library/rsync:3ace946b08adca1d
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- foldseek: community.wave.seqera.io/library/foldseek:5cd95986cbae67ee
+- mmseqs2: community.wave.seqera.io/library/mmseqs2:595af867ad5cce53
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed: []

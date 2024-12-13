@@ -1,0 +1,8 @@
+- salmon=1.10.1
+- cutadapt=3.4
+- fastqc=0.11.9
+- conda-forge::gawk=5.1.0
+- multiqc=1.13
+- samtools=1.16.1
+- star=2.7.10a
+- conda-forge::p7zip=16.02
