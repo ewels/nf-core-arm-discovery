@@ -27,6 +27,5 @@ unsupported:
 - perl
 - pigz
 - r-base
-- r-base>
 - sed
 - tar

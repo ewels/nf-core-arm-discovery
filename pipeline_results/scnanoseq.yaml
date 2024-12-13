@@ -13,4 +13,3 @@ noarch:
 unsupported:
 - coreutils
 - pigz
-- r-base>

@@ -45,7 +45,6 @@ unsupported:
 - perl
 - python
 - r-base
-- r-base>
 - r-ggplot2
 - r-optparse
 - r-pheatmap

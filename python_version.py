@@ -60,10 +60,14 @@ for pipeline_dir in Path('pipelines').iterdir():
     pipeline_packages = set()
     for env_file in pipeline_dir.glob("**/environment.yml"):
         try:
-            for line in env_file.read_text().splitlines():
-                if '::' in line:  # Only process conda channel specifications
-                    package = line.split('::')[1].split('=')[0].strip()
-                    pipeline_packages.add(package)
+            with open(env_file) as f:
+                env_data = yaml.safe_load(f)
+                if env_data and 'dependencies' in env_data:
+                    for dep in env_data['dependencies']:
+                        if isinstance(dep, str) and '::' in dep:
+                            # Parse package name, ignoring channel and version
+                            package = dep.split('::')[1].split('=')[0].strip()
+                            pipeline_packages.add(package)
         except Exception as e:
             print(f"Error processing {env_file}: {e}")
 

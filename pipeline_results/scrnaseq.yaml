@@ -13,6 +13,6 @@ unsupported:
 - gawk
 - grep
 - p7zip
-- requests>
+- requests
 - sed
 - tar
