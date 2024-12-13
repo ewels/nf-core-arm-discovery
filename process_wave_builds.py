@@ -209,7 +209,7 @@ def process_pipeline(pipeline_name, idx=None):
     success_percent = (success_count / len(results)) * 100 if results else 0
 
     # Update summary markdown file
-    summary_file = Path('wave_results/00_summary.md')
+    summary_file = Path('README.md')
     if not summary_file.parent.exists():
         summary_file.parent.mkdir(parents=True)
 
