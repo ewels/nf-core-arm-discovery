@@ -1,3 +1,8 @@
+# arm64 builds for nf-core pipelines
+
+Conda packages found from source code and independently built using Wave, without a version number.
+Checks are only for build success, not for functionality.
+
 | Pipeline | Success % | Succeeded | Failed |
 |----------|-----------|-----------|--------|
 | rnaseq | 100.0% | 51 | 0 |

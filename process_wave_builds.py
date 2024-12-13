@@ -216,6 +216,9 @@ def process_pipeline(pipeline_name, idx=None):
     # Create file with headers if it doesn't exist
     if not summary_file.exists():
         with open(summary_file, 'w') as f:
+            f.write("# arm64 builds for nf-core pipelines\n\n")
+            f.write("Conda packages found from source code and independently built using Wave, without a version number.\n")
+            f.write("Checks are only for build success, not for functionality.\n\n")
             f.write("| Pipeline | Success % | Succeeded | Failed |\n")
             f.write("|----------|-----------|-----------|--------|\n")
 
