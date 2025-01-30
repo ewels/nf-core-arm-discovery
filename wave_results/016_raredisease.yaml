@@ -30,6 +30,7 @@ passed:
 - qualimap: community.wave.seqera.io/library/qualimap:2d6624851848aad9
 - rtg-tools: community.wave.seqera.io/library/rtg-tools:807499bd2e9a5ea8
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- sentieon: community.wave.seqera.io/library/sentieon:9bfb49a29ddd8097
 - smncopynumbercaller: community.wave.seqera.io/library/smncopynumbercaller:578c6465236d5833
 - stranger: community.wave.seqera.io/library/stranger:832d4ef6ead8d6cc
 - svdb: community.wave.seqera.io/library/svdb:e96a08acf703f587
@@ -40,12 +41,11 @@ passed:
 - vcf2cytosure: community.wave.seqera.io/library/vcf2cytosure:6b801f4dde005f84
 - vcfanno: community.wave.seqera.io/library/vcfanno:67504833a3a8babd
 failed:
-- bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_2
-- cnvnator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b87578c56b6b362c_2
-- eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_2
-- ensembl-vep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-12a0210ffaea3b1a_4
-- glnexus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-42c9966253b09518_2
-- hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_2
-- mbuffer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c58191a51d2a6e6d_2
-- rhocall: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c018aae9fe1898f3_2
-- sentieon: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9bfb49a29ddd8097_3
+- bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_3
+- cnvnator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b87578c56b6b362c_3
+- eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_3
+- ensembl-vep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-12a0210ffaea3b1a_9
+- glnexus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-42c9966253b09518_4
+- hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_3
+- mbuffer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c58191a51d2a6e6d_3
+- rhocall: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c018aae9fe1898f3_3

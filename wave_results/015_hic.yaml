@@ -15,6 +15,7 @@ passed:
 - cooler: community.wave.seqera.io/library/cooler:e425b30a06695179
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - hicexplorer: community.wave.seqera.io/library/hicexplorer:330818a863367ce1
+- iced: community.wave.seqera.io/library/iced:209de53884e6258e
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - pairix: community.wave.seqera.io/library/pairix:23e3c1d82bbf929e
 - pairtools: community.wave.seqera.io/library/pairtools:e6b2106fa5a70833
@@ -23,6 +24,5 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
 failed:
-- cooltools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-784b8799d45b1303_2
-- iced: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-209de53884e6258e_2
-- r-calder2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f2ba3f272fe2f8a6_2
+- cooltools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-784b8799d45b1303_3
+- r-calder2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f2ba3f272fe2f8a6_3

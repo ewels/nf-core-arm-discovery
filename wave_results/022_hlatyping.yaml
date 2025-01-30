@@ -4,5 +4,4 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 failed:
-- yara: 'Wave invalid response: [429] {"message":"Request exceeded build rate limit
-    for user 52"}'
+- yara: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-050a49332294d6f3_5

@@ -28,13 +28,13 @@ passed:
 - nonpareil: community.wave.seqera.io/library/nonpareil:9d3f72be8d903e13
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
+- porechop_abi: community.wave.seqera.io/library/porechop_abi:6076f2e9fe9de999
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
 failed:
-- ganon: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2e2424344aa27be_2
-- kmcp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7145a5521647e957_2
-- krakenuniq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-94297a9e9c1800f2_4
-- megan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3ad6d4a780ea07f_4
-- nanoq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-559bac19595474f0_4
-- porechop_abi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6076f2e9fe9de999_11
-- prinseq-plus-plus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5edf99b525e2fc22_4
+- ganon: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2e2424344aa27be_4
+- kmcp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7145a5521647e957_3
+- krakenuniq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-94297a9e9c1800f2_7
+- megan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3ad6d4a780ea07f_6
+- nanoq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-559bac19595474f0_6
+- prinseq-plus-plus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5edf99b525e2fc22_6

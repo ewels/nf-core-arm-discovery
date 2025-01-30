@@ -1,4 +1,5 @@
 passed:
+- gfaffix: community.wave.seqera.io/library/gfaffix:2611ecabcfad11dd
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
@@ -6,7 +7,6 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - wfmash: community.wave.seqera.io/library/wfmash:8b6e356536725b43
 failed:
-- gfaffix: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2611ecabcfad11dd_2
-- odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_2
-- pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_3
-- smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_2
+- odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_3
+- pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_4
+- smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_3

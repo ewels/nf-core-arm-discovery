@@ -1,0 +1,20 @@
+passed:
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::jupyter: community.wave.seqera.io/library/jupyter:ef054ccfd0bc557e
+- conda-forge::matplotlib: community.wave.seqera.io/library/matplotlib:e2530b570683cac9
+- conda-forge::papermill: community.wave.seqera.io/library/papermill:5cd4bdf6ca6aa21c
+- conda-forge::r-rmarkdown: community.wave.seqera.io/library/r-rmarkdown:3ab299d7742c2a11
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gcc: community.wave.seqera.io/library/gcc:cc9b0d1e6fd50870
+- gxx: community.wave.seqera.io/library/gxx:3385c3dc039a8782
+- imagecodecs: community.wave.seqera.io/library/imagecodecs:608da207615c02f9
+- jupyter: community.wave.seqera.io/library/jupyter:9c69a649a0115908
+- leidenalg: community.wave.seqera.io/library/leidenalg:09cbe5fd699b7e5a
+- libgdal: community.wave.seqera.io/library/libgdal:2ac98dce1941df0d
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- papermill: community.wave.seqera.io/library/papermill:249ce8e3c5800d15
+- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
+- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
+failed: []

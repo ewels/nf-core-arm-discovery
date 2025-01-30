@@ -5,6 +5,7 @@ passed:
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
 - gridss: community.wave.seqera.io/library/gridss:d5d3e2f478716337
+- hmftools-amber: community.wave.seqera.io/library/hmftools-amber:30b62bcf1cd57839
 - hmftools-bam-tools: community.wave.seqera.io/library/hmftools-bam-tools:2250341db8ab3ba1
 - hmftools-cobalt: community.wave.seqera.io/library/hmftools-cobalt:d6ba31e72e6787f9
 - hmftools-cuppa: community.wave.seqera.io/library/hmftools-cuppa:4aade84c2a514aa0
@@ -25,7 +26,4 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
 failed:
-- hmftools-amber: 'Wave invalid response: [429] {"message":"Request exceeded build
-    rate limit for user 52"}'
-- hmftools-linx: 'Wave invalid response: [429] {"message":"Request exceeded build
-    rate limit for user 52"}'
+- hmftools-linx: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-49bc9587dbf91836_6

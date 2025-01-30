@@ -30,11 +30,11 @@ passed:
 - snakemake: community.wave.seqera.io/library/snakemake:9fa54284d38b0822
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
 - vcflib: community.wave.seqera.io/library/vcflib:655ad0396834bccb
 failed:
-- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_1
-- bandage: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3f5bfea40e35308f_1
-- minia: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-59a559c90c2258f9_1
-- plasmidid: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4996feb1dc6e7a22_1
-- quast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90233ff82189fadb_1
-- unicycler: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-774e5525ddaca0be_1
+- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_2
+- bandage: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3f5bfea40e35308f_2
+- minia: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-59a559c90c2258f9_2
+- plasmidid: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4996feb1dc6e7a22_2
+- quast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90233ff82189fadb_10

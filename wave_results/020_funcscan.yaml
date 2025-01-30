@@ -17,18 +17,18 @@ passed:
 - seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 failed:
-- abricate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ff884b5eab7fb545_5
-- amplify: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2d6f14267e890ac6_5
-- antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_5
-- bakta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90c6d63043537e8b_10
+- abricate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ff884b5eab7fb545_6
+- amplify: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2d6f14267e890ac6_6
+- antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_6
+- bakta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90c6d63043537e8b_11
 - conda-forge::r-ampir: 'Container provisioning did not complete successfully
 
     - Reason: Container build did not complete successfully
 
-    - Find out more here: https://wave.seqera.io/view/builds/bd-6371a3b4f9bb1efc_5'
-- deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_5
-- deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_5
-- fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_5
-- macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_5
-- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_14
-- rgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c6c940fa8f651442_5
+    - Find out more here: https://wave.seqera.io/view/builds/bd-6371a3b4f9bb1efc_6'
+- deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_6
+- deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_6
+- fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_6
+- macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_6
+- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_16
+- rgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c6c940fa8f651442_6

@@ -21,9 +21,9 @@ passed:
 - stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
 - ucsc-gtftogenepred: community.wave.seqera.io/library/ucsc-gtftogenepred:add2d7c15558e449
 failed:
-- agat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-34244e873b2f3170_3
-- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_2
-- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_2
-- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-78b3ce84b9eabae6_2
-- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_2
-- trinity: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70326209fa04ac52_2
+- agat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-34244e873b2f3170_6
+- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_3
+- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_4
+- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-78b3ce84b9eabae6_4
+- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_3
+- trinity: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70326209fa04ac52_4

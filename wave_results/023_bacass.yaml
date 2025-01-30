@@ -1,4 +1,5 @@
 passed:
+- canu: community.wave.seqera.io/library/canu:eada9dca717e72d9
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
@@ -17,20 +18,12 @@ passed:
 - pycoqc: community.wave.seqera.io/library/pycoqc:a7530563a2020dd5
 - racon: community.wave.seqera.io/library/racon:cd98fdd15e11bec0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
 failed:
-- bakta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90c6d63043537e8b_10
-- canu: 'Wave invalid response: [429] {"message":"Request exceeded build rate limit
-    for user 52"}'
-- dfast: 'Wave invalid response: [429] {"message":"Request exceeded build rate limit
-    for user 52"}'
-- dragonflye: 'Wave invalid response: [429] {"message":"Request exceeded build rate
-    limit for user 52"}'
-- medaka: 'Wave invalid response: [429] {"message":"Request exceeded build rate limit
-    for user 52"}'
-- nanopolish: 'Wave invalid response: [429] {"message":"Request exceeded build rate
-    limit for user 52"}'
-- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_14
-- quast: 'Wave invalid response: [429] {"message":"Request exceeded build rate limit
-    for user 52"}'
-- unicycler: 'Wave invalid response: [429] {"message":"Request exceeded build rate
-    limit for user 52"}'
+- bakta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90c6d63043537e8b_12
+- dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_6
+- dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_6
+- medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_7
+- nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_6
+- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_17
+- quast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90233ff82189fadb_11

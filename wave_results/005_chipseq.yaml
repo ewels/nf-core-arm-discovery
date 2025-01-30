@@ -13,6 +13,7 @@ passed:
 - grep: community.wave.seqera.io/library/grep:995c63e0c9494143
 - homer: community.wave.seqera.io/library/homer:3639eb0c9982020f
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- khmer: community.wave.seqera.io/library/khmer:309e124bfded0b02
 - macs3: community.wave.seqera.io/library/macs3:0c442bd4188464c0
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - phantompeakqualtools: community.wave.seqera.io/library/phantompeakqualtools:5521d5d0e036e8b8
@@ -23,5 +24,4 @@ passed:
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
 - ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
-failed:
-- khmer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-309e124bfded0b02_9
+failed: []

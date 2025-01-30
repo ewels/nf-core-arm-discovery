@@ -22,6 +22,7 @@ passed:
 - freebayes: community.wave.seqera.io/library/freebayes:a18dde2077a3108b
 - gatk: community.wave.seqera.io/library/gatk:1d294020c111c9fe
 - gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- hops: community.wave.seqera.io/library/hops:ba5f46a92658dcbe
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
 - malt: community.wave.seqera.io/library/malt:7b2d7a7eb90d93e2
@@ -39,8 +40,7 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
 failed:
-- hops: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba5f46a92658dcbe_3
-- krakenuniq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-94297a9e9c1800f2_3
-- megan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3ad6d4a780ea07f_3
-- prinseq-plus-plus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5edf99b525e2fc22_3
-- sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_3
+- krakenuniq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-94297a9e9c1800f2_6
+- megan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3ad6d4a780ea07f_5
+- prinseq-plus-plus: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5edf99b525e2fc22_5
+- sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_4

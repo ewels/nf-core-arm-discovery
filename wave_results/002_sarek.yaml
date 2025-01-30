@@ -27,9 +27,11 @@ passed:
 - mosdepth: community.wave.seqera.io/library/mosdepth:e10857a04224e6d7
 - msisensor-pro: community.wave.seqera.io/library/msisensor-pro:8149e32c7734f925
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- ngscheckmate: community.wave.seqera.io/library/ngscheckmate:f0926ae5a4427c9b
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - samblaster: community.wave.seqera.io/library/samblaster:907b830ccf9d223f
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- sentieon: community.wave.seqera.io/library/sentieon:9bfb49a29ddd8097
 - snpeff: community.wave.seqera.io/library/snpeff:9bedbd3625b5dfe6
 - spring: community.wave.seqera.io/library/spring:6d558fe5c947e32a
 - strelka: community.wave.seqera.io/library/strelka:573f36248efdfc1e
@@ -38,7 +40,5 @@ passed:
 - tiddit: community.wave.seqera.io/library/tiddit:edbfd209411d2dc9
 - vcftools: community.wave.seqera.io/library/vcftools:690b40dae5c9cab9
 failed:
-- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_1
-- ensembl-vep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-12a0210ffaea3b1a_1
-- ngscheckmate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f0926ae5a4427c9b_1
-- sentieon: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9bfb49a29ddd8097_1
+- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_5
+- ensembl-vep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-12a0210ffaea3b1a_8

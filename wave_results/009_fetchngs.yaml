@@ -7,5 +7,5 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - conda-forge::wget: community.wave.seqera.io/library/wget:f9cb8738dc6e4ed2
-failed:
-- sra-tools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-606aeefb5660589f_3
+- sra-tools: community.wave.seqera.io/library/sra-tools:606aeefb5660589f
+failed: []

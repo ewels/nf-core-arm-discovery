@@ -31,5 +31,5 @@ passed:
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 - umicollapse: community.wave.seqera.io/library/umicollapse:a1d6dd6e41bc3b37
 failed:
-- blat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39fbfb33a9d08d3c_2
-- mirdeep2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d5dc08a1dfe3a5ef_2
+- blat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39fbfb33a9d08d3c_3
+- mirdeep2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d5dc08a1dfe3a5ef_3
