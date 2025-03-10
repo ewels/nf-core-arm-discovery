@@ -8,10 +8,6 @@ passed:
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - circularmapper: community.wave.seqera.io/library/circularmapper:f00704b43911ca11
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - damageprofiler: community.wave.seqera.io/library/damageprofiler:89222b6a289398d1
 - dedup: community.wave.seqera.io/library/dedup:82c5168b8981c17a
 - eigenstratdatabasetools: community.wave.seqera.io/library/eigenstratdatabasetools:eb305b6ceba681f6
@@ -42,5 +38,9 @@ passed:
 - sexdeterrmine: community.wave.seqera.io/library/sexdeterrmine:cc3cb6c36332cbe0
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_5
+- sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_6

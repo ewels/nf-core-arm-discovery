@@ -1,18 +1,10 @@
 passed:
-- anaconda::gawk: community.wave.seqera.io/library/gawk:fb7686da38d4abfe
 - ascat: community.wave.seqera.io/library/ascat:4b69d3e7a0e92cea
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
 - cancerit-allelecount: community.wave.seqera.io/library/cancerit-allelecount:8541d781ad0eb1fe
 - cnvkit: community.wave.seqera.io/library/cnvkit:e25da2022f70abc2
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - control-freec: community.wave.seqera.io/library/control-freec:188d33cb97f054cd
 - ensembl-vep: community.wave.seqera.io/library/ensembl-vep:12a0210ffaea3b1a
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
@@ -29,7 +21,6 @@ passed:
 - msisensor-pro: community.wave.seqera.io/library/msisensor-pro:8149e32c7734f925
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - ngscheckmate: community.wave.seqera.io/library/ngscheckmate:f0926ae5a4427c9b
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - samblaster: community.wave.seqera.io/library/samblaster:907b830ccf9d223f
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - sentieon: community.wave.seqera.io/library/sentieon:9bfb49a29ddd8097
@@ -40,5 +31,13 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - tiddit: community.wave.seqera.io/library/tiddit:edbfd209411d2dc9
 - vcftools: community.wave.seqera.io/library/vcftools:690b40dae5c9cab9
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_6
+- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_7

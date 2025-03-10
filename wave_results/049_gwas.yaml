@@ -1,0 +1,8 @@
+passed:
+- bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- vcftools: community.wave.seqera.io/library/vcftools:690b40dae5c9cab9
+failed:
+- plink: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fae1e4f81dc3ccfb_2

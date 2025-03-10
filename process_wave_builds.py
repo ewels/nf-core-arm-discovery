@@ -52,9 +52,9 @@ def run_wave_command(package, progress, task_id):
 
         # Prepend bioconda if no other channel specified
         if '::' not in package:
-            package = f'bioconda::{package}'
+            channel_package = f'bioconda::{package}'
 
-        command = ['wave', '--conda', package, '--platform', 'linux/arm64', '--freeze', '--await']
+        command = ['wave', '--conda', channel_package, '--platform', 'linux/arm64', '--freeze', '--await']
         with progress_lock:
             # console.print(f"[cyan]Running:[/cyan] {' '.join(command)}")
             pass

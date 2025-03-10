@@ -1,9 +1,6 @@
 passed:
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - cutesv: community.wave.seqera.io/library/cutesv:57edbe3bbc37ea9d
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - graphmap: community.wave.seqera.io/library/graphmap:d6a3dcc49cc6565c
@@ -19,4 +16,7 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
 - ucsc-bedtobigbed: community.wave.seqera.io/library/ucsc-bedtobigbed:65198dece54c2498
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed: []

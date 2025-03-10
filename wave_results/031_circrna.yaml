@@ -1,0 +1,59 @@
+passed:
+- agat: community.wave.seqera.io/library/agat:34244e873b2f3170
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bioawk: community.wave.seqera.io/library/bioawk:cd5a9918ce217fa3
+- bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
+- bioconductor-fishpond: community.wave.seqera.io/library/bioconductor-fishpond:eb32086041797839
+- bioconductor-rtracklayer: community.wave.seqera.io/library/bioconductor-rtracklayer:0dbe713ba86984fc
+- bioconductor-tximeta: community.wave.seqera.io/library/bioconductor-tximeta:f08a53d4f18bf6d7
+- bowtie: community.wave.seqera.io/library/bowtie:d7c1d23752bf4b76
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- circexplorer2: community.wave.seqera.io/library/circexplorer2:d9f48ac3880cb6a5
+- circrna_finder: community.wave.seqera.io/library/circrna_finder:a6cac7f58774d950
+- circtools: community.wave.seqera.io/library/circtools:f97406029baa7aae
+- csvtk: community.wave.seqera.io/library/csvtk:939b4fee27bbe7cb
+- cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- hisat2: community.wave.seqera.io/library/hisat2:3850033851c3d74f
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- psirc: community.wave.seqera.io/library/psirc:c8cc68e309859467
+- pygtftk: community.wave.seqera.io/library/pygtftk:cb35a11f2d0a69b7
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+- stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
+- targetscan: community.wave.seqera.io/library/targetscan:e8f172139199f03a
+- trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
+- ucsc-gtftogenepred: community.wave.seqera.io/library/ucsc-gtftogenepred:add2d7c15558e449
+- conda-forge::altair: community.wave.seqera.io/library/altair:9497dc0df120513e
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::polars: community.wave.seqera.io/library/polars:d84b43506318a9d4
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::pyyaml: community.wave.seqera.io/library/pyyaml:a111f2b4d52b3749
+- conda-forge::r-aod: community.wave.seqera.io/library/r-aod:b450ef58aec8a230
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
+- conda-forge::r-plyr: community.wave.seqera.io/library/r-plyr:352cc8b5dde61051
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9
+- conda-forge::vl-convert-python: community.wave.seqera.io/library/vl-convert-python:d8b6440e8d817c2c
+- gawk: community.wave.seqera.io/library/gawk:5dedd610811ad792
+- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
+failed:
+- find_circ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f9f7f28afc519ec3_4
+- mapsplice: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a6a7339a5462d2e6_4
+- miranda: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c91f01ee6ac72a0f_4
+- segemehl: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e509810fefc923f3_4
+- conda-forge::lbzip2: "Container provisioning did not complete successfully
+
+- Reason: Container build did not complete successfully
+
+- Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_2"

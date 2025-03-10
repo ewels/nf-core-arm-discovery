@@ -4,12 +4,6 @@ passed:
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
 - bracken: community.wave.seqera.io/library/bracken:e63f2540225bc7b9
 - centrifuge: community.wave.seqera.io/library/centrifuge:caf3a3affb3f69dd
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
 - diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
 - falco: community.wave.seqera.io/library/falco:e0692b7aeeea6c74
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
@@ -31,10 +25,16 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanoq: community.wave.seqera.io/library/nanoq:559bac19595474f0
 - nonpareil: community.wave.seqera.io/library/nonpareil:9d3f72be8d903e13
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
 - porechop_abi: community.wave.seqera.io/library/porechop_abi:6076f2e9fe9de999
 - prinseq-plus-plus: community.wave.seqera.io/library/prinseq-plus-plus:5edf99b525e2fc22
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed: []

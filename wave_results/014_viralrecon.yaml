@@ -5,12 +5,6 @@ passed:
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
 - blast: community.wave.seqera.io/library/blast:c212884616524862
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
@@ -26,7 +20,6 @@ passed:
 - pangolin: community.wave.seqera.io/library/pangolin:5ce584d36375c5fc
 - pangolin-data: community.wave.seqera.io/library/pangolin-data:327f283596c9b10d
 - picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - plasmidid: community.wave.seqera.io/library/plasmidid:4996feb1dc6e7a22
 - pycoqc: community.wave.seqera.io/library/pycoqc:a7530563a2020dd5
 - quast: community.wave.seqera.io/library/quast:90233ff82189fadb
@@ -36,5 +29,12 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
 - vcflib: community.wave.seqera.io/library/vcflib:655ad0396834bccb
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_3
+- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_4

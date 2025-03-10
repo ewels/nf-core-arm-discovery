@@ -1,4 +1,5 @@
 passed:
+- anaconda::gawk: community.wave.seqera.io/library/gawk:fb7686da38d4abfe
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
@@ -6,13 +7,6 @@ passed:
 - cadd-scripts: community.wave.seqera.io/library/cadd-scripts:51962b40cd8b0654
 - chromograph: community.wave.seqera.io/library/chromograph:9a3aa84084d142fb
 - cnvnator: community.wave.seqera.io/library/cnvnator:b87578c56b6b362c
-- conda-forge::conda: community.wave.seqera.io/library/conda:3c79706b567e0817
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::mamba: community.wave.seqera.io/library/mamba:33d69304625b2876
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - ensembl-vep: community.wave.seqera.io/library/ensembl-vep:12a0210ffaea3b1a
 - expansionhunter: community.wave.seqera.io/library/expansionhunter:a4f8ebb33490890c
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
@@ -21,7 +15,7 @@ passed:
 - genmod: community.wave.seqera.io/library/genmod:98b4863c0d189879
 - glnexus: community.wave.seqera.io/library/glnexus:42c9966253b09518
 - haplocheck: community.wave.seqera.io/library/haplocheck:07286992a979cbd1
-- haplogrep: community.wave.seqera.io/library/haplogrep:db87c74661a8dc2f
+- haplogrep3: community.wave.seqera.io/library/haplogrep3:dbe44a0f138d1681
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - manta: community.wave.seqera.io/library/manta:7cb64190ed84bb17
 - mbuffer: community.wave.seqera.io/library/mbuffer:c58191a51d2a6e6d
@@ -45,7 +39,16 @@ passed:
 - upd: community.wave.seqera.io/library/upd:bae61d7644f3288a
 - vcf2cytosure: community.wave.seqera.io/library/vcf2cytosure:6b801f4dde005f84
 - vcfanno: community.wave.seqera.io/library/vcfanno:67504833a3a8babd
+- conda-forge::conda: community.wave.seqera.io/library/conda:3c79706b567e0817
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::mamba: community.wave.seqera.io/library/mamba:33d69304625b2876
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_4
-- eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_4
-- hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_4
+- bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_5
+- eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_5
+- hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_5

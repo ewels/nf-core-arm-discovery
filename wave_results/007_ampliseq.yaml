@@ -1,9 +1,4 @@
 passed:
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - gappa: community.wave.seqera.io/library/gappa:1ae163d08c6222a4
@@ -11,8 +6,13 @@ passed:
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
 - mafft: community.wave.seqera.io/library/mafft:e5438db042183adb
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - vsearch: community.wave.seqera.io/library/vsearch:f4f50f04a82b8fab
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- epa-ng: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6711915ed1b7bac_6
+- epa-ng: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6711915ed1b7bac_7

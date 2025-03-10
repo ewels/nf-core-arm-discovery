@@ -5,11 +5,6 @@ passed:
 - centrifuge: community.wave.seqera.io/library/centrifuge:caf3a3affb3f69dd
 - chopper: community.wave.seqera.io/library/chopper:8f904259cffb86c7
 - concoct: community.wave.seqera.io/library/concoct:19fa13fc06857702
-- conda-forge::aria2: community.wave.seqera.io/library/aria2:251c6f24d22f5b7b
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - das_tool: community.wave.seqera.io/library/das_tool:5efb904b6edada5b
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
@@ -27,7 +22,6 @@ passed:
 - nanolyse: community.wave.seqera.io/library/nanolyse:3c4a0ed94ddd583e
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
 - nanoq: community.wave.seqera.io/library/nanoq:559bac19595474f0
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
 - porechop_abi: community.wave.seqera.io/library/porechop_abi:6076f2e9fe9de999
 - prodigal: community.wave.seqera.io/library/prodigal:efa9392955408c09
@@ -36,12 +30,19 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
+- conda-forge::aria2: community.wave.seqera.io/library/aria2:251c6f24d22f5b7b
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_5
-- conda-forge::tiara: 'Container provisioning did not complete successfully
+- checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_6
+- checkm2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a718b8c9cdff0137_1
+- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_8
+- gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_13
+- conda-forge::tiara: "Container provisioning did not complete successfully
 
-    - Reason: Container build did not complete successfully
+- Reason: Container build did not complete successfully
 
-    - Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_5'
-- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_7
-- gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_12
+- Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_6"

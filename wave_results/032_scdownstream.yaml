@@ -1,0 +1,26 @@
+passed:
+- anndata2ri: community.wave.seqera.io/library/anndata2ri:c783e0b4c082b84c
+- bbknn: community.wave.seqera.io/library/bbknn:1c6a8b4bc372801b
+- bioconductor-glmgampoi: community.wave.seqera.io/library/bioconductor-glmgampoi:4c323e86e920b0dc
+- bioconductor-scds: community.wave.seqera.io/library/bioconductor-scds:ee92afd024a53cc7
+- bioconductor-singlecellexperiment: community.wave.seqera.io/library/bioconductor-singlecellexperiment:5172b8822c8287e3
+- cellbender: community.wave.seqera.io/library/cellbender:4c07a80328ade50f
+- celltypist: community.wave.seqera.io/library/celltypist:84651bc0a34d30b7
+- harmonypy: community.wave.seqera.io/library/harmonypy:6d4713338410befa
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- mygene: community.wave.seqera.io/library/mygene:c2153c573df558f3
+- conda-forge::anndata: community.wave.seqera.io/library/anndata:3a0990b5cb32cd9e
+- conda-forge::jaxlib: community.wave.seqera.io/library/jaxlib:23c8e605183905de
+- conda-forge::leidenalg: community.wave.seqera.io/library/leidenalg:b5f14e79bdc94e68
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::python-igraph: community.wave.seqera.io/library/python-igraph:15e315edcb16f324
+- conda-forge::r-seurat: community.wave.seqera.io/library/r-seurat:b9c52896f7c5a306
+- conda-forge::r-soupx: community.wave.seqera.io/library/r-soupx:c0d31e987c68369a
+- conda-forge::scanpy: community.wave.seqera.io/library/scanpy:03ac40ac1f775ed3
+- conda-forge::scikit-image: community.wave.seqera.io/library/scikit-image:f1ae14e40758187b
+- conda-forge::scvi-tools: community.wave.seqera.io/library/scvi-tools:dee1c43d839e6871
+- conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9
+- conda-forge::webcolors: community.wave.seqera.io/library/webcolors:7b646bda619ba5fb
+failed:
+- bioconductor-celda: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5d1e0746c4cc5a47_2
+- liana: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6285590d679efe8_2

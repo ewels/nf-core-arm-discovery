@@ -4,18 +4,6 @@ passed:
 - bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
 - bowtie: community.wave.seqera.io/library/bowtie:d7c1d23752bf4b76
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
-- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
-- conda-forge::r-data.table: community.wave.seqera.io/library/r-data.table:311bcf17ea2bd49d
-- conda-forge::r-gplots: community.wave.seqera.io/library/r-gplots:f4c3b322fc42b8ab
-- conda-forge::r-statmod: community.wave.seqera.io/library/r-statmod:bf9943aa3e998d9f
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - csvtk: community.wave.seqera.io/library/csvtk:939b4fee27bbe7cb
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
@@ -29,7 +17,21 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - seqcluster: community.wave.seqera.io/library/seqcluster:6bd719fddb118748
 - seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+- ucsc-blat: community.wave.seqera.io/library/ucsc-blat:50342dbdc140d302
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 - umicollapse: community.wave.seqera.io/library/umicollapse:a1d6dd6e41bc3b37
-failed:
-- blat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39fbfb33a9d08d3c_4
+- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::r-data.table: community.wave.seqera.io/library/r-data.table:311bcf17ea2bd49d
+- conda-forge::r-gplots: community.wave.seqera.io/library/r-gplots:f4c3b322fc42b8ab
+- conda-forge::r-optparse: community.wave.seqera.io/library/r-optparse:b00198e2acf02751
+- conda-forge::r-statmod: community.wave.seqera.io/library/r-statmod:bf9943aa3e998d9f
+- conda-forge::r-tidyverse: community.wave.seqera.io/library/r-tidyverse:2164f6b260cbc5bd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+failed: []

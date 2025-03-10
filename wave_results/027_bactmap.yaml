@@ -1,7 +1,6 @@
 passed:
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
-- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - fasttree: community.wave.seqera.io/library/fasttree:da1ec2334cc24d04
@@ -14,4 +13,5 @@ passed:
 - raxml-ng: community.wave.seqera.io/library/raxml-ng:e2caaf2176dbf914
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - snp-sites: community.wave.seqera.io/library/snp-sites:8de9aa8d26ceaa97
+- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
 failed: []

@@ -1,0 +1,14 @@
+passed:
+- ampliconsuite: community.wave.seqera.io/library/ampliconsuite:3ea91d6e508a25f7
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- cnvkit: community.wave.seqera.io/library/cnvkit:e25da2022f70abc2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
+- unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- mosek::mosek: community.wave.seqera.io/library/mosek:8b46fab7374d6ea0
+failed: []
