@@ -38,6 +38,7 @@ def run_wave_command(package, progress, task_id):
             'pygments',
             'markdown',
             'pandas',
+            'pip',
             'numpy',
             'openjdk',
             'r-base',
