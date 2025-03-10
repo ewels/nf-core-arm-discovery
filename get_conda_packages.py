@@ -46,7 +46,9 @@ for pipeline_dir in Path('pipelines').iterdir():
     # Write YAML file
     yaml_path = results_dir / f"{pipeline_dir.name}.yaml"
     with open(yaml_path, 'w') as f:
-        yaml.dump(list(pipeline_packages), f)
+        # Make a sorted list
+        packages_list = sorted(list(pipeline_packages))
+        yaml.dump(packages_list, f)
 
     print(f"Found {len(pipeline_packages)} packages for {pipeline_dir.name}")
 
