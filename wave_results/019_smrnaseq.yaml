@@ -20,6 +20,7 @@ passed:
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- mirdeep2: community.wave.seqera.io/library/mirdeep2:d5dc08a1dfe3a5ef
 - mirtop: community.wave.seqera.io/library/mirtop:02e6c1db649ad1a4
 - mirtrace: community.wave.seqera.io/library/mirtrace:75e5f8af0e0b2991
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
@@ -31,5 +32,4 @@ passed:
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 - umicollapse: community.wave.seqera.io/library/umicollapse:a1d6dd6e41bc3b37
 failed:
-- blat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39fbfb33a9d08d3c_3
-- mirdeep2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d5dc08a1dfe3a5ef_3
+- blat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39fbfb33a9d08d3c_4

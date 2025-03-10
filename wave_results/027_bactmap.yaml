@@ -7,11 +7,11 @@ passed:
 - fasttree: community.wave.seqera.io/library/fasttree:da1ec2334cc24d04
 - gubbins: community.wave.seqera.io/library/gubbins:de2bd2a47c2941a3
 - iqtree: community.wave.seqera.io/library/iqtree:da99bc3ff5d5d164
+- mash: community.wave.seqera.io/library/mash:077aebe084baa78c
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - rapidnj: community.wave.seqera.io/library/rapidnj:ca8414441696d294
 - rasusa: community.wave.seqera.io/library/rasusa:1d89af1e884ec5d1
 - raxml-ng: community.wave.seqera.io/library/raxml-ng:e2caaf2176dbf914
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - snp-sites: community.wave.seqera.io/library/snp-sites:8de9aa8d26ceaa97
-failed:
-- mash: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-077aebe084baa78c_6
+failed: []

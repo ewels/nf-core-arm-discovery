@@ -10,6 +10,7 @@ passed:
 - dask: community.wave.seqera.io/library/dask:1f99995113edf886
 - deeptools: community.wave.seqera.io/library/deeptools:fc742a6abc6ac7fe
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- macs2: community.wave.seqera.io/library/macs2:9c7a04c55ee77ea0
 - numpy: community.wave.seqera.io/library/numpy:9af4b40bc6a18af2
 - pandas: community.wave.seqera.io/library/pandas:94d4903cb2d0ed3d
 - picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
@@ -24,5 +25,4 @@ passed:
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
 - ucsc-bedclip: community.wave.seqera.io/library/ucsc-bedclip:1cf1f8ac8f0be3db
 - ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
-failed:
-- macs2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9c7a04c55ee77ea0_4
+failed: []

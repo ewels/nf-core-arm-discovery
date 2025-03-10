@@ -7,6 +7,6 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - wfmash: community.wave.seqera.io/library/wfmash:8b6e356536725b43
 failed:
-- odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_3
-- pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_4
-- smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_3
+- odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_4
+- pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_5
+- smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_4

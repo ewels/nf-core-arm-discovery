@@ -1,4 +1,5 @@
 passed:
+- agat: community.wave.seqera.io/library/agat:34244e873b2f3170
 - arriba: community.wave.seqera.io/library/arriba:4d8b5ec02d407a61
 - bedops: community.wave.seqera.io/library/bedops:8e18b615eb1e51c6
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
@@ -19,11 +20,10 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
 - stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
+- trinity: community.wave.seqera.io/library/trinity:70326209fa04ac52
 - ucsc-gtftogenepred: community.wave.seqera.io/library/ucsc-gtftogenepred:add2d7c15558e449
 failed:
-- agat: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-34244e873b2f3170_6
-- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_3
-- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_4
-- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-78b3ce84b9eabae6_4
-- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_3
-- trinity: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70326209fa04ac52_4
+- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_4
+- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_5
+- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-78b3ce84b9eabae6_5
+- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_4

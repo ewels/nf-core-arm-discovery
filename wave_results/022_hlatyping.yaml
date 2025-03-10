@@ -3,5 +3,5 @@ passed:
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
-failed:
-- yara: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-050a49332294d6f3_5
+- yara: community.wave.seqera.io/library/yara:050a49332294d6f3
+failed: []

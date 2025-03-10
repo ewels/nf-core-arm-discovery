@@ -14,6 +14,7 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - control-freec: community.wave.seqera.io/library/control-freec:188d33cb97f054cd
+- ensembl-vep: community.wave.seqera.io/library/ensembl-vep:12a0210ffaea3b1a
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - fgbio: community.wave.seqera.io/library/fgbio:915fb6d001153afb
@@ -40,5 +41,4 @@ passed:
 - tiddit: community.wave.seqera.io/library/tiddit:edbfd209411d2dc9
 - vcftools: community.wave.seqera.io/library/vcftools:690b40dae5c9cab9
 failed:
-- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_5
-- ensembl-vep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-12a0210ffaea3b1a_8
+- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_6

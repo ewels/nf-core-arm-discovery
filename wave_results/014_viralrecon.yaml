@@ -1,5 +1,6 @@
 passed:
 - abacas: community.wave.seqera.io/library/abacas:66b8f4a711058464
+- bandage: community.wave.seqera.io/library/bandage:3f5bfea40e35308f
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
 - blast: community.wave.seqera.io/library/blast:c212884616524862
@@ -17,6 +18,7 @@ passed:
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - ivar: community.wave.seqera.io/library/ivar:8c2f10431128f432
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
+- minia: community.wave.seqera.io/library/minia:59a559c90c2258f9
 - mosdepth: community.wave.seqera.io/library/mosdepth:e10857a04224e6d7
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
@@ -25,7 +27,9 @@ passed:
 - pangolin-data: community.wave.seqera.io/library/pangolin-data:327f283596c9b10d
 - picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
+- plasmidid: community.wave.seqera.io/library/plasmidid:4996feb1dc6e7a22
 - pycoqc: community.wave.seqera.io/library/pycoqc:a7530563a2020dd5
+- quast: community.wave.seqera.io/library/quast:90233ff82189fadb
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - snakemake: community.wave.seqera.io/library/snakemake:9fa54284d38b0822
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
@@ -33,8 +37,4 @@ passed:
 - unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
 - vcflib: community.wave.seqera.io/library/vcflib:655ad0396834bccb
 failed:
-- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_2
-- bandage: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3f5bfea40e35308f_2
-- minia: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-59a559c90c2258f9_2
-- plasmidid: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4996feb1dc6e7a22_2
-- quast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90233ff82189fadb_10
+- artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_3

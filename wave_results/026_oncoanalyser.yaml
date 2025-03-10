@@ -12,6 +12,7 @@ passed:
 - hmftools-gripss: community.wave.seqera.io/library/hmftools-gripss:d56c0098a270b759
 - hmftools-isofox: community.wave.seqera.io/library/hmftools-isofox:5b1f23d9dc129bf0
 - hmftools-lilac: community.wave.seqera.io/library/hmftools-lilac:943ad75f2065c3db
+- hmftools-linx: community.wave.seqera.io/library/hmftools-linx:49bc9587dbf91836
 - hmftools-mark-dups: community.wave.seqera.io/library/hmftools-mark-dups:b80bbdfba75f2db0
 - hmftools-orange: community.wave.seqera.io/library/hmftools-orange:1935d9e8cd8e23ac
 - hmftools-pave: community.wave.seqera.io/library/hmftools-pave:e7ed1dfca05ff50c
@@ -25,5 +26,4 @@ passed:
 - sambamba: community.wave.seqera.io/library/sambamba:55145ea5e6239743
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
-failed:
-- hmftools-linx: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-49bc9587dbf91836_6
+failed: []

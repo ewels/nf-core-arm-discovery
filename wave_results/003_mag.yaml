@@ -3,16 +3,19 @@ passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - centrifuge: community.wave.seqera.io/library/centrifuge:caf3a3affb3f69dd
+- chopper: community.wave.seqera.io/library/chopper:8f904259cffb86c7
 - concoct: community.wave.seqera.io/library/concoct:19fa13fc06857702
 - conda-forge::aria2: community.wave.seqera.io/library/aria2:251c6f24d22f5b7b
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- das_tool: community.wave.seqera.io/library/das_tool:5efb904b6edada5b
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - filtlong: community.wave.seqera.io/library/filtlong:64e4ef20a4c183b6
 - freebayes: community.wave.seqera.io/library/freebayes:a18dde2077a3108b
+- gunc: community.wave.seqera.io/library/gunc:4d12ad4c1596e615
 - krakentools: community.wave.seqera.io/library/krakentools:26d2dde9cdacfdb8
 - krona: community.wave.seqera.io/library/krona:5dae60b07eb19a3f
 - maxbin2: community.wave.seqera.io/library/maxbin2:e4f008a8c475600e
@@ -23,25 +26,22 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanolyse: community.wave.seqera.io/library/nanolyse:3c4a0ed94ddd583e
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
+- nanoq: community.wave.seqera.io/library/nanoq:559bac19595474f0
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 - porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
 - porechop_abi: community.wave.seqera.io/library/porechop_abi:6076f2e9fe9de999
 - prodigal: community.wave.seqera.io/library/prodigal:efa9392955408c09
+- prokka: community.wave.seqera.io/library/prokka:985ae8f80fcaec52
 - pydamage: community.wave.seqera.io/library/pydamage:901f64896d76152a
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
 failed:
-- checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_4
-- chopper: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f904259cffb86c7_4
+- checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_5
 - conda-forge::tiara: 'Container provisioning did not complete successfully
 
     - Reason: Container build did not complete successfully
 
-    - Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_4'
-- das_tool: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5efb904b6edada5b_4
-- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_6
-- gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_11
-- gunc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4d12ad4c1596e615_4
-- nanoq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-559bac19595474f0_5
-- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_15
+    - Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_5'
+- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_7
+- gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_12

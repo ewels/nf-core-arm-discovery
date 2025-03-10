@@ -1,4 +1,5 @@
 passed:
+- bakta: community.wave.seqera.io/library/bakta:90c6d63043537e8b
 - canu: community.wave.seqera.io/library/canu:eada9dca717e72d9
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
@@ -15,15 +16,14 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
 - porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
+- prokka: community.wave.seqera.io/library/prokka:985ae8f80fcaec52
 - pycoqc: community.wave.seqera.io/library/pycoqc:a7530563a2020dd5
+- quast: community.wave.seqera.io/library/quast:90233ff82189fadb
 - racon: community.wave.seqera.io/library/racon:cd98fdd15e11bec0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
 failed:
-- bakta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90c6d63043537e8b_12
-- dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_6
-- dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_6
-- medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_7
-- nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_6
-- prokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-985ae8f80fcaec52_17
-- quast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90233ff82189fadb_11
+- dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_7
+- dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_7
+- medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_8
+- nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_7
