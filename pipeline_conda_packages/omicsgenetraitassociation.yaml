@@ -1,8 +1,8 @@
-- numpy=1.26.3
-- python=3.8.3
-- multiqc=1.20
 - fastqc=0.12.1
+- multiqc=1.20
+- numpy=1.19.5
+- numpy=1.26.3
 - pandas=1.1.5
 - pandas=2.2.0
-- numpy=1.19.5
+- python=3.8.3
 - statsmodels=0.14.1

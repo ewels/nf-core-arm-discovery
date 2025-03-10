@@ -1,6 +1,6 @@
-- samtools=1.21
-- multiqc=1.25.1
+- bwa=0.7.18
+- fastqc=0.12.1
 - fgbio=2.4.0
 - htslib=1.21
-- fastqc=0.12.1
-- bwa=0.7.18
+- multiqc=1.25.1
+- samtools=1.21

@@ -1,7 +1,7 @@
-- samtools=1.21
-- multiqc=1.25.1
 - cnvkit=0.9.10
-- htslib=1.21
-- samtools=1.17
-- htslib=1.17
 - gatk4=4.5.0.0
+- htslib=1.17
+- htslib=1.21
+- multiqc=1.25.1
+- samtools=1.17
+- samtools=1.21

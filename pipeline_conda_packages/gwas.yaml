@@ -1,8 +1,8 @@
+- bcftools=1.11
+- bcftools=1.14
+- fastqc=0.11.9
+- multiqc=1.14
 - plink=1.90b6.21
 - tabix=0.2.6
-- fastqc=0.11.9
 - tabix=1.11
-- bcftools=1.14
-- multiqc=1.14
-- bcftools=1.11
 - vcftools=0.1.16
