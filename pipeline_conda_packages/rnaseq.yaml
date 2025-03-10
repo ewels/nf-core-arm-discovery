@@ -12,6 +12,7 @@
 - conda-forge::gawk=5.1.0
 - conda-forge::grep=3.11
 - conda-forge::perl=5.26.2
+- conda-forge::pigz=2.8
 - conda-forge::python=3.12.2
 - conda-forge::python=3.9.5
 - conda-forge::r-base
@@ -30,11 +31,10 @@
 - fq=0.12.0
 - gffread=0.12.7
 - hisat2=2.2.1
-- htslib=1.20
 - htslib=1.21
 - kallisto=0.51.1
 - kraken2=2.1.3
-- multiqc=1.25.1
+- multiqc=1.27
 - picard=3.1.1
 - pigz=2.8
 - preseq=3.2.0
@@ -45,7 +45,6 @@
 - salmon=1.10.3
 - samtools=1.10
 - samtools=1.16.1
-- samtools=1.20
 - samtools=1.21
 - seqera::sortmerna=4.3.7
 - star=2.6.1d

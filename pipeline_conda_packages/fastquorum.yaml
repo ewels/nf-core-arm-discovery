@@ -2,5 +2,5 @@
 - fastqc=0.12.1
 - fgbio=2.4.0
 - htslib=1.21
-- multiqc=1.25.1
+- multiqc=1.27
 - samtools=1.21

@@ -2,7 +2,8 @@
 - bbmap=39.01
 - bcftools=1.17
 - centrifuge=1.0.4.1
-- checkm-genome=1.2.1
+- checkm-genome=1.2.3
+- checkm2=1.0.2
 - chopper=0.9.0
 - concoct=1.1.0
 - conda-forge::aria2=1.36.0
@@ -20,6 +21,7 @@
 - genomad=1.5.2
 - gtdbtk=2.4.0
 - gunc=1.0.5
+- gunc=1.0.6
 - krakentools=1.2
 - krona=2.7.1
 - krona=2.8
@@ -28,7 +30,7 @@
 - metabat2=2.15
 - metaeuk=6.a5d39d9
 - mmseqs2=14.7e284
-- multiqc=1.25.1
+- multiqc=1.27
 - nanolyse=1.2.0
 - nanoplot=1.41.6
 - nanoq=0.10.0

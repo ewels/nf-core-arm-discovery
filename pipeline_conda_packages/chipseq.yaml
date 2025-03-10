@@ -16,7 +16,7 @@
 - htslib=1.20.0
 - khmer=3.0.0a3
 - macs3=3.0.1
-- multiqc=1.25.1
+- multiqc=1.27
 - phantompeakqualtools=1.2.2
 - picard=3.2.0
 - preseq=3.1.2

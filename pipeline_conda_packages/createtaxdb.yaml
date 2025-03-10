@@ -13,5 +13,6 @@
 - krakenuniq=1.0.4
 - malt=0.62
 - multiqc=1.20
-- multiqc=1.25.1
+- multiqc=1.27
 - pigz=2.8
+- seqkit=2.9.0

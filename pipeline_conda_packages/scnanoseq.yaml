@@ -11,6 +11,7 @@
 - multiqc=1.20
 - multiqc=1.25.1
 - nanoplot=1.41.6
+- picard=3.3.0
 - pigz=2.8
 - rseqc=5.0.3
 - samtools=1.19.2

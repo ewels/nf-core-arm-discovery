@@ -17,4 +17,4 @@
 - conda-forge::r-tidyr=1.3.0
 - conda-forge::r-yaml=2.3.7
 - conda-forge::r-yaml=2.3.8
-- multiqc=1.24.1
+- multiqc=1.27

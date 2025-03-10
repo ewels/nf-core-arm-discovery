@@ -15,7 +15,7 @@
 - htslib=1.19.1
 - khmer=3.0.0a3
 - macs3=3.0.1
-- multiqc=1.25.1
+- multiqc=1.27
 - picard=3.0.0
 - picard=3.1.1
 - preseq=3.1.2

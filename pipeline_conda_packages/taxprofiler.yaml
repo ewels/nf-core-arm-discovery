@@ -2,7 +2,7 @@
 - bbmap=39.06
 - bowtie2=2.5.2
 - bracken=2.9
-- centrifuge=1.0.4.1
+- centrifuge=1.0.4.2
 - conda-forge::coreutils=8.30
 - conda-forge::grep=3.11
 - conda-forge::pigz=2.6
@@ -28,7 +28,7 @@
 - minimap2=2.28
 - motus=3.0.3
 - motus=3.1.0
-- multiqc=1.25.1
+- multiqc=1.27
 - nanoq=0.10.0
 - nonpareil=3.5.5
 - pigz=2.8

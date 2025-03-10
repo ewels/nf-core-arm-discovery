@@ -1,6 +1,8 @@
+- bowtie2=2.5.2
+- fastq-screen=0.15.3
 - fastq-screen=0.16.0
 - fastqc=0.12.1
-- multiqc=1.25.1
+- multiqc=1.27
 - perl-gdgraph=1.54
 - seqfu=1.20.3
 - seqtk=1.4
