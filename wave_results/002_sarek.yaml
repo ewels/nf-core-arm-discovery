@@ -20,6 +20,7 @@ passed:
 - mosdepth: community.wave.seqera.io/library/mosdepth:e10857a04224e6d7
 - msisensor-pro: community.wave.seqera.io/library/msisensor-pro:8149e32c7734f925
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- muse: community.wave.seqera.io/library/muse:e8fb4c183565b553
 - ngscheckmate: community.wave.seqera.io/library/ngscheckmate:f0926ae5a4427c9b
 - samblaster: community.wave.seqera.io/library/samblaster:907b830ccf9d223f
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
@@ -40,4 +41,4 @@ passed:
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_7
+- bioconda::dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_2

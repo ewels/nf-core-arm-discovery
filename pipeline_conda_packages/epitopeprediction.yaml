@@ -1,3 +1,4 @@
+- bcftools=1.20
 - biopython=1.85
 - conda-forge::bash=5.2.21
 - conda-forge::coreutils=9.1
@@ -14,6 +15,7 @@
 - conda-forge::tcsh=6.24.14
 - csvtk=0.31.0
 - epytope=3.1.1
+- htslib=1.20
 - mhcflurry=2.1.4
 - mhcgnomes=1.8.6
 - mhcnuggets=2.4.1

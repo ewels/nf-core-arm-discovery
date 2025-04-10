@@ -1,0 +1,10 @@
+passed:
+- bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
+- blast: community.wave.seqera.io/library/blast:c212884616524862
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
+- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
+failed: []

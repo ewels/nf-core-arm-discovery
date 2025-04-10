@@ -1,1 +1,5 @@
-[]
+- bedtools=2.31.1
+- conda-forge::gawk=5.3.0
+- csvtk=0.31.0
+- htslib=1.21
+- samtools=1.21

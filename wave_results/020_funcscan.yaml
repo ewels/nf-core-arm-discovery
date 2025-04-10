@@ -24,16 +24,16 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- amplify: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2d6f14267e890ac6_8
-- antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_8
-- deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_8
-- deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_8
-- fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_8
-- interproscan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9cea273e150f4450_1
-- macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_8
-- rgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c6c940fa8f651442_8
-- conda-forge::lbzip2: "Container provisioning did not complete successfully
+- bioconda::amplify: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2d6f14267e890ac6_1
+- bioconda::antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_1
+- bioconda::deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_1
+- bioconda::deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_1
+- bioconda::fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_1
+- bioconda::interproscan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9cea273e150f4450_1
+- bioconda::macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_1
+- bioconda::rgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c6c940fa8f651442_1
+- conda-forge::lbzip2: 'Container provisioning did not complete successfully
 
-- Reason: Container build did not complete successfully
+    - Reason: Container build did not complete successfully
 
-- Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_1"
+    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_2'

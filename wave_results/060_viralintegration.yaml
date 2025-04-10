@@ -1,0 +1,8 @@
+passed:
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+- trimmomatic: community.wave.seqera.io/library/trimmomatic:c82abac287fbc06d
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+failed: []

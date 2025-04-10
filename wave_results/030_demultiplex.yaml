@@ -15,6 +15,6 @@ passed:
 - coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
 - numpy: community.wave.seqera.io/library/numpy:9af4b40bc6a18af2
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
+- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
 - python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
-failed:
-- pip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d7d9d72ef1328899_17
+failed: []

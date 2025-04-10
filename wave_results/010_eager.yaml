@@ -43,4 +43,4 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_6
+- bioconda::sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_1

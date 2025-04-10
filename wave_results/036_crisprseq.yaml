@@ -8,6 +8,8 @@ passed:
 - mawk: community.wave.seqera.io/library/mawk:68becd28b2d58efb
 - minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- pear: community.wave.seqera.io/library/pear:466f3133f251df79
+- r-crisprcleanr: community.wave.seqera.io/library/r-crisprcleanr:ab561c05068fc4a7
 - racon: community.wave.seqera.io/library/racon:cd98fdd15e11bec0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
@@ -16,6 +18,4 @@ passed:
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 failed:
-- medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_10
-- pear: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-466f3133f251df79_2
-- r-crisprcleanr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ab561c05068fc4a7_2
+- bioconda::medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_2

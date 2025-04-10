@@ -1,8 +1,13 @@
 - conda-forge::gawk=5.1.0
 - conda-forge::p7zip=16.02
+- conda-forge::python=3.8.3=3.11.0
 - cutadapt=3.4
-- fastqc=0.11.9
+- fastqc=0.12.1
+- htseq=2.0.2-0
+- htseq=2.0.3
 - multiqc=1.13
+- multiqc=1.27
+- python=3.8.3
 - salmon=1.10.1
 - samtools=1.16.1
 - star=2.7.10a

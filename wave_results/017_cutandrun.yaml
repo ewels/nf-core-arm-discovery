@@ -24,5 +24,5 @@ passed:
 - pandas: community.wave.seqera.io/library/pandas:94d4903cb2d0ed3d
 - python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
 failed:
-- dask: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-80527d4edb1501bb_5
-- seaborn: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7aa2855ef400e701_6
+- bioconda::dask: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-80527d4edb1501bb_1
+- bioconda::seaborn: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7aa2855ef400e701_1

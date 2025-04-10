@@ -6,8 +6,10 @@ passed:
 - kalign3: community.wave.seqera.io/library/kalign3:8b90a1899336d1e4
 - mafft: community.wave.seqera.io/library/mafft:e5438db042183adb
 - magus-msa: community.wave.seqera.io/library/magus-msa:d3e6c37294480257
+- mtm-align: community.wave.seqera.io/library/mtm-align:c56177743b2c8a54
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - muscle: community.wave.seqera.io/library/muscle:ca3f65093ab1cd48
+- py_fasta_validator: community.wave.seqera.io/library/py_fasta_validator:831e9e04d9e878f2
 - t-coffee: community.wave.seqera.io/library/t-coffee:8687442e25a50a43
 - tmalign: community.wave.seqera.io/library/tmalign:f39dda87882d55a7
 - conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
@@ -21,10 +23,8 @@ passed:
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- mtm-align: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c56177743b2c8a54_2
-- py_fasta_validator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-831e9e04d9e878f2_2
-- conda-forge::lbzip2: "Container provisioning did not complete successfully
+- conda-forge::lbzip2: 'Container provisioning did not complete successfully
 
-- Reason: Container build did not complete successfully
+    - Reason: Container build did not complete successfully
 
-- Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_6"
+    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_7'

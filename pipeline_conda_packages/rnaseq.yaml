@@ -11,7 +11,7 @@
 - conda-forge::coreutils=9.5
 - conda-forge::gawk=5.1.0
 - conda-forge::grep=3.11
-- conda-forge::perl=5.26.2
+- conda-forge::perl>=5.26.2
 - conda-forge::pigz=2.8
 - conda-forge::python=3.12.2
 - conda-forge::python=3.9.5

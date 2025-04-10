@@ -28,21 +28,24 @@ passed:
 - prokka: community.wave.seqera.io/library/prokka:985ae8f80fcaec52
 - pydamage: community.wave.seqera.io/library/pydamage:901f64896d76152a
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
+- trimmomatic: community.wave.seqera.io/library/trimmomatic:c82abac287fbc06d
 - conda-forge::aria2: community.wave.seqera.io/library/aria2:251c6f24d22f5b7b
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::openjdk: community.wave.seqera.io/library/openjdk:31084898d49d6617
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_6
-- checkm2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a718b8c9cdff0137_1
-- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_8
-- gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_13
-- conda-forge::tiara: "Container provisioning did not complete successfully
+- bioconda::checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_2
+- bioconda::checkm2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a718b8c9cdff0137_2
+- bioconda::genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_2
+- bioconda::gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_1
+- conda-forge::tiara: 'Container provisioning did not complete successfully
 
-- Reason: Container build did not complete successfully
+    - Reason: Container build did not complete successfully
 
-- Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_6"
+    - Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_2'

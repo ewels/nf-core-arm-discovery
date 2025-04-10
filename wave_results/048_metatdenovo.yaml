@@ -1,6 +1,7 @@
 passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- eggnog-mapper: community.wave.seqera.io/library/eggnog-mapper:8b1cb53aefe137ae
 - eukulele: community.wave.seqera.io/library/eukulele:0b22cffc460cee66
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - hmmer: community.wave.seqera.io/library/hmmer:c7d2def92c2b2a78
@@ -27,14 +28,13 @@ passed:
 - conda-forge::r-tidyverse: community.wave.seqera.io/library/r-tidyverse:2164f6b260cbc5bd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- conda-forge::wget: community.wave.seqera.io/library/wget:f9cb8738dc6e4ed2
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- diamond:2.1.10: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d89dffedc35308c2_1
-- eggnog-mapper: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8b1cb53aefe137ae_1
-- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_7
-- transrate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4187ad6f8def9f4f_1
-- conda-forge::lbzip2: "Container provisioning did not complete successfully
+- bioconda::diamond:2.1.10: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d89dffedc35308c2_1
+- bioconda::transrate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4187ad6f8def9f4f_1
+- conda-forge::lbzip2: 'Container provisioning did not complete successfully
 
-- Reason: Container build did not complete successfully
+    - Reason: Container build did not complete successfully
 
-- Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_7"
+    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_7'

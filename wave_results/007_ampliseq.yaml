@@ -15,4 +15,4 @@ passed:
 - coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
 - pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- epa-ng: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6711915ed1b7bac_7
+- bioconda::epa-ng: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6711915ed1b7bac_1

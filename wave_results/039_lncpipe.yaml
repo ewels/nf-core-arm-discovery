@@ -9,11 +9,11 @@ passed:
 - htseq: community.wave.seqera.io/library/htseq:985b9b1747c276ec
 - kallisto: community.wave.seqera.io/library/kallisto:d61e08588cd20f0f
 - multiqc-bcbio: community.wave.seqera.io/library/multiqc-bcbio:03b517c431ae9b01
+- plek: community.wave.seqera.io/library/plek:1035c60bf3c8c942
+- r-lncpipereporter: community.wave.seqera.io/library/r-lncpipereporter:d64850a62bed1d46
 - sambamba: community.wave.seqera.io/library/sambamba:55145ea5e6239743
 - stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
 - conda-forge::openjdk: community.wave.seqera.io/library/openjdk:31084898d49d6617
 failed:
-- cufflinks: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6d80fb58c939a068_2
-- pandoc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-99c50207c02bbe12_2
-- plek: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-1035c60bf3c8c942_2
-- r-lncpipereporter: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d64850a62bed1d46_2
+- bioconda::cufflinks: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6d80fb58c939a068_1
+- bioconda::pandoc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-99c50207c02bbe12_1

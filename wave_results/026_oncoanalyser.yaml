@@ -23,10 +23,10 @@ passed:
 - hmftools-virus-interpreter: community.wave.seqera.io/library/hmftools-virus-interpreter:0f5847cef7c1ebd7
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - r-linxreport: community.wave.seqera.io/library/r-linxreport:5db4972109969f83
+- repeatmasker: community.wave.seqera.io/library/repeatmasker:4fc7e64054b5165b
 - sambamba: community.wave.seqera.io/library/sambamba:55145ea5e6239743
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - grep: community.wave.seqera.io/library/grep:995c63e0c9494143
-failed:
-- gatk4:4.6.1.0: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5986d42b8944e8cd_1
+failed: []

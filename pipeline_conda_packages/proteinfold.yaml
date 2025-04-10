@@ -10,4 +10,5 @@
 - conda-forge::tar=1.34
 - foldseek=9.427df8a
 - mmseqs2=15.6f452
+- mmseqs2=17.b804f
 - multiqc=1.27

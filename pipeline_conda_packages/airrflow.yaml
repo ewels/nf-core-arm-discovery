@@ -1,5 +1,5 @@
 - conda-forge::sed=4.7
 - fastp=0.23.4
 - fastqc=0.12.1
-- multiqc=1.25.1
+- multiqc=1.27
 - trust4=1.0.13

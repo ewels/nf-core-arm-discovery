@@ -1,15 +1,22 @@
 passed:
 - anndata2ri: community.wave.seqera.io/library/anndata2ri:c783e0b4c082b84c
 - bbknn: community.wave.seqera.io/library/bbknn:1c6a8b4bc372801b
+- bioconductor-celda: community.wave.seqera.io/library/bioconductor-celda:5d1e0746c4cc5a47
 - bioconductor-glmgampoi: community.wave.seqera.io/library/bioconductor-glmgampoi:4c323e86e920b0dc
 - bioconductor-scds: community.wave.seqera.io/library/bioconductor-scds:ee92afd024a53cc7
 - bioconductor-singlecellexperiment: community.wave.seqera.io/library/bioconductor-singlecellexperiment:5172b8822c8287e3
 - cellbender: community.wave.seqera.io/library/cellbender:4c07a80328ade50f
 - celltypist: community.wave.seqera.io/library/celltypist:84651bc0a34d30b7
 - harmonypy: community.wave.seqera.io/library/harmonypy:6d4713338410befa
+- liana: community.wave.seqera.io/library/liana:e6285590d679efe8
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - mygene: community.wave.seqera.io/library/mygene:c2153c573df558f3
 - conda-forge::anndata: community.wave.seqera.io/library/anndata:3a0990b5cb32cd9e
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gcc: community.wave.seqera.io/library/gcc:9a2ff1722b4a5de8
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gxx: community.wave.seqera.io/library/gxx:82af7f5547fe5de4
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
 - conda-forge::jaxlib: community.wave.seqera.io/library/jaxlib:23c8e605183905de
 - conda-forge::leidenalg: community.wave.seqera.io/library/leidenalg:b5f14e79bdc94e68
 - conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
@@ -19,8 +26,15 @@ passed:
 - conda-forge::scanpy: community.wave.seqera.io/library/scanpy:03ac40ac1f775ed3
 - conda-forge::scikit-image: community.wave.seqera.io/library/scikit-image:f1ae14e40758187b
 - conda-forge::scvi-tools: community.wave.seqera.io/library/scvi-tools:dee1c43d839e6871
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9
 - conda-forge::webcolors: community.wave.seqera.io/library/webcolors:7b646bda619ba5fb
+- conda-forge::zarr: community.wave.seqera.io/library/zarr:a49dc1fe67d9d1ef
+- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
 failed:
-- bioconductor-celda: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5d1e0746c4cc5a47_2
-- liana: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e6285590d679efe8_2
+- conda-forge::lbzip2: 'Container provisioning did not complete successfully
+
+    - Reason: Container build did not complete successfully
+
+    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_4'

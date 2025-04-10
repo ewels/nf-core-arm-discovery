@@ -1,5 +1,5 @@
 - agat=1.4.0
-- busco=5.7.1
+- busco=5.8.3
 - conda-forge::pigz
 - diamond=2.1.9
 - fastqc=0.12.1
@@ -11,5 +11,6 @@
 - orthofinder=2.5.5
 - py_fasta_validator=0.6
 - quast=5.2.0
+- sepp=4.5.5
 - seqkit=2.8.1
 - tidk=0.2.41

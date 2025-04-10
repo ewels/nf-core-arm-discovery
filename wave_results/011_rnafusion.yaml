@@ -30,10 +30,10 @@ passed:
 - conda-forge::perl-carp-assert: community.wave.seqera.io/library/perl-carp-assert:e651a1c6885022cd
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
 - python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
 failed:
-- fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_5
-- gcnvkernel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-565f888afed3dbdd_1
-- gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_6
-- pip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d7d9d72ef1328899_15
-- star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_5
+- bioconda::fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_1
+- bioconda::gcnvkernel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-565f888afed3dbdd_1
+- bioconda::gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_1
+- bioconda::star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_1

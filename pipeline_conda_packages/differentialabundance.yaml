@@ -5,6 +5,7 @@
 - bioconductor-geoquery=2.70.0
 - bioconductor-limma=3.54.0
 - bioconductor-limma=3.58.1
+- bioconductor-variancepartition=1.32.2
 - conda-forge::coreutils=9.5
 - conda-forge::gawk=5.1.0
 - conda-forge::grep=3.11
@@ -16,6 +17,7 @@
 - conda-forge::r-ggplot2=3.4.3
 - conda-forge::r-ggplot2=3.4.4
 - conda-forge::r-gprofiler2=0.2.2
+- conda-forge::r-optparse=1.7.5
 - conda-forge::r-plotly=4.10.2
 - conda-forge::r-propr=5.1.5
 - conda-forge::r-propr=5.1.6
@@ -29,3 +31,4 @@
 - r-immunedeconv=2.1.2
 - r-proteus-bartongroup=0.2.16
 - r-shinyngs=2.2.0
+- r-shinyngs=2.2.2

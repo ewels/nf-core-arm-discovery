@@ -18,10 +18,12 @@ passed:
 - gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
 - hisat2: community.wave.seqera.io/library/hisat2:3850033851c3d74f
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- miranda: community.wave.seqera.io/library/miranda:c91f01ee6ac72a0f
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - psirc: community.wave.seqera.io/library/psirc:c8cc68e309859467
 - pygtftk: community.wave.seqera.io/library/pygtftk:cb35a11f2d0a69b7
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- segemehl: community.wave.seqera.io/library/segemehl:e509810fefc923f3
 - seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
 - stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
@@ -48,12 +50,10 @@ passed:
 - gawk: community.wave.seqera.io/library/gawk:5dedd610811ad792
 - python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
 failed:
-- find_circ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f9f7f28afc519ec3_4
-- mapsplice: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a6a7339a5462d2e6_4
-- miranda: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c91f01ee6ac72a0f_4
-- segemehl: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e509810fefc923f3_4
-- conda-forge::lbzip2: "Container provisioning did not complete successfully
+- bioconda::find_circ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f9f7f28afc519ec3_1
+- bioconda::mapsplice: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a6a7339a5462d2e6_1
+- conda-forge::lbzip2: 'Container provisioning did not complete successfully
 
-- Reason: Container build did not complete successfully
+    - Reason: Container build did not complete successfully
 
-- Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_2"
+    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_4'

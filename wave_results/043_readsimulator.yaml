@@ -8,9 +8,9 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - ncbi-genome-download: community.wave.seqera.io/library/ncbi-genome-download:7177f705c3510b2a
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- wgsim: community.wave.seqera.io/library/wgsim:68c82b52581e93fa
 - conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::unzip: community.wave.seqera.io/library/unzip:386818b2d3cf6c50
-failed:
-- wgsim: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-68c82b52581e93fa_2
+failed: []

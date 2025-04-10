@@ -1,6 +1,7 @@
 - bamtools=2.5.2
 - bioconda:nanocomp=1.21.0
 - conda-forge::coreutils=8.30
+- conda-forge::p7zip=16.02
 - conda-forge::pigz
 - conda-forge::pigz=2.3.4
 - conda-forge::r-base>=3.5

@@ -3,6 +3,7 @@ passed:
 - comet-ms: community.wave.seqera.io/library/comet-ms:a687a30ddf453d84
 - luciphor2: community.wave.seqera.io/library/luciphor2:6f8b881099010587
 - msgf_plus: community.wave.seqera.io/library/msgf_plus:8657470481c33c5d
+- percolator: community.wave.seqera.io/library/percolator:e71a94e39024dcc1
 - pmultiqc: community.wave.seqera.io/library/pmultiqc:c3ec3676edb355a1
 - sdrf-pipelines: community.wave.seqera.io/library/sdrf-pipelines:4cd122a093adec3c
 - thermorawfileparser: community.wave.seqera.io/library/thermorawfileparser:9518ff18daac398b
@@ -17,5 +18,4 @@ passed:
 - conda-forge::r-ptxqc: community.wave.seqera.io/library/r-ptxqc:a51fb4dfab16b122
 - conda-forge::xorg-libxt: community.wave.seqera.io/library/xorg-libxt:6ae6da5b65eec7ea
 failed:
-- percolator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e71a94e39024dcc1_2
-- openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_2
+- openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_1

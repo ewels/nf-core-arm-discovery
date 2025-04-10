@@ -10,7 +10,7 @@
 - hmmer=3.3.2
 - kraken2=2.1.3
 - mafft=7.520
-- multiqc=1.25.1
+- multiqc=1.27
 - pigz=2.8
 - samtools=1.16.1
 - vsearch=2.21.1

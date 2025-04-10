@@ -30,7 +30,7 @@
 - htslib=1.19.1
 - htslib=1.20.0
 - kraken2=2.1.2
-- krakenuniq=1.0.2
+- krakenuniq=1.0.4
 - malt=0.61
 - mapdamage2=2.2.1
 - megan=6.21.7

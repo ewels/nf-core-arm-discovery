@@ -31,6 +31,7 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - sentieon: community.wave.seqera.io/library/sentieon:9bfb49a29ddd8097
 - smncopynumbercaller: community.wave.seqera.io/library/smncopynumbercaller:578c6465236d5833
+- spring: community.wave.seqera.io/library/spring:6d558fe5c947e32a
 - stranger: community.wave.seqera.io/library/stranger:832d4ef6ead8d6cc
 - svdb: community.wave.seqera.io/library/svdb:e96a08acf703f587
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
@@ -49,6 +50,6 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_5
-- eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_5
-- hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_5
+- bioconda::bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_1
+- bioconda::eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_1
+- bioconda::hmtnote: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c031b99bdf55dab3_1
