@@ -33,52 +33,60 @@ def run_wave_command(package, progress, task_id):
     try:
         # Skip bioconda for specific packages
         assert package not in [
-            "tar",
-            "sed",
-            "grep",
+            "biopython",
+            "coreutils",
             "gawk",
-            "p7zip",
-            "requests",
-            "pigz",
-            "python",
-            "pygments",
+            "gcc",
+            "grep",
+            "gxx",
+            "imagecodecs",
+            "jupyter",
+            "lbzip2",
+            "leidenalg",
+            "libgdal",
+            "libiconv",
             "markdown",
-            "pandas",
-            "pip",
             "numpy",
             "openjdk",
-            "r-base",
-            "coreutils",
-            "biopython",
+            "p7zip",
+            "pandas",
+            "papermill",
+            "pigz",
+            "pip",
+            "pygments",
             "pymdown-extensions",
-            "libiconv",
+            "python",
+            "r-base",
+            "requests",
+            "sed",
+            "stardist",
+            "tar",
+            "tensorflow",
+            "tifffile"
         ]
 
         # Skip conda-forge packages
         assert "conda-forge::" not in package
 
         # Prepend bioconda if no other channel specified
+        bioc_package = package
         if "::" not in package:
-            package = f"bioconda::{package}"
+            bioc_package = f"bioconda::{package}"
 
         command = [
             "wave",
             "--conda",
-            package,
+            bioc_package,
             "--platform",
             "linux/arm64",
             "--freeze",
             "--await",
         ]
-        with progress_lock:
-            # console.print(f"[cyan]Running:[/cyan] {' '.join(command)}")
-            pass
 
         result = subprocess.run(command, capture_output=True, text=True, check=True)
         with progress_lock:
             progress.update(task_id, advance=1)
-            # console.print(f"[green]✓[/green] Package '{package}' build successful: [dim]{result.stdout.strip()}[/dim]")
-        return package, True, result.stdout.strip()
+        return bioc_package, True, result.stdout.strip()
     except (subprocess.CalledProcessError, AssertionError) as bioconda_error:
         error_msg = None
         # Clean up + log error message if it's a Wave build error
@@ -87,9 +95,6 @@ def run_wave_command(package, progress, task_id):
             if "Container provisioning did not complete successfully" in error_msg:
                 build_id = error_msg.split("/")[-1]
                 error_msg = f"Container provisioning failed, see https://wave.seqera.io/view/builds/{build_id}"
-            with progress_lock:
-                # console.print(f"[red]Bioconda build failed for '{package}':[/red] [dim red]{error_msg}[/dim red]")
-                pass
             # Exit immediately if we've hit the rate limit
             if "Request exceeded build rate limit" in error_msg:
                 console.print("[red]Rate limit exceeded, exiting[/red]")
@@ -97,24 +102,23 @@ def run_wave_command(package, progress, task_id):
 
         # Try conda-forge
         try:
+            cforge_package = package
+            if "::" not in package:
+                cforge_package = f"conda-forge::{package}"
             command = [
                 "wave",
                 "--conda",
-                f"{package}",
+                f"{cforge_package}",
                 "--platform",
                 "linux/arm64",
                 "--freeze",
                 "--await",
             ]
-            with progress_lock:
-                # console.print(f"[yellow]Retrying with conda-forge:[/yellow] {' '.join(command)}")
-                pass
 
             result = subprocess.run(command, capture_output=True, text=True, check=True)
             with progress_lock:
                 progress.update(task_id, advance=1)
-                # console.print(f"[green]✓[/green] Package '{package}' build successful with conda-forge: [dim]{result.stdout.strip()}[/dim]")
-            return package, True, result.stdout.strip()
+            return cforge_package, True, result.stdout.strip()
         except subprocess.CalledProcessError as conda_forge_error:
             # Exit immediately if we've hit the rate limit
             if "Request exceeded build rate limit" in conda_forge_error.stderr:
