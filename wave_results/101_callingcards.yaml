@@ -1,0 +1,23 @@
+passed:
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- callingcardstools: community.wave.seqera.io/library/callingcardstools:824b8c7a42b352a6
+- bowtie: community.wave.seqera.io/library/bowtie:d7c1d23752bf4b76
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
+- conda-forge::perl: community.wave.seqera.io/library/perl:1a5baaede874bd24
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
+- rseqc: community.wave.seqera.io/library/rseqc:d7e8badddc74fcd9
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+- subread: community.wave.seqera.io/library/subread:026579fda7335fa2
+- trimmomatic: community.wave.seqera.io/library/trimmomatic:c82abac287fbc06d
+- umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
+failed: []

@@ -1,0 +1,3 @@
+passed:
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed: []

@@ -1,0 +1,4 @@
+passed:
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed:
+- ashlar: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc6e0455f7b50dfa_1

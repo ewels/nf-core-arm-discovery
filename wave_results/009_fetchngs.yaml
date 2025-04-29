@@ -1,6 +1,5 @@
 passed:
 - aspera-cli: community.wave.seqera.io/library/aspera-cli:cf1de0521bcd9282
-- sra-tools: community.wave.seqera.io/library/sra-tools:606aeefb5660589f
 - conda-forge::curl: community.wave.seqera.io/library/curl:85e621e18244d948
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
@@ -8,4 +7,5 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - conda-forge::wget: community.wave.seqera.io/library/wget:f9cb8738dc6e4ed2
+- sra-tools: community.wave.seqera.io/library/sra-tools:606aeefb5660589f
 failed: []

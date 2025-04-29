@@ -1,0 +1,29 @@
+passed:
+- anaconda::libopenblas: community.wave.seqera.io/library/libopenblas:edede0f90b931389
+- bioconductor-IlluminaHumanMethylation450kanno.ilmn12.hg19: community.wave.seqera.io/library/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19:dfa4ef2e329600ab
+- bioconductor-bsgenome.hsapiens.ucsc.hg19.masked: community.wave.seqera.io/library/bioconductor-bsgenome.hsapiens.ucsc.hg19.masked:42ae24694b9e39df
+- bioconductor-bsgenome.hsapiens.ucsc.hg38.masked: community.wave.seqera.io/library/bioconductor-bsgenome.hsapiens.ucsc.hg38.masked:280720a2c884e94c
+- bioconductor-flowsorted.blood.450k: community.wave.seqera.io/library/bioconductor-flowsorted.blood.450k:a4dfd8765240104b
+- bioconductor-flowsorted.blood.epic: community.wave.seqera.io/library/bioconductor-flowsorted.blood.epic:1508da2821026fbe
+- bioconductor-genelendatabase: community.wave.seqera.io/library/bioconductor-genelendatabase:1665fc2a084b09c8
+- bioconductor-illuminahumanmethylation450kmanifest: community.wave.seqera.io/library/bioconductor-illuminahumanmethylation450kmanifest:614d3db8dfb9cb37
+- bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: community.wave.seqera.io/library/bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19:a0e0448d723d4d64
+- bioconductor-illuminahumanmethylationepicmanifest: community.wave.seqera.io/library/bioconductor-illuminahumanmethylationepicmanifest:b59b7c2b215a372d
+- bioconductor-lumi: community.wave.seqera.io/library/bioconductor-lumi:5019eb83f259e057
+- bioconductor-minfi: community.wave.seqera.io/library/bioconductor-minfi:4574d13110963275
+- bioconductor-minfidata: community.wave.seqera.io/library/bioconductor-minfidata:4a6b3c9402cbe346
+- bioconductor-watermelon: community.wave.seqera.io/library/bioconductor-watermelon:a0146f0e41d1101c
+- bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
+- conda-forge::r-doparallel: community.wave.seqera.io/library/r-doparallel:9983daa277f1a4c7
+- conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
+- conda-forge::r-readr: community.wave.seqera.io/library/r-readr:aec849aefc42141b
+- conda-forge::r-rio: community.wave.seqera.io/library/r-rio:e383ef5b2942b81f
+- conda-forge::r-stringi: community.wave.seqera.io/library/r-stringi:01ed2b94fc6d2e80
+- conda-forge::r-tibble: community.wave.seqera.io/library/r-tibble:9731836bee9375d5
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed:
+- bioconductor-champ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9eefc5eef3c47158_1
+- bioconductor-dmrcate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b22ac32d6cefe58a_1
+- bioconductor-missmethyl: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4531190415743f25_1
+- conda-forge:r-readr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-238bd6f3e3e6e33c_1

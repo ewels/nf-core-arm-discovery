@@ -1,6 +1,10 @@
 passed:
-- bismark: community.wave.seqera.io/library/bismark:f85189dc82aa6fc2
-- bwameth: community.wave.seqera.io/library/bwameth:5c8bdb627ae1b646
+- bedops: community.wave.seqera.io/library/bedops:8e18b615eb1e51c6
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- snap-aligner: community.wave.seqera.io/library/snap-aligner:3cf9cd9da5455354
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
@@ -9,13 +13,15 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- deeptools: community.wave.seqera.io/library/deeptools:fc742a6abc6ac7fe
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
-- methyldackel: community.wave.seqera.io/library/methyldackel:7dffe73b18a5e67c
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
-- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
-- qualimap: community.wave.seqera.io/library/qualimap:2d6624851848aad9
+- pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
+- trimmomatic: community.wave.seqera.io/library/trimmomatic:c82abac287fbc06d
 failed: []

@@ -1,0 +1,26 @@
+passed:
+- anaconda::perl: community.wave.seqera.io/library/perl:71768807dc7cb1c1
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- genmap: community.wave.seqera.io/library/genmap:d779b1f1b26e6c46
+- ucsc-bigwigaverageoverbed: community.wave.seqera.io/library/ucsc-bigwigaverageoverbed:27b096b8ce3a0a5f
+- bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
+- bioconductor-edger: community.wave.seqera.io/library/bioconductor-edger:c395c674c6ecdf92
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- conda-forge::numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- cooler: community.wave.seqera.io/library/cooler:e425b30a06695179
+- cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- homer: community.wave.seqera.io/library/homer:3639eb0c9982020f
+- macs2: community.wave.seqera.io/library/macs2:9c7a04c55ee77ea0
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- pairix: community.wave.seqera.io/library/pairix:23e3c1d82bbf929e
+- pairtools: community.wave.seqera.io/library/pairtools:e6b2106fa5a70833
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- ucsc-bedclip: community.wave.seqera.io/library/ucsc-bedclip:1cf1f8ac8f0be3db
+- ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
+- ucsc-wigtobigwig: community.wave.seqera.io/library/ucsc-wigtobigwig:f57f571d8eae83d0
+failed: []

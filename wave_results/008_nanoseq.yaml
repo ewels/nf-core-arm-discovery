@@ -1,22 +1,22 @@
 passed:
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
-- cutesv: community.wave.seqera.io/library/cutesv:57edbe3bbc37ea9d
-- graphmap: community.wave.seqera.io/library/graphmap:d6a3dcc49cc6565c
-- qcat: community.wave.seqera.io/library/qcat:bdf7856c010ced71
-- sniffles: community.wave.seqera.io/library/sniffles:1b5a8e753761237a
-- ucsc-bedtobigbed: community.wave.seqera.io/library/ucsc-bedtobigbed:65198dece54c2498
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- cutesv: community.wave.seqera.io/library/cutesv:57edbe3bbc37ea9d
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- graphmap: community.wave.seqera.io/library/graphmap:d6a3dcc49cc6565c
 - minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanolyse: community.wave.seqera.io/library/nanolyse:3c4a0ed94ddd583e
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
+- qcat: community.wave.seqera.io/library/qcat:bdf7856c010ced71
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- sniffles: community.wave.seqera.io/library/sniffles:1b5a8e753761237a
 - stringtie: community.wave.seqera.io/library/stringtie:e293a924af11143f
 - subread: community.wave.seqera.io/library/subread:026579fda7335fa2
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
+- ucsc-bedtobigbed: community.wave.seqera.io/library/ucsc-bedtobigbed:65198dece54c2498
 failed: []

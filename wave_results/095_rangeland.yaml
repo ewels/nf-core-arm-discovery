@@ -1,0 +1,6 @@
+passed:
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed: []

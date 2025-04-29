@@ -1,13 +1,13 @@
 passed:
-- epa-ng: community.wave.seqera.io/library/epa-ng:e6711915ed1b7bac
-- gappa: community.wave.seqera.io/library/gappa:1ae163d08c6222a4
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- epa-ng: community.wave.seqera.io/library/epa-ng:e6711915ed1b7bac
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gappa: community.wave.seqera.io/library/gappa:1ae163d08c6222a4
 - hmmer: community.wave.seqera.io/library/hmmer:c7d2def92c2b2a78
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
 - mafft: community.wave.seqera.io/library/mafft:9ed296a038b47a4d

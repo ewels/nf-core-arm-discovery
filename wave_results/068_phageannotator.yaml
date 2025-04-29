@@ -1,4 +1,5 @@
 passed:
+- bacphlip: community.wave.seqera.io/library/bacphlip:6850d315b57fd983
 - blast: community.wave.seqera.io/library/blast:c212884616524862
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
 - conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
@@ -19,11 +20,10 @@ passed:
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
 failed:
-- bacphlip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6850d315b57fd983_1
-- checkv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2584a9d7f8f4b39_1
-- cobra-meta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fbfa53e1e063e51_1
-- coverm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7889c543c7f7a0e2_1
-- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_5
-- instrain: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-60c1a280706d9b33_1
-- iphop: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9560d7a830495bc5_1
-- pharokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b25f5fba99205edc_1
+- checkv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2584a9d7f8f4b39_2
+- cobra-meta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fbfa53e1e063e51_2
+- coverm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7889c543c7f7a0e2_2
+- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_7
+- instrain: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-60c1a280706d9b33_2
+- iphop: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9560d7a830495bc5_2
+- pharokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b25f5fba99205edc_2

@@ -1,0 +1,16 @@
+passed:
+- bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- ensembl-vep: community.wave.seqera.io/library/ensembl-vep:12a0210ffaea3b1a
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- glnexus: community.wave.seqera.io/library/glnexus:42c9966253b09518
+- haplocheck: community.wave.seqera.io/library/haplocheck:07286992a979cbd1
+- mosdepth: community.wave.seqera.io/library/mosdepth:e10857a04224e6d7
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- trimmomatic: community.wave.seqera.io/library/trimmomatic:c82abac287fbc06d
+failed:
+- r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-95b3b8a83309adde_1

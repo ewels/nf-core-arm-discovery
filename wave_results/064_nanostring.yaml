@@ -1,57 +1,21 @@
 passed:
+- bioconductor-gsva: community.wave.seqera.io/library/bioconductor-gsva:0aa3592dcfcc75b7
+- bioconductor-singscore: community.wave.seqera.io/library/bioconductor-singscore:7ec200bc799db21b
 - bioconductor-complexheatmap: community.wave.seqera.io/library/bioconductor-complexheatmap:ebb578b7ea26ca8b
+- conda-forge::r-circlize: community.wave.seqera.io/library/r-circlize:b42f6531c4a23d65
 - conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
+- conda-forge::r-factominer: community.wave.seqera.io/library/r-factominer:29391890659c633f
+- conda-forge::r-fs: community.wave.seqera.io/library/r-fs:a42b66de9b8e7d86
 - conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
+- conda-forge::r-matrixstats: community.wave.seqera.io/library/r-matrixstats:1bb58ea5b90a7b51
+- conda-forge::r-nacho: community.wave.seqera.io/library/r-nacho:10e95cf731297801
 - conda-forge::r-optparse: community.wave.seqera.io/library/r-optparse:b00198e2acf02751
+- conda-forge::r-ragg: community.wave.seqera.io/library/r-ragg:3cc0b97c450573a9
+- conda-forge::r-readr: community.wave.seqera.io/library/r-readr:aec849aefc42141b
 - conda-forge::r-rlang: community.wave.seqera.io/library/r-rlang:d3186298d95d9a22
+- conda-forge::r-stringr: community.wave.seqera.io/library/r-stringr:cda6a4d07c52c527
+- conda-forge::r-tibble: community.wave.seqera.io/library/r-tibble:9731836bee9375d5
 - conda-forge::r-tidyr: community.wave.seqera.io/library/r-tidyr:b4ca3e4e9f567ea6
 - conda-forge::r-yaml: community.wave.seqera.io/library/r-yaml:970ecdd99f6eb014
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-failed:
-- bioconductor-gsva: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-0aa3592dcfcc75b7_1
-- bioconductor-singscore: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7ec200bc799db21b_1
-- conda-forge::r-circlize: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-b42f6531c4a23d65_1'
-- conda-forge::r-factominer: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-29391890659c633f_1'
-- conda-forge::r-fs: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-a42b66de9b8e7d86_1'
-- conda-forge::r-matrixstats: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-1bb58ea5b90a7b51_1'
-- conda-forge::r-nacho: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-10e95cf731297801_1'
-- conda-forge::r-ragg: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-3cc0b97c450573a9_1'
-- conda-forge::r-readr: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-aec849aefc42141b_1'
-- conda-forge::r-stringr: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-cda6a4d07c52c527_1'
-- conda-forge::r-tibble: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-9731836bee9375d5_1'
+failed: []

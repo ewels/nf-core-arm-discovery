@@ -1,43 +1,46 @@
 passed:
-- ascat: community.wave.seqera.io/library/ascat:4b69d3e7a0e92cea
+- anaconda::gawk: community.wave.seqera.io/library/gawk:fb7686da38d4abfe
+- anaconda::pandas: community.wave.seqera.io/library/pandas:3e5eb82cc34bf437
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- bioconductor-complexheatmap: community.wave.seqera.io/library/bioconductor-complexheatmap:ebb578b7ea26ca8b
+- bioconductor-rtracklayer: community.wave.seqera.io/library/bioconductor-rtracklayer:0dbe713ba86984fc
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
-- cancerit-allelecount: community.wave.seqera.io/library/cancerit-allelecount:8541d781ad0eb1fe
-- cnvkit: community.wave.seqera.io/library/cnvkit:e25da2022f70abc2
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-data.table: community.wave.seqera.io/library/r-data.table:311bcf17ea2bd49d
+- conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
+- conda-forge::r-ggrepel: community.wave.seqera.io/library/r-ggrepel:e38bd71cffe53471
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- control-freec: community.wave.seqera.io/library/control-freec:188d33cb97f054cd
 - ensembl-vep: community.wave.seqera.io/library/ensembl-vep:12a0210ffaea3b1a
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
-- fgbio: community.wave.seqera.io/library/fgbio:915fb6d001153afb
-- freebayes: community.wave.seqera.io/library/freebayes:a18dde2077a3108b
 - gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
-- gatk4-spark: community.wave.seqera.io/library/gatk4-spark:f41719b9455b03e6
-- goleft: community.wave.seqera.io/library/goleft:62353fa1fd464326
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- hisat2: community.wave.seqera.io/library/hisat2:3850033851c3d74f
+- hmftools-sage: community.wave.seqera.io/library/hmftools-sage:6e1390f2317e5b19
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
-- lofreq: community.wave.seqera.io/library/lofreq:15be139c68baeccd
 - manta: community.wave.seqera.io/library/manta:7cb64190ed84bb17
 - mosdepth: community.wave.seqera.io/library/mosdepth:e10857a04224e6d7
-- msisensor-pro: community.wave.seqera.io/library/msisensor-pro:8149e32c7734f925
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- muse: community.wave.seqera.io/library/muse:e8fb4c183565b553
-- ngscheckmate: community.wave.seqera.io/library/ngscheckmate:f0926ae5a4427c9b
+- pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
 - pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - samblaster: community.wave.seqera.io/library/samblaster:907b830ccf9d223f
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
-- sentieon: community.wave.seqera.io/library/sentieon:9bfb49a29ddd8097
-- snpeff: community.wave.seqera.io/library/snpeff:9bedbd3625b5dfe6
-- spring: community.wave.seqera.io/library/spring:6d558fe5c947e32a
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
 - strelka: community.wave.seqera.io/library/strelka:573f36248efdfc1e
-- svdb: community.wave.seqera.io/library/svdb:e96a08acf703f587
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
-- tiddit: community.wave.seqera.io/library/tiddit:edbfd209411d2dc9
 - vcftools: community.wave.seqera.io/library/vcftools:690b40dae5c9cab9
-failed: []
+failed:
+- conda-forge::ggpubr: 'Container provisioning did not complete successfully
+
+    - Reason: Container build did not complete successfully
+
+    - Find out more here: https://wave.seqera.io/view/builds/bd-8bd772e4b40b31ed_1'
+- vcf2maf-1.6.21-hdfd78af_0: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-acf8214b659499c8_1
+- vt-0.57721-h17a1952_6: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-99653746add43824_1

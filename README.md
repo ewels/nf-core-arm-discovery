@@ -7,9 +7,9 @@ Checks are only for build success, not for functionality.
 > Table last updated 2025-03-10
 
 | Pipeline | Success % | Succeeded | Failed |
-|----------|-----------|-----------|--------|
+|----------|-----------|-----------|--------|x
 | rnaseq | 100.0% | 52 | 0 |
-| sarek | 97.6% | 41 | 1 |
+| sarek | 100.0% | 41 | 0 |
 | mag | 88.9% | 40 | 5 |
 | scrnaseq | 100.0% | 20 | 0 |
 | chipseq | 100.0% | 25 | 0 |
@@ -61,7 +61,7 @@ Checks are only for build success, not for functionality.
 | clipseq | 90.9% | 20 | 2 |
 | fastquorum | 100.0% | 6 | 0 |
 | dualrnaseq | 100.0% | 11 | 0 |
-| nascent | 95.1% | 39 | 2 |
+| nascent | 97.5% | 39 | 1 |
 | phaseimpute | 90.5% | 19 | 2 |
 | viralintegration | 100.0% | 6 | 0 |
 | metaboigniter | 100.0% | 2 | 0 |
@@ -70,12 +70,42 @@ Checks are only for build success, not for functionality.
 | pathogensurveillance | 89.4% | 42 | 5 |
 | detaxizer | 100.0% | 8 | 0 |
 | variantbenchmarking | 77.8% | 21 | 6 |
-| nanostring | 42.1% | 8 | 11 |
-| riboseq | 87.9% | 29 | 4 |
+| nanostring | 100.0% | 19 | 0 |
+| riboseq | 100.0% | 33 | 0 |
 | metapep | 100.0% | 3 | 0 |
-| cageseq | 92.3% | 12 | 1 |
-| phageannotator | 70.4% | 19 | 8 |
-| omicsgenetraitassociation | 83.3% | 5 | 1 |
-| molkart | 50.0% | 3 | 3 |
+| cageseq | 100.0% | 13 | 0 |
+| phageannotator | 74.1% | 20 | 7 |
+| omicsgenetraitassociation | 100.0% | 6 | 0 |
+| molkart | 66.7% | 4 | 2 |
 | mnaseseq | 95.0% | 19 | 1 |
-| denovotranscript | 69.2% | 9 | 4 |
+| denovotranscript | 84.6% | 11 | 2 |
+| tfactivity | 72.2% | 13 | 5 |
+| reportho | 100.0% | 5 | 0 |
+| coproid | 92.6% | 25 | 2 |
+| variantcatalogue | 92.9% | 13 | 1 |
+| pixelator | 85.7% | 6 | 1 |
+| mcmicro | 50.0% | 1 | 1 |
+| datasync | 100.0% | 1 | 0 |
+| createpanelrefs | 100.0% | 5 | 0 |
+| tbanalyzer | 94.1% | 16 | 1 |
+| slamseq | 100.0% | 11 | 0 |
+| seqinspector | 100.0% | 7 | 0 |
+| phyloplace | 100.0% | 14 | 0 |
+| hicar | 100.0% | 24 | 0 |
+| createtaxdb | 100.0% | 21 | 0 |
+| radseq | 100.0% | 18 | 0 |
+| pairgenomealign | 100.0% | 6 | 0 |
+| meerpipe | 100.0% | 2 | 0 |
+| marsseq | 95.5% | 21 | 1 |
+| rnadnavar | 92.5% | 37 | 3 |
+| rangeland | 100.0% | 4 | 0 |
+| pgdb | 100.0% | 9 | 0 |
+| genomeqc | 87.5% | 14 | 2 |
+| callingcards | 100.0% | 21 | 0 |
+| methylarray | 85.2% | 23 | 4 |
+| magmap | 100.0% | 19 | 0 |
+| genomeskim | 100.0% | 2 | 0 |
+| demo | 100.0% | 3 | 0 |
+| troughgraph | 100.0% | 2 | 0 |
+| sammyseq | 100.0% | 25 | 0 |
+| fastqrepair | 100.0% | 5 | 0 |

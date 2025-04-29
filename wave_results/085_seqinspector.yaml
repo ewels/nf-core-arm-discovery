@@ -1,0 +1,9 @@
+passed:
+- fastq-screen: community.wave.seqera.io/library/fastq-screen:a29f948810869196
+- perl-gdgraph: community.wave.seqera.io/library/perl-gdgraph:234c591f8b25acdd
+- seqfu: community.wave.seqera.io/library/seqfu:a42b602076b9fbb8
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
+failed: []

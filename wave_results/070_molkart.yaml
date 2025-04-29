@@ -1,4 +1,5 @@
 passed:
+- conda-forge::tifffile<2022.4.22: community.wave.seqera.io/library/tifffile:2022.4.22--2c1045541ff6473c
 - mindagap: community.wave.seqera.io/library/mindagap:ef5260038c3656bc
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
@@ -7,10 +8,9 @@ failed:
 
     - Reason: Container build did not complete successfully
 
-    - Find out more here: https://wave.seqera.io/view/builds/bd-a7cd178ceced5060_1'
+    - Find out more here: https://wave.seqera.io/view/builds/bd-a7cd178ceced5060_2'
 - tensorflow: 'Container provisioning did not complete successfully
 
     - Reason: Container build did not complete successfully
 
-    - Find out more here: https://wave.seqera.io/view/builds/bd-e454865e75ff83b7_1'
-- tifffile<2022.4.22: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70217f9f4c7f07ae_2
+    - Find out more here: https://wave.seqera.io/view/builds/bd-e454865e75ff83b7_2'

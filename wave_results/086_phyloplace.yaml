@@ -1,0 +1,16 @@
+passed:
+- clustalo: community.wave.seqera.io/library/clustalo:08f519ac4fce0526
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::r-data.table: community.wave.seqera.io/library/r-data.table:311bcf17ea2bd49d
+- conda-forge::r-dtplyr: community.wave.seqera.io/library/r-dtplyr:cc4e3b13342291df
+- conda-forge::r-stringi: community.wave.seqera.io/library/r-stringi:01ed2b94fc6d2e80
+- conda-forge::r-stringr: community.wave.seqera.io/library/r-stringr:cda6a4d07c52c527
+- conda-forge::r-tidyverse: community.wave.seqera.io/library/r-tidyverse:2164f6b260cbc5bd
+- epa-ng: community.wave.seqera.io/library/epa-ng:e6711915ed1b7bac
+- gappa: community.wave.seqera.io/library/gappa:1ae163d08c6222a4
+- hmmer: community.wave.seqera.io/library/hmmer:c7d2def92c2b2a78
+- mafft: community.wave.seqera.io/library/mafft:9ed296a038b47a4d
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
+failed: []

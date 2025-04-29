@@ -40,4 +40,3 @@ passed:
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 failed:
 - bioinfoorphanage-grohmm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-50340b39e0ea73d7_3
-- dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_7

@@ -1,0 +1,11 @@
+passed:
+- pypgatk: community.wave.seqera.io/library/pypgatk:390a86de8def56cb
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::git: community.wave.seqera.io/library/git:6015fc864cc715c0
+- conda-forge::git-lfs: community.wave.seqera.io/library/git-lfs:f7bdd5f354691a22
+- conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
+- conda-forge::pygments: community.wave.seqera.io/library/pygments:80cddd9fc41acf2f
+- conda-forge::pymdown-extensions: community.wave.seqera.io/library/pymdown-extensions:f18e4d1b147ebab7
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+failed: []

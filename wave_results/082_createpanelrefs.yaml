@@ -1,0 +1,7 @@
+passed:
+- cnvkit: community.wave.seqera.io/library/cnvkit:e25da2022f70abc2
+- gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+failed: []

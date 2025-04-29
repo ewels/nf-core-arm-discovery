@@ -1,15 +1,14 @@
 passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bioconductor-biocparallel: community.wave.seqera.io/library/bioconductor-biocparallel:4ac12f939a4f5111
 - bioconductor-complexheatmap: community.wave.seqera.io/library/bioconductor-complexheatmap:ebb578b7ea26ca8b
+- bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
 - bioconductor-dupradar: community.wave.seqera.io/library/bioconductor-dupradar:9c168ba22d14ce94
 - bioconductor-summarizedexperiment: community.wave.seqera.io/library/bioconductor-summarizedexperiment:ed6ac5d72e46ec1b
+- bioconductor-tximeta: community.wave.seqera.io/library/bioconductor-tximeta:f08a53d4f18bf6d7
 - bioconductor-tximport: community.wave.seqera.io/library/bioconductor-tximport:f30d4053f198a247
 - bracken: community.wave.seqera.io/library/bracken:e63f2540225bc7b9
-- fq: community.wave.seqera.io/library/fq:826173417bc491d0
-- bioconductor-biocparallel: community.wave.seqera.io/library/bioconductor-biocparallel:4ac12f939a4f5111
-- bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
-- bioconductor-tximeta: community.wave.seqera.io/library/bioconductor-tximeta:f08a53d4f18bf6d7
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
@@ -27,6 +26,7 @@ passed:
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- fq: community.wave.seqera.io/library/fq:826173417bc491d0
 - gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
 - hisat2: community.wave.seqera.io/library/hisat2:3850033851c3d74f
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97

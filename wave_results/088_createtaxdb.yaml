@@ -1,0 +1,23 @@
+passed:
+- bracken: community.wave.seqera.io/library/bracken:e63f2540225bc7b9
+- centrifuge: community.wave.seqera.io/library/centrifuge:caf3a3affb3f69dd
+- conda-forge::bzip2: community.wave.seqera.io/library/bzip2:61b11c43411f4b75
+- conda-forge::findutils: community.wave.seqera.io/library/findutils:f6d6b378c4debea0
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::lzip: community.wave.seqera.io/library/lzip:6d2abd82342fe894
+- conda-forge::lzop: community.wave.seqera.io/library/lzop:1d8c5f4c0eb57c91
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- conda-forge::xz: community.wave.seqera.io/library/xz:410e70c1071a1f86
+- conda-forge::zstd: community.wave.seqera.io/library/zstd:c245023f6af0aab2
+- coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
+- ganon: community.wave.seqera.io/library/ganon:c2e2424344aa27be
+- kaiju: community.wave.seqera.io/library/kaiju:3ebed1da27a63506
+- kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
+- krakenuniq: community.wave.seqera.io/library/krakenuniq:94297a9e9c1800f2
+- malt: community.wave.seqera.io/library/malt:7b2d7a7eb90d93e2
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+failed: []

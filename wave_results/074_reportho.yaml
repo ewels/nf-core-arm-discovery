@@ -1,0 +1,7 @@
+passed:
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- csvtk: community.wave.seqera.io/library/csvtk:939b4fee27bbe7cb
+- diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+failed: []

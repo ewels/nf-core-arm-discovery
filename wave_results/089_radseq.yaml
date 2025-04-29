@@ -1,0 +1,20 @@
+passed:
+- bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- bedops: community.wave.seqera.io/library/bedops:8e18b615eb1e51c6
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- cd-hit: community.wave.seqera.io/library/cd-hit:65e77f4745f0a446
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- fgbio: community.wave.seqera.io/library/fgbio:915fb6d001153afb
+- freebayes: community.wave.seqera.io/library/freebayes:a18dde2077a3108b
+- gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
+failed: []

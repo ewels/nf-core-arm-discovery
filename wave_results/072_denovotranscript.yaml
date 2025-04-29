@@ -1,5 +1,5 @@
 passed:
-- trinity: community.wave.seqera.io/library/trinity:70326209fa04ac52
+- evigene: community.wave.seqera.io/library/evigene:c93de659ff5533de
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
@@ -7,9 +7,9 @@ passed:
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - salmon: community.wave.seqera.io/library/salmon:131ae69f43233bb1
+- sortmerna: community.wave.seqera.io/library/sortmerna:375d915b5660f020
 - spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
+- trinity: community.wave.seqera.io/library/trinity:70326209fa04ac52
 failed:
 - busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
-- evigene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c93de659ff5533de_1
-- rnaquast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62b4e27ae8a3ef2e_1
-- sortmerna: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-375d915b5660f020_1
+- rnaquast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62b4e27ae8a3ef2e_2

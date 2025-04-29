@@ -1,5 +1,9 @@
 passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
+- bioconductor-anota2seq: community.wave.seqera.io/library/bioconductor-anota2seq:bc6b2554f3d79a8e
+- ribotish: community.wave.seqera.io/library/ribotish:1c44c7e4559d1a45
+- ribotricer: community.wave.seqera.io/library/ribotricer:255724418709fa8b
+- sortmerna: community.wave.seqera.io/library/sortmerna:375d915b5660f020
 - bioconductor-summarizedexperiment: community.wave.seqera.io/library/bioconductor-summarizedexperiment:ed6ac5d72e46ec1b
 - bioconductor-tximeta: community.wave.seqera.io/library/bioconductor-tximeta:f08a53d4f18bf6d7
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
@@ -28,8 +32,4 @@ passed:
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 - umicollapse: community.wave.seqera.io/library/umicollapse:a1d6dd6e41bc3b37
-failed:
-- bioconductor-anota2seq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-bc6b2554f3d79a8e_1
-- ribotish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-1c44c7e4559d1a45_1
-- ribotricer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-255724418709fa8b_1
-- sortmerna: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-375d915b5660f020_1
+failed: []
