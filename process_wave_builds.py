@@ -20,14 +20,26 @@ import argparse
 console = Console()
 progress_lock = Lock()
 
+# Global cache for successful package -> container URL mappings
+CACHE_FILE = Path("wave_package_cache.yaml")
+try:
+    with open(CACHE_FILE) as _f:
+        package_cache: dict[str, str] = yaml.safe_load(_f) or {}
+except FileNotFoundError:
+    package_cache: dict[str, str] = {}
+
 
 def run_wave_command(package, progress, task_id):
     """Run wave command for a package and return status and image URL if successful"""
 
-    # Strip the version from the package
-    package = package.split("=")[0]
-    # Remove trailing > or < characters
-    package = package.rstrip(">").rstrip("<")
+    # Strip the version from the package & remove channel for cache lookup
+    package = package.split("=")[0].rstrip(">").rstrip("<")
+
+    # Return cached result if available to skip Wave API call
+    if package in package_cache:
+        with progress_lock:
+            progress.update(task_id, advance=1)
+        return package, True, package_cache[package]
 
     # Try bioconda first
     try:
@@ -140,6 +152,7 @@ def run_wave_command(package, progress, task_id):
         result = subprocess.run(command, capture_output=True, text=True, check=True)
         with progress_lock:
             progress.update(task_id, advance=1)
+        package_cache[package] = result.stdout.strip()
         return bioc_package, True, result.stdout.strip()
     except (subprocess.CalledProcessError, AssertionError) as bioconda_error:
         error_msg = None
@@ -172,6 +185,7 @@ def run_wave_command(package, progress, task_id):
             result = subprocess.run(command, capture_output=True, text=True, check=True)
             with progress_lock:
                 progress.update(task_id, advance=1)
+            package_cache[package] = result.stdout.strip()
             return cforge_package, True, result.stdout.strip()
         except subprocess.CalledProcessError as conda_forge_error:
             # Exit immediately if we've hit the rate limit
@@ -376,6 +390,10 @@ def process_pipeline(pipeline_name, idx=None):
         yaml.dump(yaml_results, f, sort_keys=False)
 
     console.print(f"\n[bold green]Results saved to {results_file}")
+
+    # Persist cache to disk after processing this pipeline
+    with open(CACHE_FILE, "w") as _f:
+        yaml.dump(package_cache, _f, sort_keys=False)
 
 
 if __name__ == "__main__":
