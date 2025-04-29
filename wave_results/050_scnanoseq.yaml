@@ -1,19 +1,19 @@
 passed:
 - bamtools: community.wave.seqera.io/library/bamtools:fe8c33151b0566b8
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
 - picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - rseqc: community.wave.seqera.io/library/rseqc:d7e8badddc74fcd9
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - toulligqc: community.wave.seqera.io/library/toulligqc:3573361fa353182d
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
 failed:
-- bioconda::bioconda:nanocomp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a2d72c4050e9210_1
+- bioconda:nanocomp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a2d72c4050e9210_3

@@ -1,13 +1,13 @@
 passed:
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
 - cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - htseq: community.wave.seqera.io/library/htseq:985b9b1747c276ec
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
 - salmon: community.wave.seqera.io/library/salmon:131ae69f43233bb1
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
-- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
-- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
-- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
-- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
 failed: []

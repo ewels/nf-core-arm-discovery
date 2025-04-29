@@ -1,8 +1,10 @@
 passed:
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - gridss: community.wave.seqera.io/library/gridss:d5d3e2f478716337
 - hmftools-amber: community.wave.seqera.io/library/hmftools-amber:30b62bcf1cd57839
 - hmftools-bam-tools: community.wave.seqera.io/library/hmftools-bam-tools:2250341db8ab3ba1
@@ -27,6 +29,4 @@ passed:
 - sambamba: community.wave.seqera.io/library/sambamba:55145ea5e6239743
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- grep: community.wave.seqera.io/library/grep:995c63e0c9494143
 failed: []

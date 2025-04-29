@@ -3,8 +3,9 @@ passed:
 - bioconductor-MSstats: community.wave.seqera.io/library/bioconductor-msstats:1a708311685174ed
 - bioconductor-biocparallel: community.wave.seqera.io/library/bioconductor-biocparallel:4ac12f939a4f5111
 - bioconductor-mzr: community.wave.seqera.io/library/bioconductor-mzr:8f1e55c996c7c390
-- pyprophet: community.wave.seqera.io/library/pyprophet:2a13ac3e49bcd194
+- conda-forge::importlib-metadata: community.wave.seqera.io/library/importlib-metadata:ad4b4ea07f469e53
 - conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
+- conda-forge::networkx: community.wave.seqera.io/library/networkx:f1e7735ac3a91a07
 - conda-forge::pygments: community.wave.seqera.io/library/pygments:80cddd9fc41acf2f
 - conda-forge::pymdown-extensions: community.wave.seqera.io/library/pymdown-extensions:f18e4d1b147ebab7
 - conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
@@ -12,40 +13,30 @@ passed:
 - conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
 - conda-forge::r-biocmanager: community.wave.seqera.io/library/r-biocmanager:f273f56f4c1886ab
 - conda-forge::r-bit64: community.wave.seqera.io/library/r-bit64:e6b90bf94c7eb49c
+- conda-forge::r-dbi: community.wave.seqera.io/library/r-dbi:a97c3916c5024d03
 - conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
 - conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
 - conda-forge::r-gplots: community.wave.seqera.io/library/r-gplots:f4c3b322fc42b8ab
+- conda-forge::r-gridextra: community.wave.seqera.io/library/r-gridextra:96889383d05bcb77
+- conda-forge::r-magrittr: community.wave.seqera.io/library/r-magrittr:f4366ab1af10ecb4
 - conda-forge::r-phangorn: community.wave.seqera.io/library/r-phangorn:a6a3f1b83afbdacb
+- conda-forge::r-pracma: community.wave.seqera.io/library/r-pracma:0d98464e876cacd0
+- conda-forge::r-rcpp: community.wave.seqera.io/library/r-rcpp:812ffef6e0f2d703
+- conda-forge::r-remotes: community.wave.seqera.io/library/r-remotes:c55889e32313b86d
 - conda-forge::r-reshape2: community.wave.seqera.io/library/r-reshape2:4503fa980bad9de5
+- conda-forge::r-reticulate: community.wave.seqera.io/library/r-reticulate:326a9c4ef37e65e6
 - conda-forge::r-rlang: community.wave.seqera.io/library/r-rlang:d3186298d95d9a22
+- conda-forge::r-rsqlite: community.wave.seqera.io/library/r-rsqlite:5ad2df25c3c78adb
+- conda-forge::r-scales: community.wave.seqera.io/library/r-scales:ec7f6e80b8f4880b
 - conda-forge::r-signal: community.wave.seqera.io/library/r-signal:7b9054a200a0d131
 - conda-forge::r-tidyr: community.wave.seqera.io/library/r-tidyr:b4ca3e4e9f567ea6
+- conda-forge::r-zoo: community.wave.seqera.io/library/r-zoo:9201d731e26107d0
+- pyprophet: community.wave.seqera.io/library/pyprophet:2a13ac3e49bcd194
 failed:
-- bioconda::easypqp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4f20e91bb58e7ee8_1
-- bioconda::openms-thirdparty: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cc22cdbab9da4154_2
-- conda-forge::importlib-metadata: Container provisioning did not complete within
-    the max await time (PT15M)
-- conda-forge::networkx: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-dbi: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-gridextra: Container provisioning did not complete within the max
-    await time (PT15M)
-- conda-forge::r-magrittr: Container provisioning did not complete within the max
-    await time (PT15M)
-- conda-forge::r-pracma: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-rcpp: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-remotes: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-reticulate: Container provisioning did not complete within the max
-    await time (PT15M)
-- conda-forge::r-rmsnumpress: Container provisioning did not complete within the max
-    await time (PT15M)
-- conda-forge::r-rsqlite: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-scales: Container provisioning did not complete within the max await
-    time (PT15M)
-- conda-forge::r-zoo: Container provisioning did not complete within the max await
-    time (PT15M)
+- conda-forge::r-rmsnumpress: 'Container provisioning did not complete successfully
+
+    - Reason: Container build did not complete successfully
+
+    - Find out more here: https://wave.seqera.io/view/builds/bd-5d8382e794b48773_3'
+- easypqp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4f20e91bb58e7ee8_3
+- openms-thirdparty: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cc22cdbab9da4154_6

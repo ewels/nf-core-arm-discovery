@@ -1,0 +1,33 @@
+passed:
+- bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- bedops: community.wave.seqera.io/library/bedops:8e18b615eb1e51c6
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- survivor: community.wave.seqera.io/library/survivor:5ca92206705db212
+- ucsc-liftover: community.wave.seqera.io/library/ucsc-liftover:e1398695e8b2c1ac
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
+- conda-forge::r-reshape2: community.wave.seqera.io/library/r-reshape2:4503fa980bad9de5
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- manta: community.wave.seqera.io/library/manta:7cb64190ed84bb17
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- pysam: community.wave.seqera.io/library/pysam:2e341b754bc6f4f2
+- r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- rtg-tools: community.wave.seqera.io/library/rtg-tools:807499bd2e9a5ea8
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+failed:
+- conda-forge::datavzrd: 'Container provisioning did not complete successfully
+
+    - Reason: Container build did not complete successfully
+
+    - Find out more here: https://wave.seqera.io/view/builds/bd-90bef8dac2527b1b_2'
+- hap.py: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a978d8edf8e41356_2
+- svanalyzer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dfdd624dec88091a_2
+- svtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-51b4b4795a2a6b61_2
+- svync: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-abb0dacaf038019d_2
+- truvari: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-eba5ed1fd4d67a5f_2

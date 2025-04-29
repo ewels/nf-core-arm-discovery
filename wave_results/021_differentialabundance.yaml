@@ -6,10 +6,6 @@ passed:
 - bioconductor-geoquery: community.wave.seqera.io/library/bioconductor-geoquery:a7290212b7838f24
 - bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
 - bioconductor-variancepartition: community.wave.seqera.io/library/bioconductor-variancepartition:4c8405df51f7202d
-- gsea: community.wave.seqera.io/library/gsea:45ce7d2b3ed1a95f
-- r-immunedeconv: community.wave.seqera.io/library/r-immunedeconv:7537c46a5147ef80
-- r-proteus-bartongroup: community.wave.seqera.io/library/r-proteus-bartongroup:7cefa5381ea65916
-- r-shinyngs: community.wave.seqera.io/library/r-shinyngs:901bd634242c729b
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
@@ -19,15 +15,15 @@ passed:
 - conda-forge::r-gprofiler2: community.wave.seqera.io/library/r-gprofiler2:b4c8ee59867aa5cd
 - conda-forge::r-optparse: community.wave.seqera.io/library/r-optparse:b00198e2acf02751
 - conda-forge::r-plotly: community.wave.seqera.io/library/r-plotly:f84dfb02354099cd
+- conda-forge::r-propr: community.wave.seqera.io/library/r-propr:4bc27a4df54e2554
 - conda-forge::r-rmarkdown: community.wave.seqera.io/library/r-rmarkdown:3ab299d7742c2a11
 - conda-forge::r-yaml: community.wave.seqera.io/library/r-yaml:970ecdd99f6eb014
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- pandas: community.wave.seqera.io/library/pandas:94d4903cb2d0ed3d
-- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
+- gsea: community.wave.seqera.io/library/gsea:45ce7d2b3ed1a95f
+- pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- r-proteus-bartongroup: community.wave.seqera.io/library/r-proteus-bartongroup:7cefa5381ea65916
+- r-shinyngs: community.wave.seqera.io/library/r-shinyngs:901bd634242c729b
 failed:
-- conda-forge::r-propr: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-4bc27a4df54e2554_1'
+- r-immunedeconv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7537c46a5147ef80_1

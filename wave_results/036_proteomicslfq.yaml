@@ -1,12 +1,6 @@
 passed:
 - bioconductor-msstats: community.wave.seqera.io/library/bioconductor-msstats:ff05a4300789911e
 - comet-ms: community.wave.seqera.io/library/comet-ms:a687a30ddf453d84
-- luciphor2: community.wave.seqera.io/library/luciphor2:6f8b881099010587
-- msgf_plus: community.wave.seqera.io/library/msgf_plus:8657470481c33c5d
-- percolator: community.wave.seqera.io/library/percolator:e71a94e39024dcc1
-- pmultiqc: community.wave.seqera.io/library/pmultiqc:c3ec3676edb355a1
-- sdrf-pipelines: community.wave.seqera.io/library/sdrf-pipelines:4cd122a093adec3c
-- thermorawfileparser: community.wave.seqera.io/library/thermorawfileparser:9518ff18daac398b
 - conda-forge::fonts-conda-ecosystem: community.wave.seqera.io/library/fonts-conda-ecosystem:2cd934b761c3bb61
 - conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
 - conda-forge::mono: community.wave.seqera.io/library/mono:36584c611c4bc130
@@ -17,5 +11,11 @@ passed:
 - conda-forge::r-argparser: community.wave.seqera.io/library/r-argparser:3965f4fb72f15d5e
 - conda-forge::r-ptxqc: community.wave.seqera.io/library/r-ptxqc:a51fb4dfab16b122
 - conda-forge::xorg-libxt: community.wave.seqera.io/library/xorg-libxt:6ae6da5b65eec7ea
+- luciphor2: community.wave.seqera.io/library/luciphor2:6f8b881099010587
+- msgf_plus: community.wave.seqera.io/library/msgf_plus:8657470481c33c5d
+- percolator: community.wave.seqera.io/library/percolator:e71a94e39024dcc1
+- pmultiqc: community.wave.seqera.io/library/pmultiqc:c3ec3676edb355a1
+- sdrf-pipelines: community.wave.seqera.io/library/sdrf-pipelines:4cd122a093adec3c
+- thermorawfileparser: community.wave.seqera.io/library/thermorawfileparser:9518ff18daac398b
 failed:
-- openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_1
+- openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_4

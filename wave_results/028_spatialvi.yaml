@@ -1,16 +1,16 @@
 passed:
-- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
-- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
-- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
-failed:
-- bioconda::gcc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-57feceace72e3635_1
-- bioconda::gxx: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-500e6cbb00785028_1
-- bioconda::imagecodecs: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4437526f6e95d1a9_1
-- bioconda::jupyter: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e38db213a6ed941c_1
-- bioconda::leidenalg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-38652292c904b012_1
-- bioconda::libgdal: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a3a6e6445be7a3d0_1
-- bioconda::papermill: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b4ea03692bebf3e7_1
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gcc: community.wave.seqera.io/library/gcc:9a2ff1722b4a5de8
+- gxx: community.wave.seqera.io/library/gxx:82af7f5547fe5de4
+- imagecodecs: community.wave.seqera.io/library/imagecodecs:8bcc8751e0bb6998
+- jupyter: community.wave.seqera.io/library/jupyter:ef054ccfd0bc557e
+- leidenalg: community.wave.seqera.io/library/leidenalg:b5f14e79bdc94e68
+- libgdal: community.wave.seqera.io/library/libgdal:bae00141d58b2464
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- papermill: community.wave.seqera.io/library/papermill:5cd4bdf6ca6aa21c
+- pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+failed: []

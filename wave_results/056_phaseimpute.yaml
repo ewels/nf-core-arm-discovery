@@ -1,0 +1,23 @@
+passed:
+- bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::rsync: community.wave.seqera.io/library/rsync:3ace946b08adca1d
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- r-quilt: community.wave.seqera.io/library/r-quilt:837faf440a9408a0
+- r-stitch: community.wave.seqera.io/library/r-stitch:d9840095e7e9ee69
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- vcflib: community.wave.seqera.io/library/vcflib:655ad0396834bccb
+failed:
+- glimpse-bio: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d6531223582ec438_3
+- shapeit5: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a59d57715c605ae2_3

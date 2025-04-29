@@ -28,6 +28,14 @@ try:
 except FileNotFoundError:
     package_cache: dict[str, str] = {}
 
+# Global cache for failed package -> container URL mappings (temporary)
+FAILED_CACHE_FILE = Path("wave_package_cache_failed.yaml")
+try:
+    with open(FAILED_CACHE_FILE) as _f:
+        failed_cache: dict[str, str] = yaml.safe_load(_f) or {}
+except FileNotFoundError:
+    failed_cache: dict[str, str] = {}
+
 
 def run_wave_command(package, progress, task_id):
     """Run wave command for a package and return status and image URL if successful"""
@@ -40,6 +48,12 @@ def run_wave_command(package, progress, task_id):
         with progress_lock:
             progress.update(task_id, advance=1)
         return package, True, package_cache[package]
+
+    # Return failed cache if available to skip Wave API call
+    if package in failed_cache:
+        with progress_lock:
+            progress.update(task_id, advance=1)
+        return package, False, failed_cache[package]
 
     # Try bioconda first
     try:
@@ -197,6 +211,7 @@ def run_wave_command(package, progress, task_id):
             with progress_lock:
                 progress.update(task_id, advance=1)
                 # console.print(f"[red]✗[/red] Package '{package}' build failed on both channels")
+            failed_cache[package] = error_msg
             # Return the original bioconda error for the results table
             return package, False, error_msg
 
@@ -394,6 +409,8 @@ def process_pipeline(pipeline_name, idx=None):
     # Persist cache to disk after processing this pipeline
     with open(CACHE_FILE, "w") as _f:
         yaml.dump(package_cache, _f, sort_keys=False)
+    with open(FAILED_CACHE_FILE, "w") as _f:
+        yaml.dump(failed_cache, _f, sort_keys=False)
 
 
 if __name__ == "__main__":

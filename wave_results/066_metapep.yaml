@@ -1,0 +1,5 @@
+passed:
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- prodigal: community.wave.seqera.io/library/prodigal:efa9392955408c09
+failed: []

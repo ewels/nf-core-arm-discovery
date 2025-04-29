@@ -1,0 +1,22 @@
+passed:
+- bamtools: community.wave.seqera.io/library/bamtools:fe8c33151b0566b8
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::pygments: community.wave.seqera.io/library/pygments:80cddd9fc41acf2f
+- conda-forge::pymdown-extensions: community.wave.seqera.io/library/pymdown-extensions:f18e4d1b147ebab7
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- deeptools: community.wave.seqera.io/library/deeptools:fc742a6abc6ac7fe
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
+- pysam: community.wave.seqera.io/library/pysam:2e341b754bc6f4f2
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
+- ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
+- ucsc-wigtobigwig: community.wave.seqera.io/library/ucsc-wigtobigwig:f57f571d8eae83d0
+failed:
+- danpos: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-142d482b52885fe0_1

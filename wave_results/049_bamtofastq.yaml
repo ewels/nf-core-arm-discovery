@@ -1,7 +1,7 @@
 passed:
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 failed: []

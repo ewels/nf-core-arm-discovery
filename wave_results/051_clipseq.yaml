@@ -1,24 +1,24 @@
 passed:
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
-- cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
-- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
-- icount: community.wave.seqera.io/library/icount:2b8c2d9339498047
-- meme: community.wave.seqera.io/library/meme:35f2958b7965d595
-- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
-- rseqc: community.wave.seqera.io/library/rseqc:d7e8badddc74fcd9
-- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
-- star: community.wave.seqera.io/library/star:d121fce6d173199f
-- subread: community.wave.seqera.io/library/subread:026579fda7335fa2
-- umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 - conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
 - conda-forge::perl: community.wave.seqera.io/library/perl:1a5baaede874bd24
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::pygments: community.wave.seqera.io/library/pygments:80cddd9fc41acf2f
 - conda-forge::pymdown-extensions: community.wave.seqera.io/library/pymdown-extensions:f18e4d1b147ebab7
 - conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- icount: community.wave.seqera.io/library/icount:2b8c2d9339498047
+- meme: community.wave.seqera.io/library/meme:35f2958b7965d595
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- paraclu: community.wave.seqera.io/library/paraclu:9f0ca7bc66d8590b
+- preseq: community.wave.seqera.io/library/preseq:9629d6b2c54167c4
+- rseqc: community.wave.seqera.io/library/rseqc:d7e8badddc74fcd9
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+- subread: community.wave.seqera.io/library/subread:026579fda7335fa2
+- umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d
 failed:
-- bioconda::paraclu: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9f0ca7bc66d8590b_1
-- bioconda::piranha: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fef62b824d6eda8_1
-- bioconda::pureclip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8dae22e1eef529ea_1
+- piranha: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fef62b824d6eda8_3
+- pureclip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8dae22e1eef529ea_3

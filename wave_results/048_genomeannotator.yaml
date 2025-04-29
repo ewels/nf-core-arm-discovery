@@ -1,5 +1,5 @@
 passed:
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 failed: []

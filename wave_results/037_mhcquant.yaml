@@ -1,0 +1,11 @@
+passed:
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::mono: community.wave.seqera.io/library/mono:36584c611c4bc130
+- conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- thermorawfileparser: community.wave.seqera.io/library/thermorawfileparser:9518ff18daac398b
+failed:
+- openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b467110d3e034f63_4
+- openms-thirdparty: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cc22cdbab9da4154_6

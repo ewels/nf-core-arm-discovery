@@ -1,0 +1,15 @@
+passed:
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bowtie: community.wave.seqera.io/library/bowtie:d7c1d23752bf4b76
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- cutadapt: community.wave.seqera.io/library/cutadapt:627b4b7271f197ea
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gffread: community.wave.seqera.io/library/gffread:5bfe10b8c341c4c7
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- rseqc: community.wave.seqera.io/library/rseqc:d7e8badddc74fcd9
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- star: community.wave.seqera.io/library/star:d121fce6d173199f
+- ucsc-bedgraphtobigwig: community.wave.seqera.io/library/ucsc-bedgraphtobigwig:776063a342f6d05f
+failed:
+- sortmerna: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-375d915b5660f020_1

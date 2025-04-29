@@ -1,20 +1,20 @@
 passed:
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - falco: community.wave.seqera.io/library/falco:e0692b7aeeea6c74
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - fqtk: community.wave.seqera.io/library/fqtk:a51592864cd21eba
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
+- pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
 - samshee: community.wave.seqera.io/library/samshee:631a98062ae3c1d5
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 - sgdemux: community.wave.seqera.io/library/sgdemux:ce8b262d31ced820
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- coreutils: community.wave.seqera.io/library/coreutils:33664de16eb03ada
-- numpy: community.wave.seqera.io/library/numpy:9af4b40bc6a18af2
-- pigz: community.wave.seqera.io/library/pigz:09d5b99f30042123
-- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
-- python: community.wave.seqera.io/library/python:3fda211ccd0d8dc5
 failed: []

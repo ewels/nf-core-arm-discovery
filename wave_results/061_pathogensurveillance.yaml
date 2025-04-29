@@ -1,0 +1,53 @@
+passed:
+- bakta: community.wave.seqera.io/library/bakta:90c6d63043537e8b
+- bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
+- graphtyper: community.wave.seqera.io/library/graphtyper:e9018a808fd94c6c
+- sourmash: community.wave.seqera.io/library/sourmash:c642017c2b1db462
+- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
+- conda-forge::mafft: community.wave.seqera.io/library/mafft:9ed296a038b47a4d
+- conda-forge::ncbi-datasets-cli: community.wave.seqera.io/library/ncbi-datasets-cli:2824bbea5845e1eb
+- conda-forge::parallel: community.wave.seqera.io/library/parallel:65a2ebadcce736d5
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
+- conda-forge::r-rcppsimdjson: community.wave.seqera.io/library/r-rcppsimdjson:5d293d9295847fc4
+- conda-forge::r-rentrez: community.wave.seqera.io/library/r-rentrez:9e0467ec844a2859
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- conda-forge::unzip: community.wave.seqera.io/library/unzip:386818b2d3cf6c50
+- fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- flye: community.wave.seqera.io/library/flye:2717e6fb06f4e3de
+- gatk4: community.wave.seqera.io/library/gatk4:0f1d6935d7c41005
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- iqtree: community.wave.seqera.io/library/iqtree:da99bc3ff5d5d164
+- khmer: community.wave.seqera.io/library/khmer:309e124bfded0b02
+- mafft: community.wave.seqera.io/library/mafft:9ed296a038b47a4d
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- nanoplot: community.wave.seqera.io/library/nanoplot:ce369669af2da1f9
+- perl-bioperl: community.wave.seqera.io/library/perl-bioperl:6da18f6d684b0953
+- picard: community.wave.seqera.io/library/picard:710bcb8abee338dd
+- pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- pirate: community.wave.seqera.io/library/pirate:38fb30636063c37e
+- quast: community.wave.seqera.io/library/quast:90233ff82189fadb
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+- seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
+- spades: community.wave.seqera.io/library/spades:c0b102faafa93ccc
+- sra-tools: community.wave.seqera.io/library/sra-tools:606aeefb5660589f
+- tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
+- vcflib: community.wave.seqera.io/library/vcflib:655ad0396834bccb
+failed:
+- busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
+- conda-forge::quarto: 'Container provisioning did not complete successfully
+
+    - Reason: Container build did not complete successfully
+
+    - Find out more here: https://wave.seqera.io/view/builds/bd-e63f4098c3d8ebeb_6'
+- gcnvkernel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-565f888afed3dbdd_8
+- r-pathosurveilr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cf4591e6791a13e1_4
+- sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_7

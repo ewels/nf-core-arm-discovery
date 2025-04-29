@@ -7,10 +7,6 @@ passed:
 - bioconductor-singlecellexperiment: community.wave.seqera.io/library/bioconductor-singlecellexperiment:5172b8822c8287e3
 - cellbender: community.wave.seqera.io/library/cellbender:4c07a80328ade50f
 - celltypist: community.wave.seqera.io/library/celltypist:84651bc0a34d30b7
-- harmonypy: community.wave.seqera.io/library/harmonypy:6d4713338410befa
-- liana: community.wave.seqera.io/library/liana:e6285590d679efe8
-- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- mygene: community.wave.seqera.io/library/mygene:c2153c573df558f3
 - conda-forge::anndata: community.wave.seqera.io/library/anndata:3a0990b5cb32cd9e
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gcc: community.wave.seqera.io/library/gcc:9a2ff1722b4a5de8
@@ -18,6 +14,7 @@ passed:
 - conda-forge::gxx: community.wave.seqera.io/library/gxx:82af7f5547fe5de4
 - conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
 - conda-forge::jaxlib: community.wave.seqera.io/library/jaxlib:23c8e605183905de
+- conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
 - conda-forge::leidenalg: community.wave.seqera.io/library/leidenalg:b5f14e79bdc94e68
 - conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
 - conda-forge::python-igraph: community.wave.seqera.io/library/python-igraph:15e315edcb16f324
@@ -31,10 +28,9 @@ passed:
 - conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9
 - conda-forge::webcolors: community.wave.seqera.io/library/webcolors:7b646bda619ba5fb
 - conda-forge::zarr: community.wave.seqera.io/library/zarr:a49dc1fe67d9d1ef
-- pip: community.wave.seqera.io/library/pip:9df276fd0440faa7
-failed:
-- conda-forge::lbzip2: 'Container provisioning did not complete successfully
-
-    - Reason: Container build did not complete successfully
-
-    - Find out more here: https://wave.seqera.io/view/builds/bd-376816bf658f574a_4'
+- harmonypy: community.wave.seqera.io/library/harmonypy:6d4713338410befa
+- liana: community.wave.seqera.io/library/liana:e6285590d679efe8
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- mygene: community.wave.seqera.io/library/mygene:c2153c573df558f3
+- pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+failed: []

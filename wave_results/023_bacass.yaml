@@ -1,6 +1,12 @@
 passed:
 - bakta: community.wave.seqera.io/library/bakta:90c6d63043537e8b
 - canu: community.wave.seqera.io/library/canu:eada9dca717e72d9
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::requests: community.wave.seqera.io/library/requests:0175636991d5fa6e
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - filtlong: community.wave.seqera.io/library/filtlong:64e4ef20a4c183b6
@@ -18,16 +24,10 @@ passed:
 - racon: community.wave.seqera.io/library/racon:cd98fdd15e11bec0
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - unicycler: community.wave.seqera.io/library/unicycler:774e5525ddaca0be
-- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
-- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::requests: community.wave.seqera.io/library/requests:0175636991d5fa6e
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 failed:
-- bioconda::busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_1
-- bioconda::dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_1
-- bioconda::dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_1
-- bioconda::medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_1
-- bioconda::nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_1
-- bioconda::sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_1
+- busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
+- dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_4
+- dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_4
+- medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_9
+- nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_4
+- sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_7

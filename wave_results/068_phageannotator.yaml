@@ -1,0 +1,29 @@
+passed:
+- blast: community.wave.seqera.io/library/blast:c212884616524862
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
+- fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- hmmer: community.wave.seqera.io/library/hmmer:c7d2def92c2b2a78
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- mash: community.wave.seqera.io/library/mash:077aebe084baa78c
+- multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- pysam: community.wave.seqera.io/library/pysam:2e341b754bc6f4f2
+- samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+failed:
+- bacphlip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6850d315b57fd983_1
+- checkv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2584a9d7f8f4b39_1
+- cobra-meta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fbfa53e1e063e51_1
+- coverm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7889c543c7f7a0e2_1
+- genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_5
+- instrain: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-60c1a280706d9b33_1
+- iphop: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9560d7a830495bc5_1
+- pharokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b25f5fba99205edc_1

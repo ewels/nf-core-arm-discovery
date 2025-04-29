@@ -3,16 +3,16 @@ passed:
 - bioconductor-ggbio: community.wave.seqera.io/library/bioconductor-ggbio:4e210c471bcad42d
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
 - kraken2: community.wave.seqera.io/library/kraken2:3773f4955380979e
 - krona: community.wave.seqera.io/library/krona:5dae60b07eb19a3f
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - qualimap: community.wave.seqera.io/library/qualimap:2d6624851848aad9
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
-- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
-- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
-- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- gawk: community.wave.seqera.io/library/gawk:5dedd610811ad792
-- grep: community.wave.seqera.io/library/grep:995c63e0c9494143
 failed: []
