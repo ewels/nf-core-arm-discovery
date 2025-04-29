@@ -16,6 +16,7 @@ from pathlib import Path
 import concurrent.futures
 from threading import Lock
 import argparse
+import requests  # Added for fetching build logs via HTTP
 
 console = Console()
 progress_lock = Lock()
@@ -175,6 +176,8 @@ def run_wave_command(package, progress, task_id):
             error_msg = bioconda_error.stderr.strip()
             if "Container provisioning did not complete successfully" in error_msg:
                 build_id = error_msg.split("/")[-1]
+                # Inspect logs for Docker Hub rate-limit errors.
+                check_build_logs(build_id)
                 error_msg = f"Container provisioning failed, see https://wave.seqera.io/view/builds/{build_id}"
             # Exit immediately if we've hit the rate limit
             if "Request exceeded build rate limit" in error_msg:
@@ -214,6 +217,39 @@ def run_wave_command(package, progress, task_id):
             failed_cache[package] = error_msg
             # Return the original bioconda error for the results table
             return package, False, error_msg
+
+
+def check_build_logs(build_id: str):
+    """Fetch Wave build logs and abort the script on pull-rate-limit errors.
+
+    Parameters
+    ----------
+    build_id : str
+        The Wave build identifier, as seen in URLs such as
+        ``https://wave.seqera.io/view/builds/<build_id>``.
+    """
+
+    api_url = f"https://wave.seqera.io/v1alpha1/builds/{build_id}/logs"
+
+    try:
+        response = requests.get(api_url, timeout=30)
+        response.raise_for_status()
+        logs = response.text
+
+        # Abort the entire script if the registry rate-limit error is found.
+        if "You have reached your pull rate limit" in logs:
+            console.print(
+                f"[red]Docker Hub rate-limit encountered in build {build_id}. "
+                "Aborting – please rerun later.[/red]"
+            )
+            exit(1)
+
+    except requests.RequestException as exc:
+        # Problems fetching the logs are not fatal for the overall process.
+        console.print(
+            f"[yellow]Warning: Could not fetch build logs for {build_id}: {exc}[/yellow]"
+        )
+        # Continue execution – a failure to fetch logs should not stop other processing.
 
 
 def main():
@@ -373,6 +409,8 @@ def process_pipeline(pipeline_name, idx=None):
             and "Container provisioning did not complete successfully" in output
         ):
             build_id = output.split("/")[-1]
+            # Inspect logs for Docker Hub rate-limit errors.
+            check_build_logs(build_id)
             output = f"Container provisioning failed, see https://wave.seqera.io/view/builds/{build_id}"
         table.add_row(package, status, output)
 
