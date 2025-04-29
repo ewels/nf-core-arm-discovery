@@ -7,7 +7,7 @@ Checks are only for build success, not for functionality.
 > Table last updated 2025-03-10
 
 | Pipeline | Success % | Succeeded | Failed |
-|----------|-----------|-----------|--------|x
+|----------|-----------|-----------|--------|
 | rnaseq | 100.0% | 52 | 0 |
 | sarek | 100.0% | 41 | 0 |
 | mag | 88.9% | 40 | 5 |
