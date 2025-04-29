@@ -37,6 +37,14 @@ try:
 except FileNotFoundError:
     failed_cache: dict[str, str] = {}
 
+# Load packages to ignore (treated as read-only, maintained manually)
+IGNORE_FILE = Path("ignore_packages.yaml")
+try:
+    with open(IGNORE_FILE) as _f:
+        ignore_packages: set[str] = set(yaml.safe_load(_f) or [])
+except FileNotFoundError:
+    ignore_packages = set()
+
 
 def run_wave_command(package, progress, task_id):
     """Run wave command for a package and return status and image URL if successful"""
@@ -316,6 +324,21 @@ def process_pipeline(pipeline_name, idx=None):
     # Load YAML file
     with open(yaml_path) as f:
         all_packages = yaml.safe_load(f)
+
+    # Remove any packages listed in the ignore file (exact match on bare package name)
+    if ignore_packages:
+        filtered_packages = []
+        for pkg in all_packages:
+            # Strip channel prefix and version / constraints for matching
+            bare_pkg = pkg.split("=")[0].replace("bioconda::", "").replace("conda-forge::", "")
+            if bare_pkg not in ignore_packages:
+                filtered_packages.append(pkg)
+
+        all_packages = filtered_packages
+
+        if not all_packages:
+            console.print("[yellow]All packages for this pipeline are in ignore list – skipping.[/yellow]")
+            return
 
     # Add total packages log message
     # console.print(f"\n[bold blue]Found {len(all_packages)} packages to process[/bold blue]\n")
