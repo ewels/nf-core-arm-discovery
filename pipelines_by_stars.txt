@@ -110,4 +110,3 @@ ssds
 sammyseq
 pacvar
 fastqrepair
-liverctanalysis
