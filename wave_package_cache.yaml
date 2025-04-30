@@ -583,3 +583,8 @@ bioconductor-watermelon: community.wave.seqera.io/library/bioconductor-watermelo
 snap-aligner: community.wave.seqera.io/library/snap-aligner:3cf9cd9da5455354
 gzrt: community.wave.seqera.io/library/gzrt:8ffd14f4fdf7b251
 wipertools: community.wave.seqera.io/library/wipertools:293ae0a3a3db5c7e
+igblast: community.wave.seqera.io/library/igblast:3d4632d650a17546
+fastq-scan: community.wave.seqera.io/library/fastq-scan:d01823ea3052d0ac
+conda-forge::seaborn: community.wave.seqera.io/library/seaborn:fa42a223c7ee15b4
+conda-forge::louvain: community.wave.seqera.io/library/louvain:3467065efe290250
+scanpy-cli: community.wave.seqera.io/library/scanpy-cli:c83527453c13a5fc

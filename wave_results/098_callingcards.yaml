@@ -1,10 +1,10 @@
 passed:
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
-- callingcardstools: community.wave.seqera.io/library/callingcardstools:824b8c7a42b352a6
 - bowtie: community.wave.seqera.io/library/bowtie:d7c1d23752bf4b76
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
 - bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
 - bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
+- callingcardstools: community.wave.seqera.io/library/callingcardstools:824b8c7a42b352a6
 - conda-forge::perl: community.wave.seqera.io/library/perl:1a5baaede874bd24
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223

@@ -1,9 +1,6 @@
 passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
 - bioconductor-anota2seq: community.wave.seqera.io/library/bioconductor-anota2seq:bc6b2554f3d79a8e
-- ribotish: community.wave.seqera.io/library/ribotish:1c44c7e4559d1a45
-- ribotricer: community.wave.seqera.io/library/ribotricer:255724418709fa8b
-- sortmerna: community.wave.seqera.io/library/sortmerna:375d915b5660f020
 - bioconductor-summarizedexperiment: community.wave.seqera.io/library/bioconductor-summarizedexperiment:ed6ac5d72e46ec1b
 - bioconductor-tximeta: community.wave.seqera.io/library/bioconductor-tximeta:f08a53d4f18bf6d7
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
@@ -25,9 +22,12 @@ passed:
 - kallisto: community.wave.seqera.io/library/kallisto:d61e08588cd20f0f
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- ribotish: community.wave.seqera.io/library/ribotish:1c44c7e4559d1a45
+- ribotricer: community.wave.seqera.io/library/ribotricer:255724418709fa8b
 - rsem: community.wave.seqera.io/library/rsem:dc6a6d04f9f4c27b
 - salmon: community.wave.seqera.io/library/salmon:131ae69f43233bb1
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- sortmerna: community.wave.seqera.io/library/sortmerna:375d915b5660f020
 - star: community.wave.seqera.io/library/star:d121fce6d173199f
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
 - umi_tools: community.wave.seqera.io/library/umi_tools:ebac4306f34adc5d

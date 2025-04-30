@@ -13,6 +13,7 @@
 - findutils==4.6.0
 - ganon=2.1.0
 - kaiju=1.10.0
+- kmcp=0.9.4
 - kraken2=2.1.3
 - krakenuniq=1.0.4
 - malt=0.62

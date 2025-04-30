@@ -121,3 +121,7 @@ bioconductor-missmethyl: Container provisioning failed, see https://wave.seqera.
 bioconductor-dmrcate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b22ac32d6cefe58a_1
 bioconductor-champ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9eefc5eef3c47158_1
 conda-forge:r-readr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-238bd6f3e3e6e33c_1
+mapad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5ba44d29d6710e46_1
+amulety: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-73b52347712d5051_1
+clair3: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-381c2fb7ffd6bf15_1
+sneep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7d058a76af22fc91_1

@@ -26,6 +26,7 @@ passed:
 - conda-forge::r-base: community.wave.seqera.io/library/r-base:b53842fee1570223
 - conda-forge::r-ggplot2: community.wave.seqera.io/library/r-ggplot2:89e9ea14026e9bd0
 - conda-forge::r-plyr: community.wave.seqera.io/library/r-plyr:352cc8b5dde61051
+- conda-forge::seaborn: community.wave.seqera.io/library/seaborn:fa42a223c7ee15b4
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
 - conda-forge::upsetplot: community.wave.seqera.io/library/upsetplot:bee8a1a46bf02ad9

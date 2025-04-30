@@ -1,13 +1,13 @@
 passed:
-- slamdunk: community.wave.seqera.io/library/slamdunk:f10a4daac1001461
 - bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
 - conda-forge::markdown: community.wave.seqera.io/library/markdown:834cebbb5bd73b95
 - conda-forge::pygments: community.wave.seqera.io/library/pygments:80cddd9fc41acf2f
 - conda-forge::pymdown-extensions: community.wave.seqera.io/library/pymdown-extensions:f18e4d1b147ebab7
 - conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
-- conda-forge::r-ggrepel: community.wave.seqera.io/library/r-ggrepel:e38bd71cffe53471
-- conda-forge::r-gridextra: community.wave.seqera.io/library/r-gridextra:96889383d05bcb77
-- conda-forge::r-kernsmooth: community.wave.seqera.io/library/r-kernsmooth:66ac8c2cf3836ef8
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- r-ggrepel: community.wave.seqera.io/library/r-ggrepel:e38bd71cffe53471
+- r-gridextra: community.wave.seqera.io/library/r-gridextra:96889383d05bcb77
+- r-kernsmooth: community.wave.seqera.io/library/r-kernsmooth:66ac8c2cf3836ef8
+- slamdunk: community.wave.seqera.io/library/slamdunk:f10a4daac1001461
 - trim-galore: community.wave.seqera.io/library/trim-galore:a8cf577520260cd9
 failed: []

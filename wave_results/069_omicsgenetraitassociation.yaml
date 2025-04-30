@@ -1,8 +1,8 @@
 passed:
-- conda-forge::statsmodels: community.wave.seqera.io/library/statsmodels:5d8e5f8f2db1a411
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
 - pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
 - python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- statsmodels: community.wave.seqera.io/library/statsmodels:5d8e5f8f2db1a411
 failed: []

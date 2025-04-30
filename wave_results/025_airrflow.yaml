@@ -2,6 +2,8 @@ passed:
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- igblast: community.wave.seqera.io/library/igblast:3d4632d650a17546
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - trust4: community.wave.seqera.io/library/trust4:6a63834823c8f98c
-failed: []
+failed:
+- amulety: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-73b52347712d5051_1

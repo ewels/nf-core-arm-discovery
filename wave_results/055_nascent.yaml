@@ -10,6 +10,8 @@ passed:
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
 - conda-forge::p7zip: community.wave.seqera.io/library/p7zip:ecad3dd8e20fb219
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::r-argparse: community.wave.seqera.io/library/r-argparse:d322b94b0a7e3bab

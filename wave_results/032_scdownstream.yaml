@@ -16,12 +16,18 @@ passed:
 - conda-forge::jaxlib: community.wave.seqera.io/library/jaxlib:23c8e605183905de
 - conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
 - conda-forge::leidenalg: community.wave.seqera.io/library/leidenalg:b5f14e79bdc94e68
+- conda-forge::louvain: community.wave.seqera.io/library/louvain:3467065efe290250
+- conda-forge::numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
 - conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
 - conda-forge::python-igraph: community.wave.seqera.io/library/python-igraph:15e315edcb16f324
+- conda-forge::pyyaml: community.wave.seqera.io/library/pyyaml:a111f2b4d52b3749
 - conda-forge::r-seurat: community.wave.seqera.io/library/r-seurat:b9c52896f7c5a306
 - conda-forge::r-soupx: community.wave.seqera.io/library/r-soupx:c0d31e987c68369a
 - conda-forge::scanpy: community.wave.seqera.io/library/scanpy:03ac40ac1f775ed3
 - conda-forge::scikit-image: community.wave.seqera.io/library/scikit-image:f1ae14e40758187b
+- conda-forge::scipy: community.wave.seqera.io/library/scipy:c0faf557aff4b080
 - conda-forge::scvi-tools: community.wave.seqera.io/library/scvi-tools:dee1c43d839e6871
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
@@ -33,4 +39,5 @@ passed:
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - mygene: community.wave.seqera.io/library/mygene:c2153c573df558f3
 - pip: community.wave.seqera.io/library/pip:8ca19e8add4063b1
+- scanpy-cli: community.wave.seqera.io/library/scanpy-cli:c83527453c13a5fc
 failed: []

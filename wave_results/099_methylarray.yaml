@@ -9,11 +9,11 @@ passed:
 - bioconductor-illuminahumanmethylation450kmanifest: community.wave.seqera.io/library/bioconductor-illuminahumanmethylation450kmanifest:614d3db8dfb9cb37
 - bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: community.wave.seqera.io/library/bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19:a0e0448d723d4d64
 - bioconductor-illuminahumanmethylationepicmanifest: community.wave.seqera.io/library/bioconductor-illuminahumanmethylationepicmanifest:b59b7c2b215a372d
+- bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
 - bioconductor-lumi: community.wave.seqera.io/library/bioconductor-lumi:5019eb83f259e057
 - bioconductor-minfi: community.wave.seqera.io/library/bioconductor-minfi:4574d13110963275
 - bioconductor-minfidata: community.wave.seqera.io/library/bioconductor-minfidata:4a6b3c9402cbe346
 - bioconductor-watermelon: community.wave.seqera.io/library/bioconductor-watermelon:a0146f0e41d1101c
-- bioconductor-limma: community.wave.seqera.io/library/bioconductor-limma:993667d9af1a0ce7
 - conda-forge::r-doparallel: community.wave.seqera.io/library/r-doparallel:9983daa277f1a4c7
 - conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
 - conda-forge::r-readr: community.wave.seqera.io/library/r-readr:aec849aefc42141b

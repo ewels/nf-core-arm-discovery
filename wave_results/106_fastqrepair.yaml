@@ -1,7 +1,7 @@
 passed:
 - bbmap: community.wave.seqera.io/library/bbmap:71e2d23b1817ef44
-- gzrt: community.wave.seqera.io/library/gzrt:8ffd14f4fdf7b251
-- wipertools: community.wave.seqera.io/library/wipertools:293ae0a3a3db5c7e
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
+- gzrt: community.wave.seqera.io/library/gzrt:8ffd14f4fdf7b251
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
+- wipertools: community.wave.seqera.io/library/wipertools:293ae0a3a3db5c7e
 failed: []

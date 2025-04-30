@@ -1,17 +1,36 @@
 passed:
+- adapterremoval: community.wave.seqera.io/library/adapterremoval:e7666474ca08c4d4
 - bcftools: community.wave.seqera.io/library/bcftools:bd8013186b0d6bd9
-- bwa: community.wave.seqera.io/library/bwa:15af7baac44bcab3
+- bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
+- bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
+- bwa-mem2: community.wave.seqera.io/library/bwa-mem2:8a4a94b281ddada9
 - conda-forge::biopython: community.wave.seqera.io/library/biopython:71aef51ee2747f1c
+- conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
+- conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
+- conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
+- conda-forge::gzip: community.wave.seqera.io/library/gzip:ecb481330766e062
+- conda-forge::lbzip2: community.wave.seqera.io/library/lbzip2:376816bf658f574a
+- conda-forge::numpy: community.wave.seqera.io/library/numpy:c1acf2727d08b6f9
+- conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
+- conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- conda-forge::scipy: community.wave.seqera.io/library/scipy:c0faf557aff4b080
+- conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
+- conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
+- falco: community.wave.seqera.io/library/falco:e0692b7aeeea6c74
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
+- fastq-scan: community.wave.seqera.io/library/fastq-scan:d01823ea3052d0ac
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
-- fasttree: community.wave.seqera.io/library/fasttree:da1ec2334cc24d04
-- gubbins: community.wave.seqera.io/library/gubbins:de2bd2a47c2941a3
-- iqtree: community.wave.seqera.io/library/iqtree:da99bc3ff5d5d164
-- mash: community.wave.seqera.io/library/mash:077aebe084baa78c
+- filtlong: community.wave.seqera.io/library/filtlong:64e4ef20a4c183b6
+- freebayes: community.wave.seqera.io/library/freebayes:a18dde2077a3108b
+- htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
+- minimap2: community.wave.seqera.io/library/minimap2:94f5a3935367e6f2
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
-- rapidnj: community.wave.seqera.io/library/rapidnj:ca8414441696d294
+- nanoq: community.wave.seqera.io/library/nanoq:559bac19595474f0
+- porechop: community.wave.seqera.io/library/porechop:babfaa5703603a22
+- porechop_abi: community.wave.seqera.io/library/porechop_abi:6076f2e9fe9de999
 - rasusa: community.wave.seqera.io/library/rasusa:1d89af1e884ec5d1
-- raxml-ng: community.wave.seqera.io/library/raxml-ng:e2caaf2176dbf914
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 - snp-sites: community.wave.seqera.io/library/snp-sites:8de9aa8d26ceaa97
-failed: []
+failed:
+- clair3: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-381c2fb7ffd6bf15_1

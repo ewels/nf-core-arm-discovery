@@ -77,7 +77,6 @@ variantcatalogue
 tumourevo
 pixelator
 mcmicro
-denovohybrid
 datasync
 createpanelrefs
 tbanalyzer
@@ -95,18 +94,13 @@ rnadnavar
 rangeland
 pgdb
 drugresponseeval
-crisprvar
 genomeqc
-ddamsproteomics
 callingcards
-neutronstar
 methylarray
 magmap
 genomeskim
 demo
 troughgraph
 spinningjenny
-ssds
 sammyseq
-pacvar
 fastqrepair

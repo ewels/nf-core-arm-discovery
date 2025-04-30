@@ -4,7 +4,7 @@ Conda packages found from source code and independently built using Wave, withou
 Checks are only for build success, not for functionality.
 
 > [!NOTE]
-> Table last updated 2025-04-29
+> Table last updated 2025-04-30
 
 | Pipeline                  | Success % | Succeeded | Failed |
 | ------------------------- | --------- | --------- | ------ |
@@ -17,7 +17,7 @@ Checks are only for build success, not for functionality.
 | ampliseq                  | 100.0%    | 16        | 0      |
 | nanoseq                   | 100.0%    | 20        | 0      |
 | fetchngs                  | 100.0%    | 9         | 0      |
-| eager                     | 97.7%     | 43        | 1      |
+| eager                     | 95.6%     | 43        | 2      |
 | rnafusion                 | 89.2%     | 33        | 4      |
 | methylseq                 | 100.0%    | 19        | 0      |
 | taxprofiler               | 100.0%    | 38        | 0      |
@@ -32,20 +32,20 @@ Checks are only for build success, not for functionality.
 | hlatyping                 | 100.0%    | 13        | 0      |
 | bacass                    | 80.6%     | 25        | 6      |
 | proteinfold               | 100.0%    | 12        | 0      |
-| airrflow                  | 100.0%    | 5         | 0      |
+| airrflow                  | 85.7%     | 6         | 1      |
 | oncoanalyser              | 100.0%    | 30        | 0      |
-| bactmap                   | 100.0%    | 15        | 0      |
+| bactmap                   | 97.1%     | 33        | 1      |
 | spatialvi                 | 100.0%    | 14        | 0      |
 | rnasplice                 | 100.0%    | 18        | 0      |
 | demultiplex               | 100.0%    | 18        | 0      |
-| circrna                   | 96.2%     | 51        | 2      |
-| scdownstream              | 100.0%    | 34        | 0      |
-| epitopeprediction         | 86.4%     | 19        | 3      |
+| circrna                   | 96.3%     | 52        | 2      |
+| scdownstream              | 100.0%    | 41        | 0      |
+| epitopeprediction         | 85.7%     | 18        | 3      |
 | rnavar                    | 96.0%     | 24        | 1      |
 | crisprseq                 | 94.7%     | 18        | 1      |
 | proteomicslfq             | 94.7%     | 18        | 1      |
 | mhcquant                  | 77.8%     | 7         | 2      |
-| lncpipe                   | 94.1%     | 16        | 1      |
+| lncpipe                   | 100.0%    | 33        | 0      |
 | isoseq                    | 82.4%     | 14        | 3      |
 | circdna                   | 100.0%    | 12        | 0      |
 | readsimulator             | 100.0%    | 14        | 0      |
@@ -61,13 +61,13 @@ Checks are only for build success, not for functionality.
 | clipseq                   | 90.9%     | 20        | 2      |
 | fastquorum                | 100.0%    | 6         | 0      |
 | dualrnaseq                | 100.0%    | 11        | 0      |
-| nascent                   | 97.5%     | 39        | 1      |
+| nascent                   | 97.6%     | 41        | 1      |
 | phaseimpute               | 90.5%     | 19        | 2      |
 | viralintegration          | 100.0%    | 6         | 0      |
 | metaboigniter             | 100.0%    | 2         | 0      |
-| genomeassembler           | 88.6%     | 31        | 4      |
+| genomeassembler           | 86.1%     | 31        | 5      |
 | diaproteomics             | 91.7%     | 33        | 3      |
-| pathogensurveillance      | 89.4%     | 42        | 5      |
+| pathogensurveillance      | 88.6%     | 39        | 5      |
 | detaxizer                 | 100.0%    | 8         | 0      |
 | variantbenchmarking       | 77.8%     | 21        | 6      |
 | nanostring                | 100.0%    | 19        | 0      |
@@ -79,7 +79,7 @@ Checks are only for build success, not for functionality.
 | molkart                   | 66.7%     | 4         | 2      |
 | mnaseseq                  | 95.0%     | 19        | 1      |
 | denovotranscript          | 84.6%     | 11        | 2      |
-| tfactivity                | 72.2%     | 13        | 5      |
+| tfactivity                | 70.0%     | 14        | 6      |
 | reportho                  | 100.0%    | 5         | 0      |
 | coproid                   | 92.6%     | 25        | 2      |
 | variantcatalogue          | 92.9%     | 13        | 1      |
@@ -92,7 +92,7 @@ Checks are only for build success, not for functionality.
 | seqinspector              | 100.0%    | 7         | 0      |
 | phyloplace                | 100.0%    | 14        | 0      |
 | hicar                     | 100.0%    | 24        | 0      |
-| createtaxdb               | 100.0%    | 21        | 0      |
+| createtaxdb               | 100.0%    | 22        | 0      |
 | radseq                    | 100.0%    | 18        | 0      |
 | pairgenomealign           | 100.0%    | 6         | 0      |
 | meerpipe                  | 100.0%    | 2         | 0      |
@@ -107,5 +107,5 @@ Checks are only for build success, not for functionality.
 | genomeskim                | 100.0%    | 2         | 0      |
 | demo                      | 100.0%    | 3         | 0      |
 | troughgraph               | 100.0%    | 2         | 0      |
-| sammyseq                  | 100.0%    | 25        | 0      |
+| sammyseq                  | 100.0%    | 23        | 0      |
 | fastqrepair               | 100.0%    | 5         | 0      |

@@ -1,8 +1,8 @@
 passed:
 - assembly-scan: community.wave.seqera.io/library/assembly-scan:5cd75db9fcfd1ced
+- conda-forge::jq: community.wave.seqera.io/library/jq:da17800e7e3ce220
 - gfastats: community.wave.seqera.io/library/gfastats:010160d9beb6e491
 - last: community.wave.seqera.io/library/last:3ad6d5e29dadee14
-- conda-forge::jq: community.wave.seqera.io/library/jq:da17800e7e3ce220
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - seqtk: community.wave.seqera.io/library/seqtk:af0247848b2861a6
 failed: []

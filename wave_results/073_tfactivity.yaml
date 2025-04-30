@@ -1,16 +1,17 @@
 passed:
 - atlas-gene-annotation-manipulation: community.wave.seqera.io/library/atlas-gene-annotation-manipulation:737a3c0c89507f88
 - bedtools: community.wave.seqera.io/library/bedtools:6f0570e76f2289a8
-- chromhmm: community.wave.seqera.io/library/chromhmm:4b9586bab45d6c53
-- pyjaspar: community.wave.seqera.io/library/pyjaspar:b0ced94fafd816a5
 - bioconductor-deseq2: community.wave.seqera.io/library/bioconductor-deseq2:c0297b01f3497875
+- chromhmm: community.wave.seqera.io/library/chromhmm:4b9586bab45d6c53
 - conda-forge::pandas: community.wave.seqera.io/library/pandas:9b82bdea5182a704
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - conda-forge::python: community.wave.seqera.io/library/python:f66a0ac8fe7a2c6a
+- conda-forge::pyyaml: community.wave.seqera.io/library/pyyaml:a111f2b4d52b3749
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - htslib: community.wave.seqera.io/library/htslib:1a6decca7bdedb97
 - meme: community.wave.seqera.io/library/meme:35f2958b7965d595
+- pyjaspar: community.wave.seqera.io/library/pyjaspar:b0ced94fafd816a5
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
 failed:
 - bioconda:bioconductor-universalmotif: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-340de61ad71826de_2
@@ -25,3 +26,4 @@ failed:
     see https://wave.seqera.io/view/builds/bd-5d846ef97d4ff2cc_2
 - mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4: Container provisioning failed,
     see https://wave.seqera.io/view/builds/bd-00f26ecc76b3bbc3_2
+- sneep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7d058a76af22fc91_1

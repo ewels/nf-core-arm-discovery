@@ -1,8 +1,8 @@
 passed:
-- evigene: community.wave.seqera.io/library/evigene:c93de659ff5533de
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::gawk: community.wave.seqera.io/library/gawk:852663296944e867
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
+- evigene: community.wave.seqera.io/library/evigene:c93de659ff5533de
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0

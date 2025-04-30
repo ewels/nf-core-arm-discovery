@@ -1,5 +1,4 @@
 passed:
-- sourcepredict: community.wave.seqera.io/library/sourcepredict:cd953230ca4880d3
 - bowtie2: community.wave.seqera.io/library/bowtie2:72e54fe4af06cc3d
 - conda-forge::coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - conda-forge::grep: community.wave.seqera.io/library/grep:62741fa9b2559f32
@@ -13,7 +12,6 @@ passed:
 - conda-forge::r-rmarkdown: community.wave.seqera.io/library/r-rmarkdown:3ab299d7742c2a11
 - conda-forge::sed: community.wave.seqera.io/library/sed:b32107b550306d1c
 - conda-forge::tar: community.wave.seqera.io/library/tar:2ae4d0852fd66b8b
-- conda-forge::xz: community.wave.seqera.io/library/xz:410e70c1071a1f86
 - coreutils: community.wave.seqera.io/library/coreutils:68759f85fccc0e04
 - damageprofiler: community.wave.seqera.io/library/damageprofiler:89222b6a289398d1
 - fastp: community.wave.seqera.io/library/fastp:5249144cf221afd2
@@ -24,6 +22,8 @@ passed:
 - pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - pydamage: community.wave.seqera.io/library/pydamage:901f64896d76152a
 - samtools: community.wave.seqera.io/library/samtools:bb47c563795d5f88
+- sourcepredict: community.wave.seqera.io/library/sourcepredict:cd953230ca4880d3
+- xz: community.wave.seqera.io/library/xz:410e70c1071a1f86
 failed:
 - conda-forge::quarto: 'Container provisioning did not complete successfully
 

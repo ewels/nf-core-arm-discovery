@@ -23,7 +23,7 @@
 - fastqc=0.12.1
 - htslib=1.21
 - mirdeep2=2.0.1.2
-- mirtop=0.4.28
+- mirtop=0.4.30
 - mirtrace=1.0.1
 - multiqc=1.25.1
 - pybedtools=0.10.0

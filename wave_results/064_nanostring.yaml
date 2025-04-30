@@ -1,7 +1,7 @@
 passed:
+- bioconductor-complexheatmap: community.wave.seqera.io/library/bioconductor-complexheatmap:ebb578b7ea26ca8b
 - bioconductor-gsva: community.wave.seqera.io/library/bioconductor-gsva:0aa3592dcfcc75b7
 - bioconductor-singscore: community.wave.seqera.io/library/bioconductor-singscore:7ec200bc799db21b
-- bioconductor-complexheatmap: community.wave.seqera.io/library/bioconductor-complexheatmap:ebb578b7ea26ca8b
 - conda-forge::r-circlize: community.wave.seqera.io/library/r-circlize:b42f6531c4a23d65
 - conda-forge::r-dplyr: community.wave.seqera.io/library/r-dplyr:b9e69e0f792e3a52
 - conda-forge::r-factominer: community.wave.seqera.io/library/r-factominer:29391890659c633f

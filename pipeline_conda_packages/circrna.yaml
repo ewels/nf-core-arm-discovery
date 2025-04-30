@@ -12,7 +12,7 @@
 - bwa=0.7.18
 - circexplorer2=2.3.8
 - circrna_finder=1.2
-- circtools=1.2.1
+- circtools=2.0
 - conda-forge::altair=5.5.0
 - conda-forge::coreutils=9.3
 - conda-forge::coreutils=9.5
@@ -25,6 +25,7 @@
 - conda-forge::pigz=2.6
 - conda-forge::pigz=2.8
 - conda-forge::polars=1.24.0
+- conda-forge::polars=1.27.1
 - conda-forge::polars=1.5.0
 - conda-forge::polars=1.8.2
 - conda-forge::python=3.9.5
@@ -34,6 +35,7 @@
 - conda-forge::r-base=4.2.2
 - conda-forge::r-ggplot2=3.4.0
 - conda-forge::r-plyr=1.8.8
+- conda-forge::seaborn=0.13.2
 - conda-forge::sed=4.7
 - conda-forge::sed=4.8
 - conda-forge::tar=1.34

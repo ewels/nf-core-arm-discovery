@@ -43,4 +43,5 @@ passed:
 - tabix: community.wave.seqera.io/library/tabix:885490ca15a0f162
 - taxpasta: community.wave.seqera.io/library/taxpasta:98cb01aaa805569a
 failed:
+- mapad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5ba44d29d6710e46_1
 - sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_4

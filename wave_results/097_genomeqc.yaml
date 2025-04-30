@@ -1,7 +1,5 @@
 passed:
 - agat: community.wave.seqera.io/library/agat:34244e873b2f3170
-- orthofinder: community.wave.seqera.io/library/orthofinder:e7f96b740397a865
-- tidk: community.wave.seqera.io/library/tidk:29cc54556b87a9bf
 - conda-forge::pigz: community.wave.seqera.io/library/pigz:70b843b7144469dd
 - diamond: community.wave.seqera.io/library/diamond:e7a30746bb64bede
 - fastqc: community.wave.seqera.io/library/fastqc:440344a0adde70f6
@@ -10,9 +8,11 @@ passed:
 - meryl: community.wave.seqera.io/library/meryl:578270935665036e
 - multiqc: community.wave.seqera.io/library/multiqc:224bd249da09f1f0
 - ncbi-genome-download: community.wave.seqera.io/library/ncbi-genome-download:7177f705c3510b2a
+- orthofinder: community.wave.seqera.io/library/orthofinder:e7f96b740397a865
 - py_fasta_validator: community.wave.seqera.io/library/py_fasta_validator:831e9e04d9e878f2
 - quast: community.wave.seqera.io/library/quast:90233ff82189fadb
 - seqkit: community.wave.seqera.io/library/seqkit:199387103ac4308e
+- tidk: community.wave.seqera.io/library/tidk:29cc54556b87a9bf
 failed:
 - busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
 - sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_7
