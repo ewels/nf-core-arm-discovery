@@ -1,127 +1,92 @@
-sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_4
-gcnvkernel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-565f888afed3dbdd_8
-star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_3
-fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_3
-gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_3
-artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_3
-eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_3
-bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_3
-pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_8
-odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_7
-smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_7
-deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_4
-macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_4
-interproscan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9cea273e150f4450_4
-fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_4
-deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_4
-antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_4
 amplify: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-2d6f14267e890ac6_4
-r-immunedeconv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7537c46a5147ef80_1
-dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_4
-dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_4
-sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_7
-medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_9
-nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_4
-busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
-mapsplice: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a6a7339a5462d2e6_4
-find_circ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f9f7f28afc519ec3_4
-mhcnuggets: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3395978bf583feb5_4
-mhcflurry: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8b7c076862f96939_4
-epytope: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e78ff5a1cd8a2e2_3
-openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_4
-openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b467110d3e034f63_4
-openms-thirdparty: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cc22cdbab9da4154_6
-cufflinks: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6d80fb58c939a068_4
-isoseq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b980842b7954eb31_4
-lima: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dd778eaa1892ae46_6
-gs-tama: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c1736b39f5f9cb81_4
-diamond:2.1.10: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d89dffedc35308c2_3
-transrate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4187ad6f8def9f4f_3
+amulety: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-73b52347712d5051_1
+antismash-lite: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-39098819b028591e_4
+artic: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ee0916aba29f066a_3
+ashlar: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc6e0455f7b50dfa_1
+bioconda:bioconductor-universalmotif: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-340de61ad71826de_2
+bioconda:gtftools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-23061d4457074fe6_2
 bioconda:nanocomp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a2d72c4050e9210_3
-piranha: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fef62b824d6eda8_3
-pureclip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8dae22e1eef529ea_3
+bioconductor-champ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9eefc5eef3c47158_1
+bioconductor-dmrcate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b22ac32d6cefe58a_1
+bioconductor-missmethyl: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4531190415743f25_1
 bioinfoorphanage-grohmm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-50340b39e0ea73d7_3
-dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_7
-glimpse-bio: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d6531223582ec438_3
-shapeit5: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a59d57715c605ae2_3
-conda-forge::quarto: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-e63f4098c3d8ebeb_6'
-conda-forge::r-rmsnumpress: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-5d8382e794b48773_3'
-easypqp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4f20e91bb58e7ee8_3
-r-pathosurveilr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cf4591e6791a13e1_4
-conda-forge::datavzrd: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-90bef8dac2527b1b_2'
-hap.py: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a978d8edf8e41356_2
-truvari: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-eba5ed1fd4d67a5f_2
-svtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-51b4b4795a2a6b61_2
-svanalyzer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dfdd624dec88091a_2
-svync: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-abb0dacaf038019d_2
-conda-forge::tiara: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_6'
+busco: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e13344ae3eda6063_11
+bwa-meme: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62c0bc30f6e05f6d_3
 checkm-genome: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fe1aa6ce8a56706d_6
 checkm2: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a718b8c9cdff0137_6
-gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_5
-genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_7
-cobra-meta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fbfa53e1e063e51_2
-instrain: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-60c1a280706d9b33_2
-iphop: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9560d7a830495bc5_2
-coverm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7889c543c7f7a0e2_2
-pharokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b25f5fba99205edc_2
 checkv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c2584a9d7f8f4b39_2
-tensorflow: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-e454865e75ff83b7_2'
-stardist: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-a7cd178ceced5060_2'
+clair3: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-381c2fb7ffd6bf15_1
+cobra-meta: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fbfa53e1e063e51_2
+conda-forge::datavzrd: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-90bef8dac2527b1b_2'
+conda-forge::ggpubr: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8bd772e4b40b31ed_1'
+conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d2c780571935295c_2'
+conda-forge::quarto: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e63f4098c3d8ebeb_6'
+conda-forge::r-rmsnumpress: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5d8382e794b48773_3'
+conda-forge::tiara: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c38ac71f66d6166f_6'
+conda-forge:r-readr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-238bd6f3e3e6e33c_1
+coverm: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7889c543c7f7a0e2_2
+cufflinks: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6d80fb58c939a068_4
 danpos: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-142d482b52885fe0_2
-rnaquast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62b4e27ae8a3ef2e_2
-conda-forge::mulled-v2-2076f4a3fb468a04063c9e6b7747a630abb457f6: 'Container provisioning
-  did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-d2c780571935295c_2'
-bioconda:bioconductor-universalmotif: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-340de61ad71826de_2
-mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4: Container provisioning failed,
-  see https://wave.seqera.io/view/builds/bd-00f26ecc76b3bbc3_2
-bioconda:gtftools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-23061d4457074fe6_2
-mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19: Container provisioning failed,
-  see https://wave.seqera.io/view/builds/bd-5d846ef97d4ff2cc_2
-sam2lca: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ef052e483d8dc144_1
-r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-95b3b8a83309adde_1
-pixelator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dee31c85af643269_1
-ashlar: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc6e0455f7b50dfa_1
+deeparg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-06ee292bc1694868_4
+deepbgc: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-da6ca128785f2d87_4
+dfast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-fa21d6601906eca4_4
+diamond:2.1.10: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d89dffedc35308c2_3
+dragmap: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7f45c538834da458_7
+dragonflye: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e07d0ad51899050_4
+easypqp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4f20e91bb58e7ee8_3
+eklipse: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-719fb3b3d71cb380_3
+epytope: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3e78ff5a1cd8a2e2_3
+fargene: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-de325a99a01b853b_4
+find_circ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-f9f7f28afc519ec3_4
+fusioncatcher: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dc24eac1c5eb6070_3
+gcnvkernel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-565f888afed3dbdd_8
+genomad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-15064d055ba38808_7
+glimpse-bio: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d6531223582ec438_3
+gnu-wget: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-70ceab6afbae1419_3
+gs-tama: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-c1736b39f5f9cb81_4
+gtdbtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6ee050467afa51aa_5
+hap.py: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a978d8edf8e41356_2
+instrain: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-60c1a280706d9b33_2
+interproscan: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9cea273e150f4450_4
+iphop: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9560d7a830495bc5_2
+isoseq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b980842b7954eb31_4
+lima: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dd778eaa1892ae46_6
+macrel: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-d95ee24928346d98_4
+mapad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5ba44d29d6710e46_1
+mapsplice: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a6a7339a5462d2e6_4
+medaka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ba98013e316f9068_9
+mhcflurry: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8b7c076862f96939_4
+mhcnuggets: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3395978bf583feb5_4
 mtbseq: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9777fbef1b39c211_1
-conda-forge::ggpubr: 'Container provisioning did not complete successfully
-
-  - Reason: Container build did not complete successfully
-
-  - Find out more here: https://wave.seqera.io/view/builds/bd-8bd772e4b40b31ed_1'
+mulled-v2-ab48c38c3be93a696d7773767d9287b4a0d3bf19: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5d846ef97d4ff2cc_2
+mulled-v2-cd5249a47f81a81b2e7785172c240f12497f55b4: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-00f26ecc76b3bbc3_2
+nanopolish: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-6e2e5094baf16127_4
+odgi: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-52e119fb0192738e_7
+openms-thirdparty: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cc22cdbab9da4154_6
+openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b467110d3e034f63_4
+openms::openms: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8a0485ea080208ea_4
+pggb: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-16cfadb0bd57083e_8
+pharokka: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b25f5fba99205edc_2
+piranha: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7fef62b824d6eda8_3
+pixelator: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dee31c85af643269_1
+pureclip: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8dae22e1eef529ea_3
+r-immunedeconv: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7537c46a5147ef80_1
+r-pathosurveilr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-cf4591e6791a13e1_4
+r::r-base: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-95b3b8a83309adde_1
+rnaquast: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-62b4e27ae8a3ef2e_2
+sam2lca: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-ef052e483d8dc144_1
+sepp: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-586e075a19c83a96_7
+sequencetools: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3d211cef33098d1f_4
+shapeit5: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a59d57715c605ae2_3
+smoothxg: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-8f0133850fd13b95_7
+sneep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7d058a76af22fc91_1
+star-fusion: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-3b51685906924a24_3
+stardist: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-a7cd178ceced5060_2'
+svanalyzer: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-dfdd624dec88091a_2
+svtk: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-51b4b4795a2a6b61_2
+svync: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-abb0dacaf038019d_2
+tensorflow: 'Container provisioning failed, see https://wave.seqera.io/view/builds/bd-e454865e75ff83b7_2'
+transrate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4187ad6f8def9f4f_3
+truvari: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-eba5ed1fd4d67a5f_2
 vcf2maf-1.6.21-hdfd78af_0: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-acf8214b659499c8_1
 vt-0.57721-h17a1952_6: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-99653746add43824_1
-bioconductor-missmethyl: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-4531190415743f25_1
-bioconductor-dmrcate: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-b22ac32d6cefe58a_1
-bioconductor-champ: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-9eefc5eef3c47158_1
-conda-forge:r-readr: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-238bd6f3e3e6e33c_1
-mapad: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-5ba44d29d6710e46_1
-amulety: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-73b52347712d5051_1
-clair3: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-381c2fb7ffd6bf15_1
-sneep: Container provisioning failed, see https://wave.seqera.io/view/builds/bd-7d058a76af22fc91_1
